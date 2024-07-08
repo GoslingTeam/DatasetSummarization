@@ -1,0 +1,52 @@
+DATASET METADATA:
+
+{
+  "id": "abhishtagatya/my-anime-list-2021",
+  "id_no": 1343880,
+  "datasetSlugNullable": "my-anime-list-2021",
+  "ownerUserNullable": "abhishtagatya",
+  "usabilityRatingNullable": 0.9375,
+  "titleNullable": "MyAnimeList 2021",
+  "subtitleNullable": "MyAnimeList Dataset Updated to 2021",
+  "descriptionNullable": "### Context\n\nMyAnimeList 2021 Dataset is a dataset created from scraping JikanPy API for MyAnimeList anime data. The following data is going to be used for personal projects for Anime Recommendation and Analysis.\n\n### Content\n\nData collection of JikanPy API takes roughly 12+ Hours of API Scraping with the division approach of the index to search. With a huge list of roughly 18.000+ anime listed to date, I analyzed the data deeply to gather insights and created a recommendation engine for future applications.\n\n### Acknowledgements\n\nThis dataset wouldn't have been possible without the huge library of memes provided for content from [ImgFlip](https://www.ImgFlip.com) \n\nThis dataset wouldn't have been possible without the huge library of animes provided for content from [MyAnimeList](https://myanimelist.net) and [JikanPy Library](https://jikan.moe/)\n\n### Inspiration\n\nAs an aspiring Data Scientist learning and analyzing anime data. I find it exciting to gather more insights into anime from data collected by MyAnimeList. To analyze the origin, genres, audience, and etc. takes the approach in the notebook I've created.",
+  "datasetId": 1343880,
+  "datasetSlug": "my-anime-list-2021",
+  "hasDatasetSlug": true,
+  "ownerUser": "abhishtagatya",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.9375,
+  "hasUsabilityRating": true,
+  "totalViews": 1908,
+  "totalVotes": 4,
+  "totalDownloads": 72,
+  "title": "MyAnimeList 2021",
+  "hasTitle": true,
+  "subtitle": "MyAnimeList Dataset Updated to 2021",
+  "hasSubtitle": true,
+  "description": "### Context\n\nMyAnimeList 2021 Dataset is a dataset created from scraping JikanPy API for MyAnimeList anime data. The following data is going to be used for personal projects for Anime Recommendation and Analysis.\n\n### Content\n\nData collection of JikanPy API takes roughly 12+ Hours of API Scraping with the division approach of the index to search. With a huge list of roughly 18.000+ anime listed to date, I analyzed the data deeply to gather insights and created a recommendation engine for future applications.\n\n### Acknowledgements\n\nThis dataset wouldn't have been possible without the huge library of memes provided for content from [ImgFlip](https://www.ImgFlip.com) \n\nThis dataset wouldn't have been possible without the huge library of animes provided for content from [MyAnimeList](https://myanimelist.net) and [JikanPy Library](https://jikan.moe/)\n\n### Inspiration\n\nAs an aspiring Data Scientist learning and analyzing anime data. I find it exciting to gather more insights into anime from data collected by MyAnimeList. To analyze the origin, genres, audience, and etc. takes the approach in the notebook I've created.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "tabular",
+    "anime and manga"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\abhishtagatya\my-anime-list-2021\my-anime-list-2021\MyAnimeList_Anime_2021_05_16.json
+b'[{"mal_id":1,"url":"https:\\/\\/myanimelist.net\\/anime\\/1\\/Cowboy_Bebop","image_url":"https:\\/\\/cdn.myanimelist.net\\/images\\/anime\\/4\\/19644.jpg","trailer_url":"https:\\/\\/www.youtube.com\\/embed\\/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1","title":"Cowboy Bebop","title_en":"Cowboy Bebop","title_jp":"\\u30ab\\u30a6\\u30dc\\u30fc\\u30a4\\u30d3\\u30d0\\u30c3\\u30d7","title_synonyms":[],"type":"TV","source":"Original","episodes":26.0,"status":"Finished Airing","airing":false,"aired_start":"1998-04-03T00:00:00+00:00","aired_end":"1999-04-24T00:00:00+00:00","premiered":"Spring 1998","broadcast":"Saturdays at 01:00 (JST)","episode_duration":"24 min per ep","synopsis":"In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

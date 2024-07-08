@@ -1,0 +1,11 @@
+### What this data is about
+
+This dataset provides information on housing and apartment costs across New York City. It includes details on various housing projects managed by the New York City Housing and Preservation Department (HPD), covering building characteristics, project details, and renovation costs. The data encompasses building addresses, job types, community boards, permit statuses, initial costs, and zoning information.
+
+### How this data could be used
+
+- To analyze trends in housing renovation costs and project types across different neighborhoods
+- To evaluate the affordability of housing developments in various boroughs of New York City
+- To assess the impact of zoning and permit statuses on housing costs
+- To support research on housing development and urban planning strategies
+- To identify areas with high or low costs for potential investment or policy-making decisions

@@ -1,0 +1,11 @@
+### What this data is about
+
+This dataset contains user preference data from 73,516 users on 12,294 anime from myanimelist.net. It includes detailed information on anime such as genres, types, episode counts, average ratings, and the number of community members. Additionally, it provides ratings given by users to different anime, offering insights into user preferences and viewing history.
+
+### How this data could be used
+
+- To develop or enhance anime recommendation systems
+- To analyze trends and patterns in anime ratings and popularity
+- To conduct research on user preferences in anime
+- To create personalized anime recommendations based on viewing history
+- To explore correlations between different anime genres and user ratings

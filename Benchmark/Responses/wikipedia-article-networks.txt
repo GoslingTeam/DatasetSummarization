@@ -1,0 +1,86 @@
+The Wikipedia Article Networks dataset comprises three distinct networks representing Wikipedia articles on chameleons, crocodiles, and squirrels. Here's a detailed breakdown of the dataset:
+
+### Overview
+
+1. **Description**: 
+   - The dataset contains page-page networks extracted from the English Wikipedia as of December 2018.
+   - It includes networks for specific topics: chameleons, crocodiles, and squirrels.
+   - Each node in these networks represents a Wikipedia article, and edges represent mutual links between these articles.
+   - Node features indicate the presence of certain informative nouns in the text of the articles.
+   - Target data provides the average monthly traffic for each page between October 2017 and November 2018.
+
+2. **Properties**:
+   - **Directed**: No
+   - **Node Features**: Yes
+   - **Edge Features**: No
+   - **Node Labels**: Yes (Continuous target)
+   - **Temporal**: No
+
+3. **Datasets and Statistics**:
+
+   | Dataset    | Nodes | Edges | Density | Transitivity |
+   |------------|-------|-------|---------|--------------|
+   | Chameleon  | 2,277 | 31,421| 0.012   | 0.314        |
+   | Crocodile  | 11,631| 170,918| 0.003   | 0.026        |
+   | Squirrel   | 5,201 | 198,493| 0.015   | 0.348        |
+
+4. **Possible Tasks**:
+   - **Regression**: Predicting node traffic based on node features.
+   - **Link Prediction**: Predicting potential future connections between nodes.
+   - **Community Detection**: Identifying groups of nodes that are more densely connected.
+   - **Network Visualization**: Creating visual representations of the networks.
+
+5. **References**:
+   - **Paper**: Multi-scale Attributed Node Embedding by Benedek Rozemberczki, Carl Allen, and Rik Sarkar. [Link to paper](https://arxiv.org/abs/1909.13021)
+
+### Dataset Files
+
+1. **Chameleon Dataset**:
+   - **chameleon_edges.csv**: Contains edges (pairs of node ids) in the chameleon network.
+   - **chameleon_features.json**: Contains node features for the chameleon network.
+   - **chameleon_target.csv**: Contains the average monthly traffic for each page in the chameleon network.
+
+2. **Crocodile Dataset**:
+   - **crocodile_edges.csv**: Contains edges (pairs of node ids) in the crocodile network.
+   - **crocodile_features.json**: Contains node features for the crocodile network.
+   - **crocodile_target.csv**: Contains the average monthly traffic for each page in the crocodile network.
+
+3. **Squirrel Dataset**:
+   - **squirrel_edges.csv**: Contains edges (pairs of node ids) in the squirrel network.
+   - **squirrel_features.json**: Contains node features for the squirrel network.
+   - **squirrel_target.csv**: Contains the average monthly traffic for each page in the squirrel network.
+
+### Sample File Contents
+
+- **Edges CSV Files**: List of node pairs (edges) indicating mutual links.
+- **Features JSON Files**: Dictionary where each key is a node ID and the value is a list of features (informative nouns).
+- **Target CSV Files**: List of node IDs and their corresponding average monthly traffic.
+
+### Example Content:
+
+- **Chameleon Edges CSV**:
+  ```csv
+  id1,id2
+  2034,1939
+  2034,2263
+  ...
+  ```
+
+- **Chameleon Features JSON**:
+  ```json
+  {
+    "2098": [1765, 3047, 630, ...],
+    "47": [3001, 2690, ...],
+    ...
+  }
+  ```
+
+- **Chameleon Target CSV**:
+  ```csv
+  id,target
+  0,171
+  1,8089
+  ...
+  ```
+
+This dataset is useful for studying various aspects of network analysis, particularly in the context of Wikipedia article interactions and traffic analysis.

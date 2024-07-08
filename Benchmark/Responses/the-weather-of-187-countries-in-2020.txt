@@ -1,0 +1,8 @@
+### What this data is about
+The dataset "The Weather of 187 Countries in 2020" provides weather observations from various stations across 187 countries/regions. It covers metrics like precipitation, snow depth, temperature, and more, recorded throughout the year 2020.
+
+### How this data could be used
+- Exploratory data analysis
+- Data cleaning and preprocessing
+- Clustering analysis
+- Regression modeling

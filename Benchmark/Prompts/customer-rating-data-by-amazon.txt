@@ -1,0 +1,52 @@
+DATASET METADATA:
+
+{
+  "id": "ahmedaliraja/customer-rating-data-by-amazon",
+  "id_no": 3956552,
+  "datasetSlugNullable": "customer-rating-data-by-amazon",
+  "ownerUserNullable": "ahmedaliraja",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Customer Rating Data By Amazon",
+  "subtitleNullable": "Amazon Customer rating for recommendation system",
+  "descriptionNullable": "**### ****! Upvote will help me alot Thank You!\ud83d\ude17******\n\n**Context:**\nIn the ever-evolving world of e-commerce, Amazon.com stands as a pioneering giant. Known for its innovative spirit and remarkable journey, Amazon has not only experienced glorious heights but also faced intriguing challenges along the way. Here are some fascinating insights:\n\n**Dataset Overview:**\n\nNow, let's delve into the dataset at hand. It comprises an extensive collection of over 2 million customer reviews and ratings of beauty-related products available on Amazon's platform. The dataset includes valuable information such as:\n\nUnique User IDs for customer identification.\nProduct ASIN (Amazon's distinctive product identifier).\nRatings, which reflect customer satisfaction on a scale from 1 to 5.\nTimestamps, recorded in UNIX time, indicating when the ratings were submitted.\nAcknowledgments:\nThis dataset is just a fragment of the extensive Amazon product dataset, encompassing a staggering 142.8 million reviews spanning the period from May 1996 to July 2014. The complete dataset provides a wealth of information, including detailed product reviews, metadata, category information, pricing data, brand details, and even image features.\n\n**A Costly Downtime:**\n\nIn August 2013, Amazon encountered a 40-minute website downtime, causing a notable loss of $4.8 million. This incident highlights the critical importance of maintaining a seamless online presence.\nThe 1-Click Innovation:\n\nAmazon's inventive prowess is exemplified by its patent on the \"1-Click\" buying feature. This technology was not only a game-changer for Amazon but is also licensed to other tech giants, including Apple.\nWarehouses on Steroids:\n\nAmazon's Phoenix fulfillment center is a colossal structure, spanning a jaw-dropping 1.2 million square feet. It serves as a testament to the logistics marvel that powers the company's global operations.\nThe Power of Recommendations:\n\nAmazon leverages a robust recommendation engine that relies on customer ratings and purchase history to provide personalized product suggestions. This engine is pivotal in enhancing customer satisfaction and driving sales.\n\n**Inspiration:**\nNow, the challenge lies in leveraging this condensed dataset to build a powerful recommendation engine. Can we tap into this data to create a recommendation system that mirrors the capabilities of Amazon's own engine? It's an exciting endeavor, and your innovative ideas and solutions are the driving force behind this exploration.",
+  "datasetId": 3956552,
+  "datasetSlug": "customer-rating-data-by-amazon",
+  "hasDatasetSlug": true,
+  "ownerUser": "ahmedaliraja",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 5115,
+  "totalVotes": 27,
+  "totalDownloads": 666,
+  "title": "Customer Rating Data By Amazon",
+  "hasTitle": true,
+  "subtitle": "Amazon Customer rating for recommendation system",
+  "hasSubtitle": true,
+  "description": "**### ****! Upvote will help me alot Thank You!\ud83d\ude17******\n\n**Context:**\nIn the ever-evolving world of e-commerce, Amazon.com stands as a pioneering giant. Known for its innovative spirit and remarkable journey, Amazon has not only experienced glorious heights but also faced intriguing challenges along the way. Here are some fascinating insights:\n\n**Dataset Overview:**\n\nNow, let's delve into the dataset at hand. It comprises an extensive collection of over 2 million customer reviews and ratings of beauty-related products available on Amazon's platform. The dataset includes valuable information such as:\n\nUnique User IDs for customer identification.\nProduct ASIN (Amazon's distinctive product identifier).\nRatings, which reflect customer satisfaction on a scale from 1 to 5.\nTimestamps, recorded in UNIX time, indicating when the ratings were submitted.\nAcknowledgments:\nThis dataset is just a fragment of the extensive Amazon product dataset, encompassing a staggering 142.8 million reviews spanning the period from May 1996 to July 2014. The complete dataset provides a wealth of information, including detailed product reviews, metadata, category information, pricing data, brand details, and even image features.\n\n**A Costly Downtime:**\n\nIn August 2013, Amazon encountered a 40-minute website downtime, causing a notable loss of $4.8 million. This incident highlights the critical importance of maintaining a seamless online presence.\nThe 1-Click Innovation:\n\nAmazon's inventive prowess is exemplified by its patent on the \"1-Click\" buying feature. This technology was not only a game-changer for Amazon but is also licensed to other tech giants, including Apple.\nWarehouses on Steroids:\n\nAmazon's Phoenix fulfillment center is a colossal structure, spanning a jaw-dropping 1.2 million square feet. It serves as a testament to the logistics marvel that powers the company's global operations.\nThe Power of Recommendations:\n\nAmazon leverages a robust recommendation engine that relies on customer ratings and purchase history to provide personalized product suggestions. This engine is pivotal in enhancing customer satisfaction and driving sales.\n\n**Inspiration:**\nNow, the challenge lies in leveraging this condensed dataset to build a powerful recommendation engine. Can we tap into this data to create a recommendation system that mirrors the capabilities of Amazon's own engine? It's an exciting endeavor, and your innovative ideas and solutions are the driving force behind this exploration.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "business",
+    "advanced"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "other",
+      "name": "other",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\ahmedaliraja\customer-rating-data-by-amazon\customer-rating-data-by-amazon\customer_ratings_data.csv
+b'User Id,Product Id,Rating,Time stamp\r\nA39HTATAQ9V7YF,205616461,5,1369699200\r\nA3JM6GV9MNOF9X,558925278,3,1355443200\r\nA1Z513UWSAAO0F,558925278,5,1404691200\r\nA1WMRR494NWEWV,733001998,4,1382572800\r\nA3IAAVS479H7M7,737104473,1,1274227200\r\nAKJHHD5VEH7VG,762451459,5,1404518400\r\nA1BG8QW55XHN6U,1304139212,5,1371945600\r\nA22VW0P4VZHDE3,1304139220,5,1373068800\r\nA3V3RE4132GKRO,130414089X,5,1401840000\r\nA327B0I7CYTEJC,130414643X,4,1389052800\r\nA1BG8QW55XHN6U,130414643X,5,1372032000\r\nAIFAAVTUYHEHB,130414643X,4,1378252800\r\nAVOGV98AYOFG2,1304146537,5,1372118400\r\nA22VW0P4VZHDE3,130414674X,5,1371686400\r\nAVOGV98AYOFG2,1304168522,5,1372118400\r\nA6R426V4J7AOM,1304168522,5,1373414400\r\nA22VW0P4VZHDE3,1304174778,5,1372896000\r\nAKGB62WGF35J8,1304174778,5,1372896000\r\nA22VW0P4VZHDE3,1304174867,5,1373068800\r\nA1BG8QW55XHN6U,1304174867,5,1372291200\r\nA1BG8QW55XHN6U,1304174905,5,1372291200\r\nA22VW0P4VZHDE3,1304196046,5,1372896000\r\nA22VW0P4VZHDE3,1304196062,5,1372896000\r\nA3A4C2K3TWDAO5,1304196070,1,1378425600\r\nA3FV2Q7WPZMQPV,1304196135,5,1375488000'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

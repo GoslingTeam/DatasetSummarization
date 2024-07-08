@@ -1,0 +1,8 @@
+### What this data is about
+The dataset contains information on car prices in Poland, including details such as the make, model, generation, year of production, mileage, engine volume, fuel type, city, province, and price of the vehicles. The data was collected from a popular car sale site using web scraping techniques.
+
+### How this data could be used
+- Developing models to predict car prices based on various attributes.
+- Analyzing price trends and patterns in different regions of Poland.
+- Understanding factors that influence car prices, such as mileage and engine type.
+- Supporting market research for the automotive industry in Poland.

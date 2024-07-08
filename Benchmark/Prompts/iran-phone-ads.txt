@@ -1,0 +1,51 @@
+DATASET METADATA:
+
+{
+  "id": "arianghasemi/iran-phone-ads",
+  "id_no": 5184532,
+  "datasetSlugNullable": "iran-phone-ads",
+  "ownerUserNullable": "arianghasemi",
+  "usabilityRatingNullable": 0.9411764705882353,
+  "titleNullable": "Iran Phone Ads",
+  "subtitleNullable": "Over 100,000 mobile phone ads over 341 cities of Iran scraped and cleaned ",
+  "descriptionNullable": "This dataset contains detailed listings of various items for sale, predominantly electronic devices such as smartphones. The dataset includes information about the item's condition, brand, model, price, and various specifications such as internal storage and RAM size. Each listing also contains location details, including the city and neighborhood, as well as additional attributes like whether the seller is willing to trade the item and if the price is fixed. The dataset provides a comprehensive overview of the items being sold, aiding in market analysis and consumer behavior studies.\n\n#Research Suggestions:\n**Market Analysis:** Analyze the distribution of prices, brands, and models to understand market trends and consumer preferences.  \n**Price Prediction:** Develop machine learning models to predict the price of an item based on its features such as brand, model, condition, and specifications.  \n**Geospatial Analysis:** Study the geographic distribution of listings to identify hotspots for certain brands or models, and analyze the relationship between location and price.  \n**Consumer Behavior:** Investigate patterns in consumer behavior, such as willingness to trade or preferred conditions of items (new vs. used).  \n**Brand Authenticity:** Explore the impact of brand authenticity on pricing and consumer trust, and examine the prevalence of authentic vs. non-authentic brands.  \n**Temporal Trends:** Analyze how listings and prices change over time, identifying any seasonal trends or the impact of new product releases.\n\n#Coding Project Suggestions:  \n**Data Cleaning and Preprocessing:** Write scripts to clean and preprocess the data, handling missing values, and converting columns to appropriate data types.  \n**Data Visualization:** Create visualizations to illustrate key insights from the data, such as price distributions, brand popularity, and geographic trends.  \n**Price Prediction Model:** Build and evaluate machine learning models (e.g., linear regression, random forest, or neural networks) to predict item prices.  \n**Recommendation System:** Develop a recommendation system to suggest similar items to users based on their search and purchase history.  \n**Interactive Dashboard:** Create an interactive dashboard using tools like Dash or Tableau to allow users to explore the dataset and visualize different aspects of the data.  \n**Text Analysis:** Perform text analysis on the title and description columns to identify common keywords and sentiments associated with different items.",
+  "datasetId": 5184532,
+  "datasetSlug": "iran-phone-ads",
+  "hasDatasetSlug": true,
+  "ownerUser": "arianghasemi",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.9411764705882353,
+  "hasUsabilityRating": true,
+  "totalViews": 1496,
+  "totalVotes": 27,
+  "totalDownloads": 258,
+  "title": "Iran Phone Ads",
+  "hasTitle": true,
+  "subtitle": "Over 100,000 mobile phone ads over 341 cities of Iran scraped and cleaned ",
+  "hasSubtitle": true,
+  "description": "This dataset contains detailed listings of various items for sale, predominantly electronic devices such as smartphones. The dataset includes information about the item's condition, brand, model, price, and various specifications such as internal storage and RAM size. Each listing also contains location details, including the city and neighborhood, as well as additional attributes like whether the seller is willing to trade the item and if the price is fixed. The dataset provides a comprehensive overview of the items being sold, aiding in market analysis and consumer behavior studies.\n\n#Research Suggestions:\n**Market Analysis:** Analyze the distribution of prices, brands, and models to understand market trends and consumer preferences.  \n**Price Prediction:** Develop machine learning models to predict the price of an item based on its features such as brand, model, condition, and specifications.  \n**Geospatial Analysis:** Study the geographic distribution of listings to identify hotspots for certain brands or models, and analyze the relationship between location and price.  \n**Consumer Behavior:** Investigate patterns in consumer behavior, such as willingness to trade or preferred conditions of items (new vs. used).  \n**Brand Authenticity:** Explore the impact of brand authenticity on pricing and consumer trust, and examine the prevalence of authentic vs. non-authentic brands.  \n**Temporal Trends:** Analyze how listings and prices change over time, identifying any seasonal trends or the impact of new product releases.\n\n#Coding Project Suggestions:  \n**Data Cleaning and Preprocessing:** Write scripts to clean and preprocess the data, handling missing values, and converting columns to appropriate data types.  \n**Data Visualization:** Create visualizations to illustrate key insights from the data, such as price distributions, brand popularity, and geographic trends.  \n**Price Prediction Model:** Build and evaluate machine learning models (e.g., linear regression, random forest, or neural networks) to predict item prices.  \n**Recommendation System:** Develop a recommendation system to suggest similar items to users based on their search and purchase history.  \n**Interactive Dashboard:** Create an interactive dashboard using tools like Dash or Tableau to allow users to explore the dataset and visualize different aspects of the data.  \n**Text Analysis:** Perform text analysis on the title and description columns to identify common keywords and sentiments associated with different items.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "mobile and wireless"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "MIT",
+      "name": "MIT",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\arianghasemi\iran-phone-ads\iran-phone-ads\final.csv
+b'title,city,condition,brand authenticity,willing to trade,number of SIM cards,internal storage,RAM size,color,brand,model,price,fixed_price,date,neighborhood\r\n\xda\xaf\xd9\x88\xd8\xb4\xdb\x8c a02s,aalasht,\xda\xa9\xd8\xa7\xd8\xb1\xda\xa9\xd8\xb1\xd8\xaf\xd9\x87,\xd8\xa7\xd8\xb5\xd9\x84,\xd9\x86\xdb\x8c\xd8\xb3\xd8\xaa\xd9\x85,,,,,samsung,,2800000,No,1403/02/18, \xd9\x85\xd8\xb1\xd8\xb2\xdb\x8c\xda\xa9\xd9\x84\xd8\xa7\r\n\xd8\xb3\xd8\xa7\xd9\x85\xd8\xb3\xd9\x88\xd9\x86\xda\xaf \xda\xaf\xd9\x84\xda\xa9\xd8\xb3\xdb\x8c A72 5G \xdb\xb2\xdb\xb5\xdb\xb6 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,aalasht,\xd8\xaf\xd8\xb1 \xd8\xad\xd8\xaf \xd9\x86\xd9\x88,\xd8\xa7\xd8\xb5\xd9\x84,\xd9\x86\xdb\x8c\xd8\xb3\xd8\xaa\xd9\x85,\xdb\xb2 \xd8\xb9\xd8\xaf\xd8\xaf,\xdb\xb2\xdb\xb5\xdb\xb6 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xdb\xb8 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xd9\x85\xd8\xb4\xda\xa9\xdb\x8c Awesome,samsung,galaxy-a72-5g,11200000,No,1403/02/25, \xd9\x81\xdb\x8c\xd8\xb1\xd9\x88\xd8\xb2\xda\xa9\xd9\x88\xd9\x87\r\n\xd8\xa2\xd9\x86\xd8\xb1\xdb\xb7 x,aalasht,\xda\xa9\xd8\xa7\xd8\xb1\xda\xa9\xd8\xb1\xd8\xaf\xd9\x87,\xd8\xa7\xd8\xb5\xd9\x84,\xd9\x86\xdb\x8c\xd8\xb3\xd8\xaa\xd9\x85,\xdb\xb2 \xd8\xb9\xd8\xaf\xd8\xaf,\xdb\xb3\xdb\xb2 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xdb\xb4 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xd8\xae\xd8\xa7\xda\xa9\xd8\xb3\xd8\xaa\xd8\xb1\xdb\x8c,honor,7x,2300000,No,1403/03/10, \xd8\xb4\xdb\x8c\xd8\xb1\xda\xaf\xd8\xa7\xd9\x87\r\n\xd8\xb3\xd8\xa7\xd9\x85\xd8\xb3\xd9\x88\xd9\x86\xda\xaf Galaxy J1 mini prime \xdb\xb8 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,aalasht,\xda\xa9\xd8\xa7\xd8\xb1\xda\xa9\xd8\xb1\xd8\xaf\xd9\x87,\xd8\xa7\xd8\xb5\xd9\x84,\xd9\x86\xdb\x8c\xd8\xb3\xd8\xaa\xd9\x85,\xdb\xb2 \xd8\xb9\xd8\xaf\xd8\xaf,\xdb\xb8 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xdb\xb1 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xd8\xb3\xd9\x81\xdb\x8c\xd8\xaf,samsung,galaxy-j1-mini-prime,1250000,Yes,1403/02/25, \xd9\x81\xdb\x8c\xd8\xb1\xd9\x88\xd8\xb2\xda\xa9\xd9\x88\xd9\x87\r\n\xd8\xa7\xdb\x8c\xd9\x81\xd9\x88\xd9\x86 x \xd8\xb3\xd8\xa7\xd9\x84\xd9\x85,aalasht,\xd8\xaf\xd8\xb1 \xd8\xad\xd8\xaf \xd9\x86\xd9\x88,\xd8\xa7\xd8\xb5\xd9\x84,\xd9\x86\xdb\x8c\xd8\xb3\xd8\xaa\xd9\x85,\xdb\xb1 \xd8\xb9\xd8\xaf\xd8\xaf,\xdb\xb6\xdb\xb4 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xdb\xb3 \xda\xaf\xdb\x8c\xda\xaf\xd8\xa7\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xaa,\xd8\xae\xd8\xa7\xda\xa9\xd8\xb3\xd8\xaa\xd8\xb1\xdb\x8c Spac'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

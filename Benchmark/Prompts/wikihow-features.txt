@@ -1,0 +1,52 @@
+DATASET METADATA:
+
+{
+  "id": "aniketsharma00411/wikihow-features",
+  "id_no": 3103659,
+  "datasetSlugNullable": "wikihow-features",
+  "ownerUserNullable": "aniketsharma00411",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "wikiHow Features",
+  "subtitleNullable": "Features extracted from wikiHow articles",
+  "descriptionNullable": "wikiHow Features dataset consists of features extracted from ~19.9k wikiHow articles. The task is to predict the `percent_helpful` column, which represents the number of readers who found the article helpful.\n\nThe articles are collected using the open-source tool [wikiHowUnofficialAPI](https://pypi.org/project/wikihowunofficialapi/).\n\nThe dataset is introduced in the (under review) paper Automated Quality Estimation of Collaboratively Created Content. If you find it helpful, please cite the paper.\n\n",
+  "datasetId": 3103659,
+  "datasetSlug": "wikihow-features",
+  "hasDatasetSlug": true,
+  "ownerUser": "aniketsharma00411",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 818,
+  "totalVotes": 11,
+  "totalDownloads": 137,
+  "title": "wikiHow Features",
+  "hasTitle": true,
+  "subtitle": "Features extracted from wikiHow articles",
+  "hasSubtitle": true,
+  "description": "wikiHow Features dataset consists of features extracted from ~19.9k wikiHow articles. The task is to predict the `percent_helpful` column, which represents the number of readers who found the article helpful.\n\nThe articles are collected using the open-source tool [wikiHowUnofficialAPI](https://pypi.org/project/wikihowunofficialapi/).\n\nThe dataset is introduced in the (under review) paper Automated Quality Estimation of Collaboratively Created Content. If you find it helpful, please cite the paper.\n\n",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "tabular",
+    "regression"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "copyright-authors",
+      "name": "copyright-authors",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\aniketsharma00411\wikihow-features\wikihow-features\wikihow.csv
+b'character_count,word_count,method_count,mean_method_size,mean_paragraph_size,size_largest_method,size_shortest_method,std_method_size,step_count,mean_steps_per_method,introduction_size,summary_size,references_count,references_count_per_text_length,references_count_per_method,image_count,image_count_per_method,num_votes,is_expert,views,co_authors,warnings,tips,to_be_verb,aux_verb,conjunction,pronoun,preposition,nominalization,sentence_beginning_pronoun,sentence_beginning_interrogative,sentence_beginning_article,sentence_beginning_subordination,sentence_beginning_conjunction,sentence_beginning_preposition,Kincaid,ARI,Coleman_Liau,FleschReadingEase,GunningFogIndex,LIX,SMOGIndex,RIX,DaleChallIndex,percent_helpful\n7107,1508,2,3357.5,379.8235294117647,4321,2394,963.5,16,8.0,359,518,24.0,0.0033769523005487546,12.0,14,7.0,30,True,124766.0,12.0,4,1,35,43,64,135,186,34,26,2,4,4,0,2,7.523760337026058,8.15974970094139,9.908876700928381,67.45345737764603,10.820887293909607,36.86654184220107,10.376433061167326,3.2647058823'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

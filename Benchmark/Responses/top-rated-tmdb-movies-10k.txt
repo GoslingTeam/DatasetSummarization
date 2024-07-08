@@ -1,0 +1,8 @@
+### What this data is about
+The TMDB Movies Dataset comprises information on 10,000 top-rated movies up to July 26, 2022. It includes movie attributes such as title, genre, original language, overview, popularity, release date, vote average, and vote count, providing a comprehensive overview of highly-rated films.
+
+### How this data could be used
+- Performing text preprocessing and cleansing for natural language processing (NLP) tasks
+- Building content-based recommendation engines
+- Developing collaborative filtering recommendation systems
+- Analyzing movie popularity and rating trends

@@ -1,0 +1,8 @@
+### What this data is about
+The dataset provides detailed information on various coffee products, including their names, ratings, roasters, and characteristics such as aroma, body, flavor, and roast levels. It includes both raw and cleaned data from web-scraped sources, detailing coffee reviews, descriptions, and attributes across different regions and roast types.
+
+### How this data could be used
+- Developing coffee recommendation systems based on user preferences and coffee attributes.
+- Analyzing coffee quality and characteristics across different regions and roasters.
+- Exploring trends in coffee ratings and popular roast profiles.
+- Enhancing product descriptions and marketing strategies for coffee retailers.

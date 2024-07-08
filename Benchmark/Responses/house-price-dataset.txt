@@ -1,0 +1,8 @@
+### What this data is about
+The House Price Dataset provides information on residential properties in India, including various features such as the type of property, its construction status, the number of rooms, total area, and geographical coordinates. The dataset aims to facilitate the prediction of house prices based on these attributes, with the objective of challenging and enhancing regression modeling skills.
+
+### How this data could be used
+- Developing and testing house price prediction models
+- Analyzing the impact of different property features on pricing
+- Evaluating the effects of location and property attributes on real estate values
+- Supporting real estate market analysis and pricing strategies

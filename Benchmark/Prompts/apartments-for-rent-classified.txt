@@ -1,0 +1,57 @@
+DATASET METADATA:
+
+{
+  "id": "adithyaawati/apartments-for-rent-classified",
+  "id_no": 3617494,
+  "datasetSlugNullable": "apartments-for-rent-classified",
+  "ownerUserNullable": "adithyaawati",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Apartments for Rent Classified",
+  "subtitleNullable": "Apartment rental advertisement descriptions in US.",
+  "descriptionNullable": "This is a dataset of classified for apartments for rent in USA from various rental listing agency platforms.\nThe dataset contains both 10,000 or 100,000 rental entries and 22 columns. The data contains missing values but has been cleaned in the way that column price and square_feet never is empty but the dataset is saved as it was created.\n\n**Potential Machine Learning and Data Science Applications:**\n1. Clustering: To discover new features.\n2. Classification: Based on the category of classified rentals \n3. Regression: for the squares feet or price column.\n4. Recommendation System\n5. Geo Data Analysis\n\n**Provide information**\nid = unique identifier of apartment\ncategory = category of classified\ntitle = title text of apartment\nbody = body text of apartment\namenities = like AC, basketball,cable, gym, internet access, pool, refrigerator etc.\nbathrooms = number of bathrooms\nbedrooms = number of bedrooms\ncurrency = price in current\nfee = fee\nhas_photo = photo of apartment\npets_allowed = what pets are allowed dogs/cats etc.\nprice = rental price of an apartment\nprice_display = price converted into a display for the reader\nprice_type = price in USD\nsquare_feet = size of the apartment\naddress =  where the apartment is located\ncityname =  where the apartment is located\nstate =  where the apartment is located\nlatitude = where the apartment is located\nlongitude = where the apartment is located\nsource = origin of classified\ntime = when classified was created\nbout each attribute in your data set.",
+  "datasetId": 3617494,
+  "datasetSlug": "apartments-for-rent-classified",
+  "hasDatasetSlug": true,
+  "ownerUser": "adithyaawati",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 2907,
+  "totalVotes": 10,
+  "totalDownloads": 459,
+  "title": "Apartments for Rent Classified",
+  "hasTitle": true,
+  "subtitle": "Apartment rental advertisement descriptions in US.",
+  "hasSubtitle": true,
+  "description": "This is a dataset of classified for apartments for rent in USA from various rental listing agency platforms.\nThe dataset contains both 10,000 or 100,000 rental entries and 22 columns. The data contains missing values but has been cleaned in the way that column price and square_feet never is empty but the dataset is saved as it was created.\n\n**Potential Machine Learning and Data Science Applications:**\n1. Clustering: To discover new features.\n2. Classification: Based on the category of classified rentals \n3. Regression: for the squares feet or price column.\n4. Recommendation System\n5. Geo Data Analysis\n\n**Provide information**\nid = unique identifier of apartment\ncategory = category of classified\ntitle = title text of apartment\nbody = body text of apartment\namenities = like AC, basketball,cable, gym, internet access, pool, refrigerator etc.\nbathrooms = number of bathrooms\nbedrooms = number of bedrooms\ncurrency = price in current\nfee = fee\nhas_photo = photo of apartment\npets_allowed = what pets are allowed dogs/cats etc.\nprice = rental price of an apartment\nprice_display = price converted into a display for the reader\nprice_type = price in USD\nsquare_feet = size of the apartment\naddress =  where the apartment is located\ncityname =  where the apartment is located\nstate =  where the apartment is located\nlatitude = where the apartment is located\nlongitude = where the apartment is located\nsource = origin of classified\ntime = when classified was created\nbout each attribute in your data set.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "housing",
+    "beginner",
+    "tabular",
+    "text",
+    "hotels and accommodations"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "Attribution 4.0 International (CC BY 4.0)",
+      "name": "Attribution 4.0 International (CC BY 4.0)",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\adithyaawati\apartments-for-rent-classified\apartments-for-rent-classified\apartments_for_rent_classified_100K\apartments_for_rent_classified_100K.csv
+b'id;category;title;body;amenities;bathrooms;bedrooms;currency;fee;has_photo;pets_allowed;price;price_display;price_type;square_feet;address;cityname;state;latitude;longitude;source;time\r\n5668640009;housing/rent/apartment;One BR 507 & 509 Esplanade;This unit is located at 507 & 509 Esplanade, Redondo Beach, 90277, CAMonthly rental rates range from $2195We have 1 beds units available for rent;null;1;1;USD;No;Thumbnail;Cats;2195;$2,195;Monthly;542;507  509 Esplanade;Redondo Beach;CA;33.8520;-118.3759;RentLingo;1577360355\r\n5668639818;housing/rent/apartment;Three BR 146 Lochview Drive;This unit is located at 146 Lochview Drive, Newport News, 23602, VAMonthly rental rates range from $1250We have 3 beds units available for rent;null;1.5;3;USD;No;Thumbnail;Cats,Dogs;1250;$1,250;Monthly;1500;146 Lochview Dr;Newport News;VA;37.0867;-76.4941;RentLingo;1577360340\r\n5668639686;housing/rent/apartment;Three BR 3101 Morningside Drive;This unit is located at 3101 Morningside Drive, Raleigh, 27607, NCMonthly rental rates range f'
+Data\adithyaawati\apartments-for-rent-classified\apartments-for-rent-classified\apartments_for_rent_classified_10K\apartments_for_rent_classified_10K.csv
+b'id;category;title;body;amenities;bathrooms;bedrooms;currency;fee;has_photo;pets_allowed;price;price_display;price_type;square_feet;address;cityname;state;latitude;longitude;source;time\r\n5668626895;housing/rent/apartment;Studio apartment 2nd St NE, Uhland Terrace NE, Washington, DC 20002;This unit is located at second St NE, Uhland Terrace NE, Washington, DC 20002, Washington, 20002, DCMonthly rental rates range from $790 - $1090We have studio units available for rent;null;null;0;USD;No;Thumbnail;None;790;$790;Monthly;101;null;Washington;DC;38.9057;-76.9861;RentLingo;1577359415\r\n5664597177;housing/rent/apartment;Studio apartment 814 Schutte Road;This unit is located at 814 Schutte Road, Evansville, 47712, INMonthly rental rates range from $425 - $445We have studio - 1 beds units available for rent;null;null;1;USD;No;Thumbnail;None;425;$425;Monthly;106;814 Schutte Rd;Evansville;IN;37.9680;-87.6621;RentLingo;1577017063\r\n5668626833;housing/rent/apartment;Studio apartment N Scott St, 14th St N, Arlington, VA 22209'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

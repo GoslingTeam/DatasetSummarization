@@ -1,0 +1,10 @@
+### What this data is about
+
+This dataset provides a comprehensive collection of real estate listings across the United States, including detailed information on property attributes such as price, size, number of bedrooms and bathrooms, and land area. The data is segmented by state and zip code, and includes historical sales data, broker information, and current listing statuses.
+
+### How this data could be used
+
+- Predicting housing prices based on property features and location.
+- Analyzing correlations between housing prices and attributes like the number of bedrooms or the size of the property.
+- Examining regional differences in real estate prices across various states and zip codes.
+- Exploring trends and patterns in real estate sales over time.

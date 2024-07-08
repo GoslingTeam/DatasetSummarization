@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "adhamelkomy/news-classification-and-analysis-using-nlp",
+  "id_no": 4532419,
+  "datasetSlugNullable": "news-classification-and-analysis-using-nlp",
+  "ownerUserNullable": "adhamelkomy",
+  "usabilityRatingNullable": 0.6470588235294118,
+  "titleNullable": "News Classification and Analysis using NLP",
+  "subtitleNullable": "",
+  "descriptionNullable": "**Data Description:**\n- Headline: The headline or title of the news article.\n- Content: The textual content of the news article.\n- Category: The category or topic of the news article, indicating the subject matter it covers.\n- Date (of scraping): The date when the news article was scraped and added to the dataset.\n**Background:**\nThe dataset comprises scraped news articles from various topics, sourced from inshorts.com, a news\naggregation platform. With the rapid growth of digital media and news consumption, analyzing and\nclassifying news articles have become crucial for understanding public discourse, tracking emerging\ntrends, and monitoring events across different domains. Leveraging natural language processing (NLP)\ntechniques, this project aims to classify news articles into predefined categories and extract valuable\ninsights from the textual content.\n**Objective:**\nThe objective of this internship project is to perform news classification and analysis using natural\nlanguage processing (NLP) techniques to categorize news articles into predefined topics and extract\nactionable insights. By automating the classification process and analyzing news content, the project aims\nto facilitate efficient information retrieval and trend identification in the rapidly evolving news landscape.\n**Key Components:**\n1. Data Collection and Preprocessing: Understand the dataset of news articles from inshorts.com,\npreprocess the textual content by removing noise, such as special characters and stopwords, and tokenize\nthe text for further analysis.\n2. Topic Classification: Develop NLP classification models to categorize news articles into predefined topics\nor categories based on their headlines and content. Explore techniques such as text classification\nalgorithms, including logistic regression, random forests, or deep learning architectures like convolutional\nneural networks (CNNs) or transformers (e.g., BERT).\n3. Model Training and Evaluation: Train the classification models on the labeled dataset of news articles\nand evaluate their performance using appropriate evaluation metrics, such as accuracy, precision, recall,\nand F1-score. Fine-tune the models to improve classification accuracy and robustness.\n4. Topic Analysis and Insights: Analyze the classified news articles to gain insights into the distribution of\ntopics, emerging trends, and patterns in news coverage. Identify popular topics, recurring themes, and\nchanges in public discourse over time.\n5. Visualization and Reporting: Create visually informative representations, such as topic distribution plots,\nword clouds, and trend graphs, to present the findings. Generate comprehensive reports summarizing the\nanalysis, insights, and recommendations for further research or decision-making.\n\n**Expected Outcomes:**\n- Trained NLP classification models capable of accurately categorizing news articles into predefined topics.\n- Insights into the distribution of topics and trends in news coverage across different categories.\n- Recommendations for improving news classification accuracy and enhancing understanding of public\ndiscourse.\n**Deliverables:**\n- Preprocessed dataset of news articles with labeled categories.\n- Trained classification models with evaluation results.\n- Report summarizing findings, insights, and recommendations for further analysis and application.\n**Conclusion:**\nThis project aims to leverage natural language processing techniques to perform news classification and\nanalysis, providing valuable insights into the distribution of topics and trends in news coverage. By\nautomating the classification process and extracting actionable insights from news content, this project\ncontributes to enhancing information retrieval and understanding in the dynamic news landscape.",
+  "datasetId": 4532419,
+  "datasetSlug": "news-classification-and-analysis-using-nlp",
+  "hasDatasetSlug": true,
+  "ownerUser": "adhamelkomy",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.6470588235294118,
+  "hasUsabilityRating": true,
+  "totalViews": 909,
+  "totalVotes": 10,
+  "totalDownloads": 88,
+  "title": "News Classification and Analysis using NLP",
+  "hasTitle": true,
+  "subtitle": "",
+  "hasSubtitle": true,
+  "description": "**Data Description:**\n- Headline: The headline or title of the news article.\n- Content: The textual content of the news article.\n- Category: The category or topic of the news article, indicating the subject matter it covers.\n- Date (of scraping): The date when the news article was scraped and added to the dataset.\n**Background:**\nThe dataset comprises scraped news articles from various topics, sourced from inshorts.com, a news\naggregation platform. With the rapid growth of digital media and news consumption, analyzing and\nclassifying news articles have become crucial for understanding public discourse, tracking emerging\ntrends, and monitoring events across different domains. Leveraging natural language processing (NLP)\ntechniques, this project aims to classify news articles into predefined categories and extract valuable\ninsights from the textual content.\n**Objective:**\nThe objective of this internship project is to perform news classification and analysis using natural\nlanguage processing (NLP) techniques to categorize news articles into predefined topics and extract\nactionable insights. By automating the classification process and analyzing news content, the project aims\nto facilitate efficient information retrieval and trend identification in the rapidly evolving news landscape.\n**Key Components:**\n1. Data Collection and Preprocessing: Understand the dataset of news articles from inshorts.com,\npreprocess the textual content by removing noise, such as special characters and stopwords, and tokenize\nthe text for further analysis.\n2. Topic Classification: Develop NLP classification models to categorize news articles into predefined topics\nor categories based on their headlines and content. Explore techniques such as text classification\nalgorithms, including logistic regression, random forests, or deep learning architectures like convolutional\nneural networks (CNNs) or transformers (e.g., BERT).\n3. Model Training and Evaluation: Train the classification models on the labeled dataset of news articles\nand evaluate their performance using appropriate evaluation metrics, such as accuracy, precision, recall,\nand F1-score. Fine-tune the models to improve classification accuracy and robustness.\n4. Topic Analysis and Insights: Analyze the classified news articles to gain insights into the distribution of\ntopics, emerging trends, and patterns in news coverage. Identify popular topics, recurring themes, and\nchanges in public discourse over time.\n5. Visualization and Reporting: Create visually informative representations, such as topic distribution plots,\nword clouds, and trend graphs, to present the findings. Generate comprehensive reports summarizing the\nanalysis, insights, and recommendations for further research or decision-making.\n\n**Expected Outcomes:**\n- Trained NLP classification models capable of accurately categorizing news articles into predefined topics.\n- Insights into the distribution of topics and trends in news coverage across different categories.\n- Recommendations for improving news classification accuracy and enhancing understanding of public\ndiscourse.\n**Deliverables:**\n- Preprocessed dataset of news articles with labeled categories.\n- Trained classification models with evaluation results.\n- Report summarizing findings, insights, and recommendations for further analysis and application.\n**Conclusion:**\nThis project aims to leverage natural language processing techniques to perform news classification and\nanalysis, providing valuable insights into the distribution of topics and trends in news coverage. By\nautomating the classification process and extracting actionable insights from news content, this project\ncontributes to enhancing information retrieval and understanding in the dynamic news landscape.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "earth and nature",
+    "computer science",
+    "nlp",
+    "news",
+    "multilabel classification"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\adhamelkomy\news-classification-and-analysis-using-nlp\news-classification-and-analysis-using-nlp\english_news_dataset.csv
+b'Headline,Content,News Categories,Date\r\nCongress leader Baljinder Singh shot dead at home in Punjab\'s Moga,"Congress leader Baljinder Singh was shot dead at his house in Punjab\'s Moga on Monday, a video of which has also surfaced online. According to a report by the Free Press Journal, Singh received a call from someone regarding the signing of documents. In the video, the accused can be seen shooting at Singh while he is walking towards him. ",[\'national\'],19-09-2023\r\n17-year-old girl preparing for NEET dies by suicide in Rajasthan\'s Kota,"Another NEET aspirant died by suicide in Rajasthan\'s Kota on Monday, taking the number of student suicides this year to around 26. The girl was reportedly a native of UP\'s Mau and had been staying at a hostel in the city\'s Vigyan Nagar area. She was rushed to a hospital after she reportedly started vomiting, and passed away later.",[\'national\'],19-09-2023\r\n"Hampers to welcome MPs in new Parliament tomorrow, pics surface","In order to mark the first-ever working day of the n'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

@@ -1,0 +1,7 @@
+### What this data is about
+The Goodbooks 10k Updated dataset provides comprehensive information on popular books, including ratings, metadata, and user interactions. It encompasses user ratings, books marked to read, and book metadata such as authors, publication year, and genres. The dataset is sourced from various internet platforms and includes ratings ranging from one to five stars.
+
+### How this data could be used
+- Book recommendation systems
+- User behavior analysis
+- Genre-based book popularity analysis

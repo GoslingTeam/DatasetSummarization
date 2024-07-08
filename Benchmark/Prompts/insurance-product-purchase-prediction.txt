@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "akhilups/insurance-product-purchase-prediction",
+  "id_no": 845045,
+  "datasetSlugNullable": "insurance-product-purchase-prediction",
+  "ownerUserNullable": "akhilups",
+  "usabilityRatingNullable": 0.8235294117647058,
+  "titleNullable": "Insurance Product Purchase Prediction",
+  "subtitleNullable": "Prediction based on shopping history",
+  "descriptionNullable": "The training data contain transaction history for customers that ended up purchasing a policy. For each customer_ID, you are given their quote history. In the training set you have the entire quote history, the last row of which contains the coverage options they purchased. \n\nWhat is a customer?\n\nEach customer has many shopping points, where a shopping point is defined by a customer with certain characteristics viewing a product and its associated cost at a particular time.\n\u2022\tSome customer characteristics may change over time (e.g. as the customer changes or provides new information), and the cost depends on both the product and the customer characteristics.\n\u2022\tA customer may represent a collection of people, as policies can cover more than one person.\n\u2022\tA customer may purchase a product that was not viewed!\nProduct Options\nEach product has 7 customizable options selected by customers, each with 2, 3, or 4 ordinal values possible:\n \nA product is simply a vector with length 7 whose values are chosen from each of the options listed above. The cost of a product is a function of both the product options and customer characteristics.\n\nVariable Descriptions\n\ncustomer_ID - A unique identifier for the customer\nshopping_pt - Unique identifier for the shopping point of a given customer\nrecord_type - 0=shopping point, 1=purchase point\nday - Day of the week (0-6, 0=Monday)\ntime - Time of day (HH:MM)\nstate - State where shopping point occurred\nlocation - Location ID where shopping point occurred\ngroup_size - How many people will be covered under the policy (1, 2, 3 or 4)\nhomeowner - Whether the customer owns a home or not (0=no, 1=yes)\ncar_age - Age of the customer\u2019s car\ncar_value - How valuable was the customer\u2019s car when new\nrisk_factor - An ordinal assessment of how risky the customer is (1, 2, 3, 4)\nage_oldest - Age of the oldest person in customer's group\nage_youngest - Age of the youngest person in customer\u2019s group\nmarried_couple - Does the customer group contain a married couple (0=no, 1=yes)\nC_previous - What the customer formerly had or currently has for product option C (0=nothing, 1, 2, 3,4)\nduration_previous -  how long (in years) the customer was covered by their previous issuer\nA,B,C,D,E,F,G - the coverage options\ncost - cost of the quoted coverage options\n",
+  "datasetId": 845045,
+  "datasetSlug": "insurance-product-purchase-prediction",
+  "hasDatasetSlug": true,
+  "ownerUser": "akhilups",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.8235294117647058,
+  "hasUsabilityRating": true,
+  "totalViews": 8114,
+  "totalVotes": 15,
+  "totalDownloads": 727,
+  "title": "Insurance Product Purchase Prediction",
+  "hasTitle": true,
+  "subtitle": "Prediction based on shopping history",
+  "hasSubtitle": true,
+  "description": "The training data contain transaction history for customers that ended up purchasing a policy. For each customer_ID, you are given their quote history. In the training set you have the entire quote history, the last row of which contains the coverage options they purchased. \n\nWhat is a customer?\n\nEach customer has many shopping points, where a shopping point is defined by a customer with certain characteristics viewing a product and its associated cost at a particular time.\n\u2022\tSome customer characteristics may change over time (e.g. as the customer changes or provides new information), and the cost depends on both the product and the customer characteristics.\n\u2022\tA customer may represent a collection of people, as policies can cover more than one person.\n\u2022\tA customer may purchase a product that was not viewed!\nProduct Options\nEach product has 7 customizable options selected by customers, each with 2, 3, or 4 ordinal values possible:\n \nA product is simply a vector with length 7 whose values are chosen from each of the options listed above. The cost of a product is a function of both the product options and customer characteristics.\n\nVariable Descriptions\n\ncustomer_ID - A unique identifier for the customer\nshopping_pt - Unique identifier for the shopping point of a given customer\nrecord_type - 0=shopping point, 1=purchase point\nday - Day of the week (0-6, 0=Monday)\ntime - Time of day (HH:MM)\nstate - State where shopping point occurred\nlocation - Location ID where shopping point occurred\ngroup_size - How many people will be covered under the policy (1, 2, 3 or 4)\nhomeowner - Whether the customer owns a home or not (0=no, 1=yes)\ncar_age - Age of the customer\u2019s car\ncar_value - How valuable was the customer\u2019s car when new\nrisk_factor - An ordinal assessment of how risky the customer is (1, 2, 3, 4)\nage_oldest - Age of the oldest person in customer's group\nage_youngest - Age of the youngest person in customer\u2019s group\nmarried_couple - Does the customer group contain a married couple (0=no, 1=yes)\nC_previous - What the customer formerly had or currently has for product option C (0=nothing, 1, 2, 3,4)\nduration_previous -  how long (in years) the customer was covered by their previous issuer\nA,B,C,D,E,F,G - the coverage options\ncost - cost of the quoted coverage options\n",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "business",
+    "education",
+    "classification",
+    "regression",
+    "insurance"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "other",
+      "name": "other",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\akhilups\insurance-product-purchase-prediction\insurance-product-purchase-prediction\train.csv
+b'customer_ID,shopping_pt,record_type,day,time,state,location,group_size,homeowner,car_age,car_value,risk_factor,age_oldest,age_youngest,married_couple,C_previous,duration_previous,A,B,C,D,E,F,G,cost\n10000000,1,0,0,08:35,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,2,633\n10000000,2,0,0,08:38,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,630\n10000000,3,0,0,08:38,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,630\n10000000,4,0,0,08:39,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,630\n10000000,5,0,0,11:55,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,630\n10000000,6,0,0,11:57,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,638\n10000000,7,0,0,11:58,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,638\n10000000,8,0,0,12:03,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,638\n10000000,9,1,0,12:07,IN,10001,2,0,2,g,3,46,42,1,1,2,1,0,2,2,1,2,1,634\n10000005,1,0,3,08:56,NY,10006,1,0,10,e,4,28,28,0,3,13,1,1,3,3,1,0,2,755\n10000005,2,0,3,08:56,NY,10006,1,0,10,e,4,28,28,0,3,13,1,1,3,3,1,0,2,755\n10000005,3,0,3,08:57,NY,10006,1,0,10,e,4,28,28,0,3,1'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

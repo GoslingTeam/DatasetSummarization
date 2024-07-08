@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "asaniczka/52000-animation-movie-details-dataset-2024",
+  "id_no": 4379730,
+  "datasetSlugNullable": "52000-animation-movie-details-dataset-2024",
+  "ownerUserNullable": "asaniczka",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "52,000 Animation Movie Details (2024)",
+  "subtitleNullable": "Scraped dataset from TMDB API. Detailed information about animation movies.",
+  "descriptionNullable": "This dataset contains detailed information about 52,000 animation movies scraped from the TMDB API. This dataset is a subset of [Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)\n\n&gt; If you find this dataset helpful, feel free to give it an upvote! \ud83d\ude0a\ud83d\udc96\n\n## Interesting Task Ideas:\n\n1. Analyze the popularity of animation movies across different genres.\n2. Train a machine learning model to predict movie ratings based on various features.\n3. Extract key insights on budget and revenue trends in the animation film industry.\n4. Explore the relationship between runtime and movie popularity.\n5. Identify the most common languages and production companies in animation movies.\n6. Create a recommendation system for animation movie enthusiasts.\n7. Analyze the release date patterns and their impact on revenue.\n\n---\n\nPhoto by <a href=\"https://unsplash.com/@javaistan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Afif Ramdhasuma</a> on <a href=\"https://unsplash.com/photos/red-haired-girl-in-green-dress-figurine-on-green-grass-during-daytime-eTMtdh85TOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>\n  ",
+  "datasetId": 4379730,
+  "datasetSlug": "52000-animation-movie-details-dataset-2024",
+  "hasDatasetSlug": true,
+  "ownerUser": "asaniczka",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 7594,
+  "totalVotes": 56,
+  "totalDownloads": 1314,
+  "title": "52,000 Animation Movie Details (2024)",
+  "hasTitle": true,
+  "subtitle": "Scraped dataset from TMDB API. Detailed information about animation movies.",
+  "hasSubtitle": true,
+  "description": "This dataset contains detailed information about 52,000 animation movies scraped from the TMDB API. This dataset is a subset of [Full TMDB Movies Dataset 2024](https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies)\n\n&gt; If you find this dataset helpful, feel free to give it an upvote! \ud83d\ude0a\ud83d\udc96\n\n## Interesting Task Ideas:\n\n1. Analyze the popularity of animation movies across different genres.\n2. Train a machine learning model to predict movie ratings based on various features.\n3. Extract key insights on budget and revenue trends in the animation film industry.\n4. Explore the relationship between runtime and movie popularity.\n5. Identify the most common languages and production companies in animation movies.\n6. Create a recommendation system for animation movie enthusiasts.\n7. Analyze the release date patterns and their impact on revenue.\n\n---\n\nPhoto by <a href=\"https://unsplash.com/@javaistan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Afif Ramdhasuma</a> on <a href=\"https://unsplash.com/photos/red-haired-girl-in-green-dress-figurine-on-green-grass-during-daytime-eTMtdh85TOk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>\n  ",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "arts and entertainment",
+    "movies and tv shows",
+    "internet",
+    "data visualization",
+    "comics and animation"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "ODC Attribution License (ODC-By)",
+      "name": "ODC Attribution License (ODC-By)",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\asaniczka\52000-animation-movie-details-dataset-2024\52000-animation-movie-details-dataset-2024\Animation_Movies.csv
+b'"id","title","vote_average","vote_count","status","release_date","revenue","runtime","adult","backdrop_path","budget","homepage","imdb_id","original_language","original_title","overview","popularity","poster_path","tagline","genres","production_companies","production_countries","spoken_languages"\n"150540","Inside Out","7.922","19463","Released","2015-06-09","857611174","95","False","/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg","175000000","http://movies.disney.com/inside-out","tt2096673","en","Inside Out","Growing up can be a bumpy road, and it\'s no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Riley\'s guiding emotions\xe2\x80\x94 Joy, Fear, Anger, Disgust and Sadness\xe2\x80\x94live in Headquarters, the control centre inside Riley\'s mind, where they help advise her through everyday life and tries to keep things positive, but the emotions conflict on how best to navigate a new city, house and school.","107.292","/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg","Meet the little voices insid'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

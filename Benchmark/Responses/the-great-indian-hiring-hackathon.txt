@@ -1,0 +1,10 @@
+### What this data is about
+
+This dataset pertains to a competitive hackathon focused on predicting retail item prices. It includes transaction data with various attributes such as invoice numbers, stock codes, descriptions, quantities, invoice dates, and customer identifiers. The dataset consists of historical sales data used to train a model for predicting item prices, addressing challenges like diverse data types, outliers, and large datasets.
+
+### How this data could be used
+
+- Developing predictive models for retail pricing.
+- Analyzing sales patterns and customer behavior.
+- Improving pricing strategies and inventory management.
+- Enhancing recommendation systems based on price predictions.

@@ -1,0 +1,9 @@
+### What this data is about
+
+This dataset contains information on over 9000 used cars listed for sale on the OLX website in Pakistan. The data includes various attributes for each car, such as the make, model, year of purchase, kilometers driven, price, fuel type, registration city, condition, and seller location. It also provides additional details like car features, images, and a link to the car's page for verification.
+
+### How this data could be used
+
+- Building predictive models for car prices
+- Developing recommendation systems for car buyers
+- Conducting in-depth data analysis and reporting on the used car market in Pakistan

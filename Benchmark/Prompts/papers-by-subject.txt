@@ -1,0 +1,57 @@
+DATASET METADATA:
+
+{
+  "id": "arplusman/papers-by-subject",
+  "id_no": 3544407,
+  "datasetSlugNullable": "papers-by-subject",
+  "ownerUserNullable": "arplusman",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Papers by Subject",
+  "subtitleNullable": "More than 50K papers and their metadata in 155 different subject areas",
+  "descriptionNullable": "# Overview\nThis extensive dataset comprises approximately 50,000 academic papers along with their corresponding metadata, designed to facilitate various natural language processing (NLP) tasks such as classification and retrieval. The dataset covers a diverse range of research domains, including but not limited to computer science, biology, social sciences, engineering, and more. The list of all categories can be found [here](https://arxiv.org/category_taxonomy). With its comprehensive collection of academic papers and enriched metadata, this dataset serves as a valuable resource for researchers and data enthusiasts interested in advancing NLP applications in the academic domain.\n\n# Key Features\n\n **Metadata:** The dataset includes essential metadata for each paper, such as the publish date, title, summary/abstract, author(s), and category. The metadata is meticulously curated to ensure accuracy and consistency, enabling researchers to swiftly extract valuable insights and conduct exploratory data analysis.\n\n **Vast Paper Collection:** With nearly 50,000 academic papers, this dataset encompasses a broad spectrum of research topics and domains, making it suitable for a wide range of NLP tasks, including but not limited to document classification, topic modeling, and document retrieval.\n\n **Application Flexibility:** The dataset is meticulously preprocessed and annotated, making it adaptable for various NLP applications. Researchers and practitioners can use it for tasks like sentiment analysis, keyword extraction, and more.\n\n# Potential Use Cases\n\n **Document Classification:** Leverage this dataset to build powerful classifiers capable of categorizing academic papers into relevant research domains or topics. This can aid in automated content organization and information retrieval.\n\n **Document Retrieval:** Develop efficient retrieval models that can quickly identify and retrieve relevant papers based on user queries or specific keywords. Such models can streamline the research process and assist researchers in finding relevant literature faster.\n\n **Topic Modeling:** Use this dataset to perform topic modeling and extract meaningful topics or themes present within the academic papers. This can provide valuable insights into the prevailing research trends and interests within different disciplines.\n\n **Recommendation Systems:** Employ the dataset to build personalized recommendation systems that suggest relevant papers to researchers based on their previous interests or research focus.\n\n# Acknowledgment\nWe would like to express our gratitude to the authors and publishers of the academic papers included in this dataset for their valuable contributions to the research community. By making this dataset publicly available, we hope to foster advancements in natural language processing and support data-driven research across diverse domains.\n\n# Disclaimer\nAs the curators of this dataset, we have made every effort to ensure the accuracy and quality of the data. However, we cannot guarantee the absolute correctness of the information or the suitability of the dataset for any specific purpose. Users are encouraged to exercise their judgment and discretion while utilizing the dataset for their research projects.\n\nWe sincerely hope that this dataset proves to be a valuable resource for the NLP community and contributes to the development of innovative solutions in academic research and beyond. Happy analyzing and modeling!",
+  "datasetId": 3544407,
+  "datasetSlug": "papers-by-subject",
+  "hasDatasetSlug": true,
+  "ownerUser": "arplusman",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 1508,
+  "totalVotes": 5,
+  "totalDownloads": 189,
+  "title": "Papers by Subject",
+  "hasTitle": true,
+  "subtitle": "More than 50K papers and their metadata in 155 different subject areas",
+  "hasSubtitle": true,
+  "description": "# Overview\nThis extensive dataset comprises approximately 50,000 academic papers along with their corresponding metadata, designed to facilitate various natural language processing (NLP) tasks such as classification and retrieval. The dataset covers a diverse range of research domains, including but not limited to computer science, biology, social sciences, engineering, and more. The list of all categories can be found [here](https://arxiv.org/category_taxonomy). With its comprehensive collection of academic papers and enriched metadata, this dataset serves as a valuable resource for researchers and data enthusiasts interested in advancing NLP applications in the academic domain.\n\n# Key Features\n\n **Metadata:** The dataset includes essential metadata for each paper, such as the publish date, title, summary/abstract, author(s), and category. The metadata is meticulously curated to ensure accuracy and consistency, enabling researchers to swiftly extract valuable insights and conduct exploratory data analysis.\n\n **Vast Paper Collection:** With nearly 50,000 academic papers, this dataset encompasses a broad spectrum of research topics and domains, making it suitable for a wide range of NLP tasks, including but not limited to document classification, topic modeling, and document retrieval.\n\n **Application Flexibility:** The dataset is meticulously preprocessed and annotated, making it adaptable for various NLP applications. Researchers and practitioners can use it for tasks like sentiment analysis, keyword extraction, and more.\n\n# Potential Use Cases\n\n **Document Classification:** Leverage this dataset to build powerful classifiers capable of categorizing academic papers into relevant research domains or topics. This can aid in automated content organization and information retrieval.\n\n **Document Retrieval:** Develop efficient retrieval models that can quickly identify and retrieve relevant papers based on user queries or specific keywords. Such models can streamline the research process and assist researchers in finding relevant literature faster.\n\n **Topic Modeling:** Use this dataset to perform topic modeling and extract meaningful topics or themes present within the academic papers. This can provide valuable insights into the prevailing research trends and interests within different disciplines.\n\n **Recommendation Systems:** Employ the dataset to build personalized recommendation systems that suggest relevant papers to researchers based on their previous interests or research focus.\n\n# Acknowledgment\nWe would like to express our gratitude to the authors and publishers of the academic papers included in this dataset for their valuable contributions to the research community. By making this dataset publicly available, we hope to foster advancements in natural language processing and support data-driven research across diverse domains.\n\n# Disclaimer\nAs the curators of this dataset, we have made every effort to ensure the accuracy and quality of the data. However, we cannot guarantee the absolute correctness of the information or the suitability of the dataset for any specific purpose. Users are encouraged to exercise their judgment and discretion while utilizing the dataset for their research projects.\n\nWe sincerely hope that this dataset proves to be a valuable resource for the NLP community and contributes to the development of innovative solutions in academic research and beyond. Happy analyzing and modeling!",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "research",
+    "museums",
+    "earth and nature",
+    "nlp",
+    "classification",
+    "recommender systems",
+    "retrieval/ranking"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\arplusman\papers-by-subject\papers-by-subject\arXiv-DataFrame.csv
+b',id,Title,Summary,Author,Link,Publish Date,Update Date,Primary Category,Category\n0,cs/9308101v1,Dynamic Backtracking,"Because of their occasional need to return to shallow points in a search tree, existing backtracking methods can sometimes erase meaningful progress toward solving a search problem. In this paper, we present a method by which backtrack points can be moved deeper in the search space, thereby avoiding this difficulty. The technique developed is a variant of dependency-directed backtracking that uses only polynomial space while still providing useful control information and retaining the completeness guarantees provided by earlier approaches.",M. L. Ginsberg,http://arxiv.org/pdf/cs/9308101v1,1993-08-01T00:00:00Z,1993-08-01T00:00:00Z,cs.AI,[\'cs.AI\']\n1,cs/9308102v1,"A Market-Oriented Programming Environment and its Application to\n  Distributed Multicommodity Flow Problems","Market price systems constitute a well-understood class of mechanisms that under certain conditions provide effective decentra'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

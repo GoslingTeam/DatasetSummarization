@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "abuchionwuegbusi/movie-recommendation",
+  "id_no": 4932411,
+  "datasetSlugNullable": "movie-recommendation",
+  "ownerUserNullable": "abuchionwuegbusi",
+  "usabilityRatingNullable": 0.5882352941176471,
+  "titleNullable": "Movie_recommendation",
+  "subtitleNullable": "movie details dataset",
+  "descriptionNullable": "This dataset contains information about movie names, release date, production country, revenue, genre etc\n\n\nSource: https://drive.google.com/file/d/1cCkwiVv4mgfl20ntgY3n4yApcWqqZQe6/view?pli=1",
+  "datasetId": 4932411,
+  "datasetSlug": "movie-recommendation",
+  "hasDatasetSlug": true,
+  "ownerUser": "abuchionwuegbusi",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.5882352941176471,
+  "hasUsabilityRating": true,
+  "totalViews": 84,
+  "totalVotes": 3,
+  "totalDownloads": 11,
+  "title": "Movie_recommendation",
+  "hasTitle": true,
+  "subtitle": "movie details dataset",
+  "hasSubtitle": true,
+  "description": "This dataset contains information about movie names, release date, production country, revenue, genre etc\n\n\nSource: https://drive.google.com/file/d/1cCkwiVv4mgfl20ntgY3n4yApcWqqZQe6/view?pli=1",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "movies and tv shows",
+    "data cleaning",
+    "data visualization",
+    "recommender systems",
+    "ml ethics"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "unknown",
+      "name": "unknown",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\abuchionwuegbusi\movie-recommendation\movie-recommendation\movies.csv
+b'index,budget,genres,homepage,id,keywords,original_language,original_title,overview,popularity,production_companies,production_countries,release_date,revenue,runtime,spoken_languages,status,tagline,title,vote_average,vote_count,cast,crew,director\n0,237000000,Action Adventure Fantasy Science Fiction,http://www.avatarmovie.com/,19995,culture clash future space war space colony society,en,Avatar,"In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",150.437577,"[{""name"": ""Ingenious Film Partners"", ""id"": 289}, {""name"": ""Twentieth Century Fox Film Corporation"", ""id"": 306}, {""name"": ""Dune Entertainment"", ""id"": 444}, {""name"": ""Lightstorm Entertainment"", ""id"": 574}]","[{""iso_3166_1"": ""US"", ""name"": ""United States of America""}, {""iso_3166_1"": ""GB"", ""name"": ""United Kingdom""}]",2009-12-10,2787965087,162.0,"[{""iso_639_1"": ""en"", ""name"": ""English""}, {""iso_'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

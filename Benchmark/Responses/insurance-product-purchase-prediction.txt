@@ -1,0 +1,11 @@
+### What this data is about
+
+The "Insurance Product Purchase Prediction" dataset includes transaction histories of customers who ended up purchasing insurance policies. For each customer, the dataset provides detailed records of their interactions with quotes, including shopping points and purchase points. Each record captures various customer and product attributes, such as customer demographics, car details, risk factors, and the options selected for coverage. 
+
+### How this data could be used
+
+- Predicting the likelihood of a customer purchasing an insurance product
+- Analyzing customer behavior and preferences based on shopping and purchase history
+- Developing personalized insurance product recommendations
+- Conducting risk assessment and pricing strategies
+- Creating models to improve targeting and marketing strategies

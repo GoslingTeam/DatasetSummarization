@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "akouaorsot/empiricisms-thinkers",
+  "id_no": 1451555,
+  "datasetSlugNullable": "empiricisms-thinkers",
+  "ownerUserNullable": "akouaorsot",
+  "usabilityRatingNullable": 0.9411764705882353,
+  "titleNullable": "Empiricist Thinkers",
+  "subtitleNullable": "Key works of prominent empiricist thinkers",
+  "descriptionNullable": "Hello Fellow Kagglers,  I wanted to bring something at the intersection of what I like the most: philosophy and data. In that regard, this is for data and philosophy enthusiasts, more particularly interested in empiricism as a school of thought. This dataset is a CSV file that contains the corpus of three key thinkers: John Locke, David Hume, and Georges Berkley. I do intend on adding more texts, especially from Kant, Hobbes, and the likes. Though the initial intent was to have a Natural Language Processing task, it is yours to explore and be creative as the possibilities in data are infinite.\n\nAfter web scrapping the original texts, I created some functions to clean and tokenized them. So, you will find an auto-increment column and the four other columns as follows: book title, publishing date, authors, text, text clean.\n\nAnd above all, it is thanks to Project Gutenberg, a phenomenal platform for all book lovers and generally knowledge avid people, that I could obtain those texts at no cost. So, please support them in their continuous effort in making knowledge accessible: https://www.gutenberg.org/\n\nIn the following bullet points, I would propose possible exploration routes but do not feel constrained to go above and beyond:\n\n1. An exploratory analysis on term frequency\n2. A word cloud of a specific author's ideas or the general themes among all authors\n3. A Recommendation system for someone wanting to read those books with an evolving string of ideas",
+  "datasetId": 1451555,
+  "datasetSlug": "empiricisms-thinkers",
+  "hasDatasetSlug": true,
+  "ownerUser": "akouaorsot",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.9411764705882353,
+  "hasUsabilityRating": true,
+  "totalViews": 1471,
+  "totalVotes": 16,
+  "totalDownloads": 96,
+  "title": "Empiricist Thinkers",
+  "hasTitle": true,
+  "subtitle": "Key works of prominent empiricist thinkers",
+  "hasSubtitle": true,
+  "description": "Hello Fellow Kagglers,  I wanted to bring something at the intersection of what I like the most: philosophy and data. In that regard, this is for data and philosophy enthusiasts, more particularly interested in empiricism as a school of thought. This dataset is a CSV file that contains the corpus of three key thinkers: John Locke, David Hume, and Georges Berkley. I do intend on adding more texts, especially from Kant, Hobbes, and the likes. Though the initial intent was to have a Natural Language Processing task, it is yours to explore and be creative as the possibilities in data are infinite.\n\nAfter web scrapping the original texts, I created some functions to clean and tokenized them. So, you will find an auto-increment column and the four other columns as follows: book title, publishing date, authors, text, text clean.\n\nAnd above all, it is thanks to Project Gutenberg, a phenomenal platform for all book lovers and generally knowledge avid people, that I could obtain those texts at no cost. So, please support them in their continuous effort in making knowledge accessible: https://www.gutenberg.org/\n\nIn the following bullet points, I would propose possible exploration routes but do not feel constrained to go above and beyond:\n\n1. An exploratory analysis on term frequency\n2. A word cloud of a specific author's ideas or the general themes among all authors\n3. A Recommendation system for someone wanting to read those books with an evolving string of ideas",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "philosophy",
+    "nlp",
+    "text mining",
+    "text",
+    "nltk"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\akouaorsot\empiricisms-thinkers\empiricisms-thinkers\Empiricism_works_corpus.csv
+b',book_title,publishing_date,authors,text,text_clean\r\n0,"An Essay Concerning Humane Understanding, Volume I",1689,John Locke,"TO THE RIGHT HONOURABLE THOMAS, EARL OF PEMBROKE AND MONTGOMERY, BARON\r\nHERBERT OF CARDIFF LORD ROSS, OF KENDAL, PAR, FITZHUGH, MARMION, ST.\r\nQUINTIN, AND SHURLAND;\r\n\r\nLORD PRESIDENT OF HIS MAJESTY\xe2\x80\x99S MOST HONOURABLE PRIVY COUNCIL; AND LORD\r\nLIEUTENANT OF THE COUNTY OF WILTS, AND OF SOUTH WALES.\r\n\r\nMY LORD,\r\n\r\nThis Treatise, which is grown up under your lordship\xe2\x80\x99s eye, and has\r\nventured into the world by your order, does now, by a natural kind of\r\nright, come to your lordship for that protection which you several years\r\nsince promised it. It is not that I think any name, how great soever,\r\nset at the beginning of a book, will be able to cover the faults that\r\nare to be found in it. Things in print must stand and fall by their own\r\nworth, or the reader\xe2\x80\x99s fancy. But there being nothing more to be desired\r\nfor truth than a fair unprejudiced hearing, nobody is more likely to\r\nprocure m'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

@@ -1,0 +1,8 @@
+**What this data is about:**
+The dataset "U.S. Hospital Overall Star Ratings 2016-2020" provides comprehensive quality and performance ratings for over 4,000 Medicare-certified hospitals in the United States. It includes data on hospital types, ownership, geographic locations, and annual overall star ratings ranging from 2016 to 2020. The ratings cover various aspects such as mortality, safety of care, patient experience, effectiveness of care, timeliness of care, and efficient use of medical imaging.
+
+**How this data could be used:**
+- Analyzing trends in hospital performance over time
+- Comparing hospitals based on different performance metrics
+- Identifying high-performing hospitals by location or type
+- Supporting research on healthcare quality improvement initiatives

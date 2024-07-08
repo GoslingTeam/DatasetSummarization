@@ -1,0 +1,56 @@
+DATASET METADATA:
+
+{
+  "id": "aryansakhala/coffee-recommendation",
+  "id_no": 1757831,
+  "datasetSlugNullable": "coffee-recommendation",
+  "ownerUserNullable": "aryansakhala",
+  "usabilityRatingNullable": 0.47058823529411764,
+  "titleNullable": "Coffee Recommendation",
+  "subtitleNullable": "This is web scrapped data",
+  "descriptionNullable": "",
+  "datasetId": 1757831,
+  "datasetSlug": "coffee-recommendation",
+  "hasDatasetSlug": true,
+  "ownerUser": "aryansakhala",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.47058823529411764,
+  "hasUsabilityRating": true,
+  "totalViews": 2730,
+  "totalVotes": 7,
+  "totalDownloads": 171,
+  "title": "Coffee Recommendation",
+  "hasTitle": true,
+  "subtitle": "This is web scrapped data",
+  "hasSubtitle": true,
+  "description": "",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "recommender systems",
+    "restaurants"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "unknown",
+      "name": "unknown",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\aryansakhala\coffee-recommendation\coffee-recommendation\data\coffee.csv
+b'all_text,name,rating,roaster,slug,region_africa_arabia,region_caribbean,region_central_america,region_hawaii,region_asia_pacific,region_south_america,type_espresso,type_organic,type_fair_trade,type_decaffeinated,type_pod_capsule,type_blend,type_estate,location,origin,roast,est_price,review_date,agtron,aroma,acid,body,flavor,aftertaste,with_milk,desc_1,desc_2,desc_3,desc_4\n"\n\n\n\n \n93\nFlight Coffee Co.\nEthiopia Deri Kochoha\nLocation: Bedford, New Hampshire\nOrigin: West Guji Zone, Oromia Region, southeastern Ethiopia\nRoast: Medium-Light\nEst. Price: $17.00/12 ounces\n\n\nReview Date: January 2019\nAgtron: 56/80\nAroma: 9Acidity/Structure: 8Body: 9Flavor: 9Aftertaste: 8 \nBlind Assessment: \nBright, crisp, sweetly tart. Citrus medley, cacao nib, pink peppercorn, dogwood, almond in aroma and cup. Sweet-tart structure with lively acidity; crisp, satiny mouthfeel. The short finish is intense with notes of citrus and pink peppercorn, while the long softens to almond-toned florals.\nNotes:\nFrom the Deri Kochoha mill in the Hage'
+Data\aryansakhala\coffee-recommendation\coffee-recommendation\data\coffee_clean.csv
+b'slug,aroma,acid_or_milk,body,flavor,type_with_milk,clean_text,roast_dark,roast_light,roast_medium,roast_medium_dark,roast_medium_light,roast_very_dark,roast_nan,region_africa_arabia,region_caribbean,region_central_america,region_hawaii,region_asia_pacific,region_south_america,type_espresso,type_organic,type_fair_trade,type_decaffeinated,type_pod_capsule,type_blend,type_estate,type_with_milk\nethiopia-deri-kochoha-2,9.0,8.0,9.0,9.0,0,bright crisp sweetli tart citru medley cacao nib pink peppercorn dogwood almond aroma sweet tart structur live acid crisp satini mouthfeel short finish intens note citru pink peppercorn long soften almond tone floral pois melod wet process ethiopia coffe center complex citru note support sweet spice cocoa,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0\nespresso-14,8.0,9.0,8.0,8.0,1,evalu espresso deepli rich sweetli roast round dark chocol gentli scorch cedar magnolia black cherri almond aroma small full satini mouthfeel crisp reson finish center around dark chocol black cherri note unde'
+Data\aryansakhala\coffee-recommendation\coffee-recommendation\data\coffee_id.csv
+b'slug,name,roaster,rating,review_date\nethiopia-deri-kochoha-2,Ethiopia Deri Kochoha,Flight Coffee Co.,93,2019-01-01\nespresso-14,Espresso,Doi Chaang Coffee,91,2019-01-01\nkenya-ruthaka-peaberry,Kenya Ruthaka Peaberry,Temple Coffee and Tea,95,2019-01-01\nethiopia-gora-kone-sidamo,Ethiopia Gora Kone Sidamo,Temple Coffee and Tea,93,2019-01-01\nspecialty-coffee-blend-espresso,Specialty Coffee Blend Espresso,Choosy Gourmet,93,2019-01-01\nhonduras-las-flores-parainema,Honduras Las Flores Parainema,Caf\xc3\xa9 Grumpy,94,2019-01-01\nkivu-dr-congo,Kivu DR Congo,JBC Coffee Roasters,94,2019-01-01\nsanta-luzia-brazil,Santa Luzia Brazil,Coava Coffee Roasters,93,2019-01-01\nporfirio-castellanos-honduras,Porfirio Castellanos Honduras,Coava Coffee Roasters,93,2019-01-01\nethiopia-yirgacheffe-awassa,Ethiopia Yirgacheffe Awassa,Paradise Roasters,93,2019-01-01\npanama-ninety-plus-perci-lot-50,Panama Ninety Plus Perci Lot 50,Bird Rock Coffee Roasters,97,2019-01-01\ncolombia-sidra,Colombia Sidra,Kaffetre,94,2018-12-01\ncolombia-geisha-2,Colombia Ge'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

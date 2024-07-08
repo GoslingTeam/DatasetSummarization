@@ -1,0 +1,51 @@
+DATASET METADATA:
+
+{
+  "id": "arindamsahoo/social-media-users",
+  "id_no": 3324896,
+  "datasetSlugNullable": "social-media-users",
+  "ownerUserNullable": "arindamsahoo",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Social-Media-Users-Dataset",
+  "subtitleNullable": "The Ultimate Dummy Users Dataset for Social Media Recommendation Models",
+  "descriptionNullable": "This dataset contains information about users for a social media friend recommendation project. It includes fields such as UserID, Name, Gender, Date of Birth (DOB), Interests, City, and Country. The dataset aims to capture diverse user profiles and their characteristics in terms of personal information, interests, and geographical locations.",
+  "datasetId": 3324896,
+  "datasetSlug": "social-media-users",
+  "hasDatasetSlug": true,
+  "ownerUser": "arindamsahoo",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 14004,
+  "totalVotes": 18,
+  "totalDownloads": 2515,
+  "title": "Social-Media-Users-Dataset",
+  "hasTitle": true,
+  "subtitle": "The Ultimate Dummy Users Dataset for Social Media Recommendation Models",
+  "hasSubtitle": true,
+  "description": "This dataset contains information about users for a social media friend recommendation project. It includes fields such as UserID, Name, Gender, Date of Birth (DOB), Interests, City, and Country. The dataset aims to capture diverse user profiles and their characteristics in terms of personal information, interests, and geographical locations.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "social networks"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "DbCL-1.0",
+      "name": "DbCL-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\arindamsahoo\social-media-users\social-media-users\SocialMediaUsersDataset.csv
+b'UserID,Name,Gender,DOB,Interests,City,Country\r\n00001,Jesse Lawhorn,Female,1958-10-15,"\'Movies\', \'Fashion\', \'Fashion\', \'Books\'",Sibolga,Indonesia\r\n00002,Stacy Payne,Female,2004-07-21,"\'Gaming\', \'Finance and investments\', \'Outdoor activities\', \'Travel\'",Al Aby\xc4\x81r,Libya\r\n00003,Katrina Nicewander,Female,2000-02-07,"\'DIY and crafts\', \'Music\', \'Science\', \'Fashion\'",W\xc4\x81d\xc4\xab as S\xc4\xabr,Jordan\r\n00004,Eric Yarbrough,Male,1985-04-14,"\'Outdoor activities\', \'Cars and automobiles\'",Matera,Italy\r\n00005,Daniel Adkins,Female,1955-09-18,"\'Politics\', \'History\'",Biruaca,Venezuela\r\n00006,Diane Jara,Male,1967-06-18,\'Travel\',Belton,United States\r\n00007,Sheryl Morgan,Female,1969-02-09,"\'Outdoor activities\', \'Movies\'",Haslingden,United Kingdom\r\n00008,William Harper,Male,1965-12-30,"\'Beauty\', \'Nature\', \'Gardening\', \'Food and dining\', \'DIY and crafts\'",Ad-Damazin,Sudan\r\n00009,Virginia Varron,Male,1984-08-16,"\'Parenting and family\', \'Photography\', \'Finance and investments\'",Tabuk,Saudi Arabia\r\n00010,Charles Figueroa,Female,2003-03-08,\'Garde'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

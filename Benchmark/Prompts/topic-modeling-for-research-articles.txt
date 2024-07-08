@@ -1,0 +1,60 @@
+DATASET METADATA:
+
+{
+  "id": "abisheksudarshan/topic-modeling-for-research-articles",
+  "id_no": 932025,
+  "datasetSlugNullable": "topic-modeling-for-research-articles",
+  "ownerUserNullable": "abisheksudarshan",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "Topic Modeling for Research Articles",
+  "subtitleNullable": "NLP Dataset for Beginners",
+  "descriptionNullable": "### Context\n\nPart of Guided Hackathon in Analytics Vidhya\n\n\n### Content\n\nTopic Modeling for Research Articles 2.0\nResearchers have access to large online archives of scientific articles. As a consequence, finding relevant articles has become more and more difficult. Tagging or topic modelling provides a way to give clear token of identification to research articles which facilitates recommendation and search process. \n\nEarlier on the Independence Day we conducted a Hackathon to predict the topics for each article included in the test set. Continuing with the same problem, In this Live Hackathon we will take one more step ahead and predict the tags associated with the articles.\n\nGiven the abstracts for a set of research articles, predict the tags for each article included in the test set. \nNote that a research article can possibly have multiple tags. The research article abstracts are sourced from the following 4 topics: \n\n1. Computer Science\n\n2. Mathematics\n\n3. Physics\n\n4. Statistics\n\nList of possible tags are as follows:\n\n[Tags, Analysis of PDEs, Applications, Artificial Intelligence,Astrophysics of Galaxies, Computation and Language, Computer Vision and Pattern Recognition, Cosmology and Nongalactic Astrophysics, Data Structures and Algorithms, Differential Geometry, Earth and Planetary Astrophysics, Fluid Dynamics,Information Theory, Instrumentation and Methods for Astrophysics, Machine Learning, Materials Science, Methodology, Number Theory, Optimization and Control, Representation Theory, Robotics, Social and Information Networks, Statistics Theory, Strongly Correlated Electrons, Superconductivity, Systems and Control]\n\n\n### Acknowledgements\n\nCredits to AV\n\n### Inspiration\n\nTo share with the data science community to jump start their journey in NLP",
+  "datasetId": 932025,
+  "datasetSlug": "topic-modeling-for-research-articles",
+  "hasDatasetSlug": true,
+  "ownerUser": "abisheksudarshan",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 15072,
+  "totalVotes": 26,
+  "totalDownloads": 1229,
+  "title": "Topic Modeling for Research Articles",
+  "hasTitle": true,
+  "subtitle": "NLP Dataset for Beginners",
+  "hasSubtitle": true,
+  "description": "### Context\n\nPart of Guided Hackathon in Analytics Vidhya\n\n\n### Content\n\nTopic Modeling for Research Articles 2.0\nResearchers have access to large online archives of scientific articles. As a consequence, finding relevant articles has become more and more difficult. Tagging or topic modelling provides a way to give clear token of identification to research articles which facilitates recommendation and search process. \n\nEarlier on the Independence Day we conducted a Hackathon to predict the topics for each article included in the test set. Continuing with the same problem, In this Live Hackathon we will take one more step ahead and predict the tags associated with the articles.\n\nGiven the abstracts for a set of research articles, predict the tags for each article included in the test set. \nNote that a research article can possibly have multiple tags. The research article abstracts are sourced from the following 4 topics: \n\n1. Computer Science\n\n2. Mathematics\n\n3. Physics\n\n4. Statistics\n\nList of possible tags are as follows:\n\n[Tags, Analysis of PDEs, Applications, Artificial Intelligence,Astrophysics of Galaxies, Computation and Language, Computer Vision and Pattern Recognition, Cosmology and Nongalactic Astrophysics, Data Structures and Algorithms, Differential Geometry, Earth and Planetary Astrophysics, Fluid Dynamics,Information Theory, Instrumentation and Methods for Astrophysics, Machine Learning, Materials Science, Methodology, Number Theory, Optimization and Control, Representation Theory, Robotics, Social and Information Networks, Statistics Theory, Strongly Correlated Electrons, Superconductivity, Systems and Control]\n\n\n### Acknowledgements\n\nCredits to AV\n\n### Inspiration\n\nTo share with the data science community to jump start their journey in NLP",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "earth and nature",
+    "education",
+    "psychology",
+    "nlp"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "copyright-authors",
+      "name": "copyright-authors",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\abisheksudarshan\topic-modeling-for-research-articles\topic-modeling-for-research-articles\sample_sub.csv
+b'id,Analysis of PDEs,Applications,Artificial Intelligence,Astrophysics of Galaxies,Computation and Language,Computer Vision and Pattern Recognition,Cosmology and Nongalactic Astrophysics,Data Structures and Algorithms,Differential Geometry,Earth and Planetary Astrophysics,Fluid Dynamics,Information Theory,Instrumentation and Methods for Astrophysics,Machine Learning,Materials Science,Methodology,Number Theory,Optimization and Control,Representation Theory,Robotics,Social and Information Networks,Statistics Theory,Strongly Correlated Electrons,Superconductivity,Systems and Control\n9409,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n17934,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n16071,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n16870,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n10496,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n4878,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n4612,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0\n18718,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0'
+Data\abisheksudarshan\topic-modeling-for-research-articles\topic-modeling-for-research-articles\Tags.csv
+b'Tags\nAnalysis of PDEs\nApplications\nArtificial Intelligence\nAstrophysics of Galaxies\nComputation and Language\nComputer Vision and Pattern Recognition\nCosmology and Nongalactic Astrophysics\nData Structures and Algorithms\nDifferential Geometry\nEarth and Planetary Astrophysics\nFluid Dynamics\nInformation Theory\nInstrumentation and Methods for Astrophysics\nMachine Learning\nMaterials Science\nMethodology\nNumber Theory\nOptimization and Control\nRepresentation Theory\nRobotics\nSocial and Information Networks\nStatistics Theory\nStrongly Correlated Electrons\nSuperconductivity\nSystems and Control\n'
+Data\abisheksudarshan\topic-modeling-for-research-articles\topic-modeling-for-research-articles\Test.csv
+b'id,ABSTRACT,Computer Science,Mathematics,Physics,Statistics\n9409,"fundamental frequency (f0) approximation from polyphonic music includes a tasks of multiple-f0, melody, vocal, and bass line estimation. historically these problems have been approached separately, and only recently, with the help of learning-based approaches. we present the multitask deep learning architecture that jointly estimates outputs considering various tasks including multiple-f0, melody, vocal and bass line estimation, and was trained with the help of the large, semi-automatically annotated dataset. we show that a multitask model outperforms its single-task counterparts, and explore a effect of various design decisions inside our approach, and show that it performs better or at least competitively when compared against strong baseline methods.",0,0,0,1\n17934,"this large-scale study, consisting of 24.5 million hand hygiene opportunities spanning 19 distinct facilities inside 10 different states, uses linear predictive models to expose '
+Data\abisheksudarshan\topic-modeling-for-research-articles\topic-modeling-for-research-articles\Train.csv
+b'id,ABSTRACT,Computer Science,Mathematics,Physics,Statistics,Analysis of PDEs,Applications,Artificial Intelligence,Astrophysics of Galaxies,Computation and Language,Computer Vision and Pattern Recognition,Cosmology and Nongalactic Astrophysics,Data Structures and Algorithms,Differential Geometry,Earth and Planetary Astrophysics,Fluid Dynamics,Information Theory,Instrumentation and Methods for Astrophysics,Machine Learning,Materials Science,Methodology,Number Theory,Optimization and Control,Representation Theory,Robotics,Social and Information Networks,Statistics Theory,Strongly Correlated Electrons,Superconductivity,Systems and Control\n1824,"a ever-growing datasets inside observational astronomy have challenged scientists inside many aspects, including an efficient and interactive data exploration and visualization. many tools have been developed to confront this challenge. however, they usually focus on displaying a actual images or focus on visualizing patterns within catalogs inside the predefined way. insi'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

@@ -1,0 +1,11 @@
+### What this data is about
+
+This dataset is designed to build a recommendation engine for programming challenges. It contains information about user submissions on an online judge platform, including details about the users, the problems they solved, and the number of attempts they took to solve each problem. The primary objective is to predict the attempts range required for a user to solve a given problem, thus aiding in recommending the next set of questions based on a programmer's expertise and performance history.
+
+### How this data could be used
+
+- Developing a machine learning model to predict the difficulty of a problem for a user.
+- Creating personalized problem recommendations for users to improve engagement on coding platforms.
+- Analyzing patterns in problem-solving behavior among different user demographics.
+- Enhancing user experience by tailoring the difficulty level of recommended problems.
+- Conducting research on the effectiveness of personalized recommendations in online learning environments.

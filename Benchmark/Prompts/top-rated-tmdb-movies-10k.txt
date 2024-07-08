@@ -1,0 +1,55 @@
+DATASET METADATA:
+
+{
+  "id": "ahsanaseer/top-rated-tmdb-movies-10k",
+  "id_no": 2367100,
+  "datasetSlugNullable": "top-rated-tmdb-movies-10k",
+  "ownerUserNullable": "ahsanaseer",
+  "usabilityRatingNullable": 1.0,
+  "titleNullable": "TMDB Movies Dataset",
+  "subtitleNullable": "Dataset of 10k top rated TMDB movies for text preprocessing (NLP)",
+  "descriptionNullable": "# **Context**\nThis is a data set of 10k top-rated TMDB movies till 26-July-2022. \n\n# **Content**\nThe Dataset contains the following things:\n1. ID: Movie ID number on the website.\n2. title: Movie name\n3. genre: Movie genre (crime, adventure, etc.)\n4. original_language: Original language in which the movie is released\n5. overview: Summary of the movie\n6. popularity: Movie Popularity\n7. release_date: Movie release date\n8. vote_average: Movie vote average\n9. vote_count: Movie vote count\n\n# **Inspiration**\nThis was assembled to perform an extensive **Text Preprocessing/cleansing (NLP)** on Movie Data. But this can also be used in Building Content-Based and Collaborative Filtering Based **Recommendation Engines**.",
+  "datasetId": 2367100,
+  "datasetSlug": "top-rated-tmdb-movies-10k",
+  "hasDatasetSlug": true,
+  "ownerUser": "ahsanaseer",
+  "hasOwnerUser": true,
+  "usabilityRating": 1.0,
+  "hasUsabilityRating": true,
+  "totalViews": 11564,
+  "totalVotes": 15,
+  "totalDownloads": 3219,
+  "title": "TMDB Movies Dataset",
+  "hasTitle": true,
+  "subtitle": "Dataset of 10k top rated TMDB movies for text preprocessing (NLP)",
+  "hasSubtitle": true,
+  "description": "# **Context**\nThis is a data set of 10k top-rated TMDB movies till 26-July-2022. \n\n# **Content**\nThe Dataset contains the following things:\n1. ID: Movie ID number on the website.\n2. title: Movie name\n3. genre: Movie genre (crime, adventure, etc.)\n4. original_language: Original language in which the movie is released\n5. overview: Summary of the movie\n6. popularity: Movie Popularity\n7. release_date: Movie release date\n8. vote_average: Movie vote average\n9. vote_count: Movie vote count\n\n# **Inspiration**\nThis was assembled to perform an extensive **Text Preprocessing/cleansing (NLP)** on Movie Data. But this can also be used in Building Content-Based and Collaborative Filtering Based **Recommendation Engines**.",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "movies and tv shows",
+    "intermediate",
+    "nlp",
+    "text",
+    "nltk"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "CC0-1.0",
+      "name": "CC0-1.0",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\ahsanaseer\top-rated-tmdb-movies-10k\top-rated-tmdb-movies-10k\top10K-TMDB-movies.csv
+b'id,title,genre,original_language,overview,popularity,release_date,vote_average,vote_count\r\n278,The Shawshank Redemption,"Drama,Crime",en,"Framed in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",94.075,1994-09-23,8.7,21862\r\n19404,Dilwale Dulhania Le Jayenge,"Comedy,Drama,Romance",hi,"Raj is a rich, carefree, happy-go-lucky second generation NRI. Simran is the daughter of Chaudhary Baldev Singh, who in spite of being an NRI is very strict about adherence to Indian values. Simran has left for India to be married to her childhood fianc\xc3\xa9. Raj leaves for India with a mission at his hands, to claim his lady love under the noses of her whole family. Thus begins a saga.",25.408,1995-10-19,'
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

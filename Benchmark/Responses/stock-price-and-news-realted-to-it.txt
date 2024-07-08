@@ -1,0 +1,11 @@
+### What this data is about
+
+The dataset focuses on the impact of news on stock prices, specifically for Apple (AAPL) and Microsoft (MSFT) from 2006 to 2016. It combines stock price data with news articles related to these companies, including summaries and sentiment scores of the news. The sentiment analysis was performed using the Natural Language Toolkit (NLTK) and aims to explore the correlation between news sentiment and stock price movements.
+
+### How this data could be used
+
+- Analyzing the relationship between news sentiment and stock price fluctuations
+- Building models to predict stock prices based on news sentiment
+- Conducting financial sentiment analysis and forecasting
+- Developing trading strategies that incorporate news data
+- Researching the impact of media coverage on stock market behavior

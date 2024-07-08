@@ -1,0 +1,10 @@
+### What this data is about
+
+This dataset revolves around a case study from a multinational finance corporation that focuses on personal loans. The core issue is an increasing default rate among customers, prompting a need to identify and target high-risk individuals early to mitigate losses. The data includes various metrics related to loan statuses, payment behaviors, and call details related to delinquent accounts. It is aimed at understanding default patterns, assessing agent performance, and developing strategies to reduce outstanding loan balances.
+
+### How this data could be used
+
+- **Risk Assessment**: To profile and classify accounts based on their likelihood of default.
+- **Performance Evaluation**: To identify and evaluate the effectiveness of agents handling delinquent accounts.
+- **Strategy Development**: To create strategies for improving collection efficiency and reducing default rates.
+- **Trend Analysis**: To analyze changes in delinquency over time and their impact on overall financial performance.

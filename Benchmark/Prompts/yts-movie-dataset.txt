@@ -1,0 +1,57 @@
+DATASET METADATA:
+
+{
+  "id": "adinishad/yts-movie-dataset",
+  "id_no": 1172596,
+  "datasetSlugNullable": "yts-movie-dataset",
+  "ownerUserNullable": "adinishad",
+  "usabilityRatingNullable": 0.6875,
+  "titleNullable": "YTS movie dataset",
+  "subtitleNullable": "Movie dataset for analysis and recommendation system",
+  "descriptionNullable": "### Context\n\nCreate JSON to make movie dataset one step harder, try and analyze.\n\n\n### Content\n\"name\":string\"Movie Name\"\n\"year\":string\"Movie Release Year\"\n\"imdb_rating\":string\"Movie imdb rating\"\n\"movie_poster\":NULL\n\"genres\":string\"Drama , Romance , War\"\n\"directors\":string\"Director\"\n\"cast_0, cast_1, cast_2, cast_3\": string\"Actor Name\"\n\"similar movie\" : recommended movie name\n\n\n### Inspiration\n\nLet's create a recommendation system",
+  "datasetId": 1172596,
+  "datasetSlug": "yts-movie-dataset",
+  "hasDatasetSlug": true,
+  "ownerUser": "adinishad",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.6875,
+  "hasUsabilityRating": true,
+  "totalViews": 1806,
+  "totalVotes": 24,
+  "totalDownloads": 158,
+  "title": "YTS movie dataset",
+  "hasTitle": true,
+  "subtitle": "Movie dataset for analysis and recommendation system",
+  "hasSubtitle": true,
+  "description": "### Context\n\nCreate JSON to make movie dataset one step harder, try and analyze.\n\n\n### Content\n\"name\":string\"Movie Name\"\n\"year\":string\"Movie Release Year\"\n\"imdb_rating\":string\"Movie imdb rating\"\n\"movie_poster\":NULL\n\"genres\":string\"Drama , Romance , War\"\n\"directors\":string\"Director\"\n\"cast_0, cast_1, cast_2, cast_3\": string\"Actor Name\"\n\"similar movie\" : recommended movie name\n\n\n### Inspiration\n\nLet's create a recommendation system",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "movies and tv shows",
+    "beginner",
+    "intermediate",
+    "exploratory data analysis",
+    "data visualization"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "unknown",
+      "name": "unknown",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
+
+DATASET FILES CONTENTS:
+
+Data\adinishad\yts-movie-dataset\yts-movie-dataset\yts.json
+b'[\n{"name": "All In: The Family", "year": "2020", "imdb_rating": "6.8", "movie_poster": null, "genres": "Comedy , Crime , Drama , Mystery , Thriller", "directors": null, "cast": [], "similar_movies": [{"Movie_0": "The Family Man (2000)"}, {"Movie_1": "Family is Family (2018)"}, {"Movie_2": "The Family Way (1966)"}, {"Movie_3": "First Family (1980)"}]},\n{"name": "The Razor\'s Edge", "year": "1984", "imdb_rating": "6.6", "movie_poster": null, "genres": "Drama , Romance , War", "directors": "John Byrum", "cast": [{"Cast_0": ["Bill Murray"]}, {"Cast_1": ["Theresa Russell"]}, {"Cast_2": ["Brian Doyle-Murray"]}, {"Cast_3": ["Catherine Hicks"]}], "similar_movies": [{"Movie_0": "The Razor\'s Edge (1946)"}, {"Movie_1": "Beyond the Edge (2016)"}, {"Movie_2": "Battlestar Galactica: Razor (2007)"}, {"Movie_3": "Over the Edge (1979)"}]},\n{"name": "The Aftermath", "year": "1982", "imdb_rating": "4.3", "movie_poster": null, "genres": "Sci-Fi , Thriller", "directors": "Steve Barkett", "cast": [{"Cast_0": ["Sid Haig"]}, {"Cast_1'
+Data\adinishad\yts-movie-dataset\yts-movie-dataset\yts_2022.json
+b'[\n{"name": "Green Lantern: Beware My Power", "year": "2022", "imdb_rating": "6.0", "movie_poster": null, "genres": "Adventure , Animation , Sci-Fi", "directors": "Jeff Wamester", "cast": [{"Cast_0": ["Jimmi Simpson"]}, {"Cast_1": ["Aldis Hodge"]}, {"Cast_2": ["Nolan North"]}, {"Cast_3": ["Jamie Gray Hyder"]}], "similar_movies": [{"Movie_0": "Green Lantern: Emerald Knights (2011)"}, {"Movie_1": "Barbie in Princess Power (2015)"}, {"Movie_2": "Pok\\u00e9mon the Movie: The Power of Us (2018)"}, {"Movie_3": "Green Lantern: First Flight (2009)"}]},\n{"name": "Bebe\'s Kids", "year": "1992", "imdb_rating": "5.8", "movie_poster": null, "genres": "Animation , Comedy , Fantasy , Musical", "directors": "Bruce W. Smith", "cast": [{"Cast_0": ["George Wallace"]}, {"Cast_1": ["Marques Houston"]}, {"Cast_2": ["Faizon Love"]}, {"Cast_3": ["Vanessa Bell Calloway"]}], "similar_movies": [{"Movie_0": "Spy Kids 4: All the Time in the World (2011)"}, {"Movie_1": "Trolled (2018)"}, {"Movie_2": "Asterix and Obelix: Mansion of the Gods ('
+
+Use DATASET METADATA and DATASET FILES CONTENTS to compose a dataset summary that has ONLY the following sections:
+1) "What this data is about": a single paragraph that describes the data in general without details
+2) "How this data could be used": a short list of the potential uses of the data in general without details
+

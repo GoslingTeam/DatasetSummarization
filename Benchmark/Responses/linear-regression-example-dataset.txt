@@ -1,0 +1,10 @@
+### What this data is about
+
+This dataset consists of examples for linear regression modeling, containing two files: `X.npy` and `Y.npy`. The `X.npy` file includes input features, while the `Y.npy` file contains corresponding target values. Both files are formatted as NumPy arrays, with `X.npy` featuring a 3D array and `Y.npy` featuring a 2D array.
+
+### How this data could be used
+
+- Demonstrating linear regression techniques and model training
+- Evaluating the performance of different linear regression algorithms
+- Teaching or learning about the relationship between features and target variables in regression problems
+- Testing data preprocessing and feature engineering methods for linear regression
