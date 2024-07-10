@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+amiroft/tehran-renting
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Tehran renting
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+beginner friendly dataset on renting ads in Tehran
+
+ОПИСАНИЕ ДАТАСЕТА:
+beginner friendly dataset on renting ads in Tehran
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['housing', 'beginner', 'exploratory data analysis', 'tabular', 'regression', 'hotels and accommodations']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\amiroft\tehran-renting\tehran-renting\data.csv
+Первые 1024 байт файла: b'\xef\xbb\xbf,deposit,rent,floor,area,age,rooms,elavator,parking,Warehouse,time,region,all_to_deposit,district\n0,320.0,0.0,1.0,55,7,1,1,1,0,1657960540.1644654,\xd8\xa7\xd8\xb3\xd8\xaa\xd8\xa7\xd8\xaf \xd9\x85\xd8\xb9\xdb\x8c\xd9\x86,320.0,9\n1,300.0,0.1,3.0,45,13,1,0,1,1,1657960572.2049167,\xd8\xa2\xd8\xb0\xd8\xb1\xd8\xa8\xd8\xa7\xdb\x8c\xd8\xac\xd8\xa7\xd9\x86,303.0,10\n2,300.0,30.0,2.0,128,9,3,1,1,1,1657960603.2272017,\xd9\x85\xd8\xad\xd9\x85\xd9\x88\xd8\xaf\xdb\x8c\xd9\x87,1300.0,1\n3,600.0,18.0,8.0,132,16,2,1,1,1,1657960604.710336,\xd9\x81\xd8\xb1\xd9\x85\xd8\xa7\xd9\x86\xdb\x8c\xd9\x87,1200.0,1\n4,200.0,11.0,2.0,105,7,2,1,1,1,1657960605.5111144,\xd8\xb4\xd9\x87\xd8\xb1\xd8\xa7\xd9\x86 \xd8\xb4\xd9\x85\xd8\xa7\xd9\x84\xdb\x8c,566.0,5\n5,900.0,0.0,2.0,120,1,2,1,1,1,1657960607.9671578,\xd8\xaa\xd9\x87\xd8\xb1\xd8\xa7\xd9\x86\xd9\xbe\xd8\xa7\xd8\xb1\xd8\xb3 \xd8\xb4\xd8\xb1\xd9\x82\xdb\x8c,900.0,4\n6,150.0,4.0,2.0,57,5,1,1,1,1,1657960608.776117,\xd8\xa7\xd8\xb3\xd8\xaa\xd8\xa7\xd8\xaf \xd9\x85\xd8\xb9\xdb\x8c\xd9\x86,283.0,9\n7,400.0,1.0,1.0,55,2,1,0,0,1,1657960611.5404758,\xd8\xaf\xd8\xb1\xd8\xaf\xd8\xb4\xd8\xaa,433.0,6\n8,250.0,2.3,3.0,55,7,1,1,0,1,1657960612.1722214,\xd8\xa8\xd8\xb1\xdb\x8c\xd8\xa7\xd9\x86\xda\xa9,326.0,10\n9,200.0,4.5,2.0,60,11,1,1,1,1,1657960612.7205136,\xd8\xac\xd9\x85\xd9\x87\xd9\x88\xd8\xb1\xdb\x8c,350.0,11\n10,3500.0,0.0,3.0,240,1,3,1,1,1,1657960613.574374,\xd9\xbe\xd8\xa7\xd8\xb3\xd8\xaf\xd8\xa7\xd8\xb1\xd8\xa7\xd9\x86,3500.0,3\n11,300.0,15.0,5.0,65,3,1,1,1,1,1657960615.7402718,\xda\xa9\xd8\xa7\xd9\x85\xd8\xb1\xd8\xa7\xd9\x86\xdb\x8c\xd9\x87,800.0,1\n12,500.0,35.0,2.0,125,2'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

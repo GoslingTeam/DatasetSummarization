@@ -1,7 +1,0 @@
-### What this data is about:
-The dataset includes information on 5,000 movies released between 1987 and 2015. It comprises two files: one detailing movie credits with cast and crew information, and another providing movie attributes such as budget, genres, release date, revenue, and popularity. 
-
-### How this data could be used:
-- Developing movie recommendation systems using machine learning and deep learning models
-- Analyzing trends and patterns in movie production and performance
-- Creating visualizations of movie attributes and industry insights

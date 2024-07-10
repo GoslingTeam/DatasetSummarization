@@ -1,8 +1,0 @@
-### What this data is about
-This dataset includes over 2 million customer reviews and ratings for beauty-related products on Amazon. It provides information on unique user IDs, product identifiers (ASINs), customer ratings on a scale from 1 to 5, and the timestamps of when these ratings were submitted. The data is collected to analyze customer feedback and preferences.
-
-### How this data could be used
-- Building recommendation systems to suggest products based on user ratings and preferences.
-- Analyzing customer sentiment and satisfaction trends over time.
-- Identifying popular products and understanding their attributes.
-- Improving customer experience by targeting products based on historical review data.

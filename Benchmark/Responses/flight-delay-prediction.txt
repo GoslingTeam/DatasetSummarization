@@ -1,8 +1,0 @@
-### What this data is about
-This dataset contains records of flight delays for the Tunisian airline, Tunisair. It includes information on flight schedules, actual departure and arrival times, flight status, and the corresponding delays in minutes. The dataset is structured with columns for various flight-related details such as departure and arrival points, flight IDs, scheduled times, and aircraft codes.
-
-### How this data could be used
-- Building and evaluating predictive models for flight delays.
-- Performing exploratory data analysis to identify factors affecting delays.
-- Creating visualizations to understand patterns and trends in flight delays.
-- Implementing regression techniques to predict future flight delays based on historical data.

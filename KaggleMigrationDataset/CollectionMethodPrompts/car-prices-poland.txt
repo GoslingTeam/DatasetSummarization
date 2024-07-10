@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+aleksandrglotov/car-prices-poland
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Car Prices Poland
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Predict sale prices for cars in Poland 
+
+ОПИСАНИЕ ДАТАСЕТА:
+Predict sale prices for cars in Poland 
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['europe', 'computer science', 'programming', 'automobiles and vehicles', 'deep learning', 'tabular', 'regression']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\aleksandrglotov\car-prices-poland\car-prices-poland\Car_Prices_Poland_Kaggle.csv
+Первые 1024 байт файла: b',mark,model,generation_name,year,mileage,vol_engine,fuel,city,province,price\n0,opel,combo,gen-d-2011,2015,139568,1248,Diesel,Janki,Mazowieckie,35900\n1,opel,combo,gen-d-2011,2018,31991,1499,Diesel,Katowice,\xc5\x9al\xc4\x85skie,78501\n2,opel,combo,gen-d-2011,2015,278437,1598,Diesel,Brzeg,Opolskie,27000\n3,opel,combo,gen-d-2011,2016,47600,1248,Diesel,Korfant\xc3\xb3w,Opolskie,30800\n4,opel,combo,gen-d-2011,2014,103000,1400,CNG,Tarnowskie G\xc3\xb3ry,\xc5\x9al\xc4\x85skie,35900\n5,opel,combo,gen-d-2011,2017,121203,1598,Diesel,Warszawa,Mazowieckie,51900\n6,opel,combo,gen-d-2011,2017,119965,1248,Diesel,Wroc\xc5\x82aw,Dolno\xc5\x9bl\xc4\x85skie,44700\n7,opel,combo,gen-d-2011,2016,201658,1248,Diesel,Lublin,Lubelskie,29000\n8,opel,combo,gen-d-2011,2014,178666,1598,Diesel,Z\xc5\x82ot\xc3\xb3w,Wielkopolskie,28900\n9,opel,combo,gen-d-2011,2015,113000,1248,Diesel,Strzy\xc5\xbcew,Mazowieckie,34900\n10,opel,combo,gen-d-2011,2012,237000,1598,Diesel,Elbl\xc4\x85g,Warmi\xc5\x84sko-mazurskie,24800\n11,opel,combo,gen-d-2011,2017,137000,1248,Diesel,Warszawa,Mazowieckie,39900\n12,opel,combo,gen-d-2011,2016,154000,1248,Dies'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке.

@@ -1,8 +1,0 @@
-### What this data is about
-The TMDB 10000 Movies Dataset provides detailed information on 10,000 movies, including attributes such as genres, cast and crew, release dates, popularity, ratings, and synopses. It offers a comprehensive view of various cinematic works, spanning from classic films to contemporary blockbusters.
-
-### How this data could be used
-- Analyzing genre trends and movie attributes
-- Building personalized movie recommendation systems
-- Creating visualizations of movie popularity and ratings
-- Developing predictive models for movie success

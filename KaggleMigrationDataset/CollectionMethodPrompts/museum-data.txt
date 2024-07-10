@@ -1,0 +1,30 @@
+ID ДАТАСЕТА:
+annecool37/museum-data
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Museum Reviews Collected from TripAdvisor
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Museum name, type, location, review, rating, rank, etc.
+
+ОПИСАНИЕ ДАТАСЕТА:
+Museum name, type, location, review, rating, rank, etc.
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['arts and entertainment', 'museums']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА (показано только 4 файла из 15):
+Имя файла: Data\annecool37\museum-data\museum-data\museum_categories_USonly.json
+Первые 1024 байт файла: b'{"Gettysburg Heritage Center": ["History Museums", "Museums"], "Hudson River Museum": ["Specialty Museums", "Museums"], "The Aurora Ice Museum": ["Specialty Museums", "Museums"], "Chrysler Museum of Art": ["Art Museums", "Museums"], "Pink Palace Museum": ["History Museums", "Natural History Museums", "Museums"], "Gettysburg Seminary Ridge Museum": ["Specialty Museums", "Museums"], "Oklahoma Railway Museum": ["Specialty Museums", "Museums"], "Ships of the Sea Maritime Museum": ["Specialty Museums", "Museums"], "LBJ Presidential Library": ["Specialty Museums", "Museums"], "Museum Mile": ["Historic Walking Areas", "Sights & Landmarks"], "High Museum of Art": ["Specialty Museums", "Museums"], "Virginia Living Museum": ["Science Museums", "Observatories & Planetariums", "Nature & Wildlife Areas", "Nature & Parks", "Museums", "Zoos & Aquariums"], "Computer History Museum": ["History Museums", "Museums"], "Georgia State Railroad Museum": ["Specialty Museums", "Museums"], "University of Michigan Museum of Natural His'
+
+Имя файла: Data\annecool37\museum-data\museum-data\museum_categories_world.json
+Первые 1024 байт файла: b'{"Musical Museum": ["Specialty Museums", "Museums"], "Museum of Natural History (Museum d\'Histoire naturelle)": ["Natural History Museums", "Museums"], "National Football Museum": ["Specialty Museums", "Museums"], "Escher in Het Paleis (Escher in the Palace)": ["Specialty Museums", "Art Museums", "Museums"], "Djurgarden": ["Islands", "Nature & Parks"], "Zuiderzee Museum (Zuiderzeemuseum)": ["Historic Sites", "History Museums", "Sights & Landmarks", "Museums"], "American Museum of Natural History": ["Natural History Museums", "Museums"], "Pink Palace Museum": ["History Museums", "Natural History Museums", "Museums"], "Sinebrychoff Art Museum": ["Art Museums", "Museums"], "Museo Soumaya": ["Specialty Museums", "Museums"], "Danubiana Meulensteen Art Museum": ["Art Museums", "Art Galleries", "Museums", "Shopping"], "Jewish Historical Museum": ["History Museums", "Specialty Museums", "Museums"], "Sapporo Beer Museum": ["Specialty Museums", "Museums"], "Nordiska museet": ["History Museums", "Museums"], "High Museum'
+
+Имя файла: Data\annecool37\museum-data\museum-data\review_content_USonly.json
+Первые 1024 байт файла: b'{"Gettysburg Heritage Center": ["\\nRecalling a visit to Gettysburg 30+ years ago, I remembered a \\"lighted map\\" that explained the battle. Thinking it might be housed here, we stopped and discovered that the feature...\\nread more ", "\\nRecalling a visit to Gettysburg 30+ years ago, I remembered a \\"lighted map\\" that explained the battle. Thinking it might be housed here, we stopped and discovered that the feature here is an updated virtual map with the same type of explanation. If one wishes, there is a video of the presentation for sale in the gift shop.\\nAdmission covers...\\n\\n\\nMore\\u00a0 \\n\\n\\n", "\\nProvides a lot of information and history. Displays are great Nice gift store with a good variety of items.\\n.\\n", "\\nVery nice museum and gift shop. Employees were very helpful and friendly. The displays were well put together. Make sure you do the cellar experience!\\n", "\\nNice museum and interactive displays on civilian aspects of battle of Gettysburg. Kept attention of 10 year old and would recommend.\\n"'
+
+Имя файла: Data\annecool37\museum-data\museum-data\review_content_world.json
+Первые 1024 байт файла: b'{"Musical Museum": ["\\nWonderful afternoon seeing all the old musical instrucments and then listening to the wurlitzer, amazing\\n", "\\nWonderful afternoon seeing all the old musical instrucments and then listening to the wurlitzer, amazing\\n", "\\nThe museum has a former cinema Wurlitzer organ in a thread on the first floor.John Mann gave a splendid concert on it.He is an entertainer S well as an organist.He faces us a splendid virtuosic performance on this marvellous instrument.The 2 and a half hours just flew by.\\n", "\\n\\nThank you for your review. We are glad you enjoyed the John Mann concert, just as much as we did! We look forward to seeing you again soon.\\n\\n\\n\\nMore\\u00a0 \\n\\n\\n", "\\nThis has to be one of the best Museums in London. A couple of hours tour takes you around an abundance of automated musical instruments. The ticket is also valid for a year so you can visit as often as you want :-)\\n", "\\n\\nThank you for your review, we are delighted you enjoy the museum so much. We look forward to seeing y'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке.

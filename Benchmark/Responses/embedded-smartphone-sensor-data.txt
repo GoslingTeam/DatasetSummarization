@@ -1,8 +1,0 @@
-### What this data is about
-This dataset consists of time-series data collected from embedded smartphone sensors, including accelerometer, gyroscope, magnetometer, battery sensor, light sensor, and GPS. The data was gathered using an Android application called "Sensor Data Collector" over a 14-day period from 145 participants. It includes various sensor measurements and user information such as age, gender, and university affiliation, with a focus on capturing diverse sensor readings to analyze patterns and correlations.
-
-### How this data could be used
-- Analyzing correlations between smartphone sensor data and human behavior, emotions, or sleep patterns.
-- Developing applications that utilize sensor data for activity recognition and context-aware services.
-- Enhancing recommendation systems by incorporating sensor-based user activity and environment data.
-- Conducting research on the impact of smartphone usage on daily life and well-being.

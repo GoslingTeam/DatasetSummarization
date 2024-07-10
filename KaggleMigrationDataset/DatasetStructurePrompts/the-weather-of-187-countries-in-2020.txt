@@ -1,0 +1,24 @@
+ID ДАТАСЕТА:
+amirhoseinsedaghati/the-weather-of-187-countries-in-2020
+
+ЗАГОЛОВОК ДАТАСЕТА:
+The Weather of 187 Countries in 2020
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+The weather of 187 Countries/Regions collected by weather stations
+
+ОПИСАНИЕ ДАТАСЕТА:
+The weather of 187 Countries/Regions collected by weather stations
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['weather and climate', 'exploratory data analysis', 'data cleaning', 'clustering', 'regression']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\amirhoseinsedaghati\the-weather-of-187-countries-in-2020\the-weather-of-187-countries-in-2020\the weather of 155 countries in 2020.csv
+Первые 1024 байт файла: b'STATION,Country/Region,DATE,Year,Month,Day,PRCP,SNWD,TAVG,TMAX,TMIN,SNOW,LATITUDE,LONGITUDE,ELEVATION,PRCP_ATTRIBUTES,TAVG_ATTRIBUTES,TMAX_ATTRIBUTES,TMIN_ATTRIBUTES,DAPR,MDPR,WESD,SNWD_ATTRIBUTES\nTZ000063894,Comoros,2020-01-22,2020,1,22,10.9,,27.6,30.2,24.9,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-23,2020,1,23,0.0,,26.7,,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-24,2020,1,24,9.4,,27.9,30.6,25.6,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-25,2020,1,25,0.3,,27.9,30.2,16.3,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-26,2020,1,26,0.0,,28.2,31.5,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-27,2020,1,27,,,27.9,32.5,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-28,2020,1,28,8.9,,27.6,,25.0,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-29,2020,1,29,5.1,,28.6,32.5,26.0,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-30,2020,1,30,0.0,,28.4,,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-01-31,2020,1,31,,,26.3,,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-02-01,2020,2,1,,,26.1,,,,,,,,,,,,,,\nTZ000063894,Comoros,2020-02-02,2020,2,2,46.7,,26.6,,24.0,,,,,,,,,,,,\nTZ000063'
+
+Имя файла: Data\amirhoseinsedaghati\the-weather-of-187-countries-in-2020\the-weather-of-187-countries-in-2020\the weather of 187 countries in 2020.csv
+Первые 1024 байт файла: b'STATION,Country/Region,DATE,Year,Month,Day,PRCP,SNWD,TAVG,TMAX,TMIN,SNOW,LATITUDE,LONGITUDE,ELEVATION,PRCP_ATTRIBUTES,TAVG_ATTRIBUTES,TMAX_ATTRIBUTES,TMIN_ATTRIBUTES,DAPR,MDPR,WESD,SNWD_ATTRIBUTES\n0,TZ000063894,Comoros,2020-01-22,2020,1,22,10.9,,27.6,30.2,24.9,,,,,,,,,,,,\n1,TZ000063894,Comoros,2020-01-23,2020,1,23,0.0,,26.7,,,,,,,,,,,,,,\n2,TZ000063894,Comoros,2020-01-24,2020,1,24,9.4,,27.9,30.6,25.6,,,,,,,,,,,,\n3,TZ000063894,Comoros,2020-01-25,2020,1,25,0.3,,27.9,30.2,16.3,,,,,,,,,,,,\n4,TZ000063894,Comoros,2020-01-26,2020,1,26,0.0,,28.2,31.5,,,,,,,,,,,,,\n5,TZ000063894,Comoros,2020-01-27,2020,1,27,,,27.9,32.5,,,,,,,,,,,,,\n6,TZ000063894,Comoros,2020-01-28,2020,1,28,8.9,,27.6,,25.0,,,,,,,,,,,,\n7,TZ000063894,Comoros,2020-01-29,2020,1,29,5.1,,28.6,32.5,26.0,,,,,,,,,,,,\n8,TZ000063894,Comoros,2020-01-30,2020,1,30,0.0,,28.4,,,,,,,,,,,,,,\n9,TZ000063894,Comoros,2020-01-31,2020,1,31,,,26.3,,,,,,,,,,,,,,\n10,TZ000063894,Comoros,2020-02-01,2020,2,1,,,26.1,,,,,,,,,,,,,,\n11,TZ000063894,Comoros,2020-02-02,2020,2,2,46.7,,26.6,'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

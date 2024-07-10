@@ -1,8 +1,0 @@
-### What this data is about
-This dataset comprises key works from prominent empiricist philosophers, specifically John Locke, David Hume, and George Berkeley. It includes text data from these philosophers' major writings, formatted in a CSV file with columns for book title, publishing date, authors, and both the raw and cleaned text. The data was sourced through web scraping and cleaned for natural language processing (NLP) tasks.
-
-### How this data could be used
-- Performing exploratory analysis on term frequency and text patterns.
-- Creating word clouds to visualize themes and ideas of specific authors.
-- Developing recommendation systems for suggesting related philosophical texts or exploring connections between different empiricist thinkers.
-- Conducting sentiment analysis or other NLP tasks to explore philosophical concepts and their evolution.

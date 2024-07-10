@@ -1,6 +1,0 @@
-**What this data is about:**
-The wikiHow Features dataset comprises extracted features from approximately 19.9k wikiHow articles. Each article is represented by various numerical features including character count, word count, method count, and linguistic features like sentence structure and readability metrics. The primary target variable is `percent_helpful`, indicating the perceived helpfulness of each article based on reader feedback.
-
-**How this data could be used:**
-- Regression analysis
-- Content quality assessment

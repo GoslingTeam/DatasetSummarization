@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+anandaramg/apartment-cost-in-new-york-city
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Housing Cost in New York
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Cost of Housing/Apartment across New York City
+
+ОПИСАНИЕ ДАТАСЕТА:
+Cost of Housing/Apartment across New York City
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['housing', 'real estate', 'data analytics', 'classification', 'regression', 'social issues and advocacy', 'hotels and accommodations']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\anandaramg\apartment-cost-in-new-york-city\apartment-cost-in-new-york-city\apartment_cost_list.csv
+Первые 1024 байт файла: b'Job #,Borough,House #,Street Name,Block,Lot,Bin #,Job Type,Community - Board,Curb Cut,Fully Permitted,Initial Cost,Proposed Zoning Sqft,Horizontal Enlrgmt,Vertical Enlrgmt,Enlargement SQ Footage,Zoning Dist1,Job Description\n123768976,MANHATTAN,1598,2ND AVENUE,01545,00049,1049907,A2,108,,,$65000.00,0,,,0,C1-9,"INTERIOR RENOVATION TO COMBINE APARTMENT 2E AND 2N INCLUDING  CAPPING/REMOVING 1 KITCHEN. NO CHANGE TO USE, EGRESS OR  OCCUPANCY."\n140922893,MANHATTAN,160,E 89 ST,01517,00043,1048094,A2,108,,07/14/2020,$85000.00,0,,,0,R8B,"HEREBY FILING APPLICATION FOR THE INTERIOR RENOVATION OF APARTMENT 5D ON THE 5TH FLOOR. PLUMBING WORK TO BE FILED ON DOB NOW ON JOB# M00361800-I1. NO CHANGE IN USE, EGRESS OR OCCUPANCY."\n301773579,BROOKLYN,65,GATES AVENUE,01962,00086,3056039,A1,302,,05/23/2007,$60000.00,0,,,0,R6,"Change existing four story and basement brick building from 9 rooming units and one apartment  into four dwelling units,plumbing &amp; partition work as per plan.No change bulk FAR and lot coverage."\n301976057'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке.

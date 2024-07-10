@@ -1,8 +1,0 @@
-### What this data is about
-The Hotel Recommendation Dataset contains information on user interactions with hotel listings, including details about site usage, user location, booking behavior, and hotel attributes. It tracks user activities such as searches and bookings, providing data on factors like user demographics, search parameters, and hotel characteristics.
-
-### How this data could be used
-- Hotel recommendation systems
-- Analysis of user preferences and booking patterns
-- Marketing and targeted advertising strategies for hotels
-- Optimization of hotel listing and search algorithms

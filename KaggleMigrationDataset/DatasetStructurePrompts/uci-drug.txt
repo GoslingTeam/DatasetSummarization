@@ -1,0 +1,24 @@
+ID ДАТАСЕТА:
+arpikr/uci-drug
+
+ЗАГОЛОВОК ДАТАСЕТА:
+UCI_Drug
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Multiple Research Problem
+
+ОПИСАНИЕ ДАТАСЕТА:
+Multiple Research Problem
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['nlp', 'data visualization', 'classification', 'regression', 'drugs and medications']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\arpikr\uci-drug\uci-drug\UCIdrug_test.csv
+Первые 1024 байт файла: b'uniqueID,drugName,condition,review,rating,date,usefulCount\r\n163740,Mirtazapine,Depression,"""I&#039;ve tried a few antidepressants over the years (citalopram, fluoxetine, amitriptyline), but none of those helped with my depression, insomnia &amp; anxiety. My doctor suggested and changed me onto 45mg mirtazapine and this medicine has saved my life. Thankfully I have had no side effects especially the most common - weight gain, I&#039;ve actually lost alot of weight. I still have suicidal thoughts but mirtazapine has saved me.""",10,28-Feb-12,22\r\n206473,Mesalamine,"Crohn\'s Disease, Maintenance","""My son has Crohn&#039;s disease and has done very well on the Asacol.  He has no complaints and shows no side effects.  He has taken as many as nine tablets per day at one time.  I&#039;ve been very happy with the results, reducing his bouts of diarrhea drastically.""",8,17-May-09,17\r\n159672,Bactrim,Urinary Tract Infection,"""Quick reduction of symptoms""",9,29-Sep-17,3\r\n39293,Contrave,Weight Loss,"""Contrave combines'
+
+Имя файла: Data\arpikr\uci-drug\uci-drug\UCIdrug_train.csv
+Первые 1024 байт файла: b'uniqueID,drugName,condition,review,rating,date,usefulCount\r\n206461,Valsartan,Left Ventricular Dysfunction,"""It has no side effect, I take it in combination of Bystolic 5 Mg and Fish Oil""",9,20-May-12,27\r\n95260,Guanfacine,ADHD,"""My son is halfway through his fourth week of Intuniv. We became concerned when he began this last week, when he started taking the highest dose he will be on. For two days, he could hardly get out of bed, was very cranky, and slept for nearly 8 hours on a drive home from school vacation (very unusual for him.) I called his doctor on Monday morning and she said to stick it out a few days. See how he did at school, and with getting up in the morning. The last two days have been problem free. He is MUCH more agreeable than ever. He is less emotional (a good thing), less cranky. He is remembering all the things he should. Overall his behavior is better. \r\nWe have tried many different medications and so far this is the most effective.""",8,27-Apr-10,192\r\n92703,Lybrel,Birth Control,"""I u'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

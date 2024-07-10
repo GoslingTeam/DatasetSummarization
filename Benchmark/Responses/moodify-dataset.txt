@@ -1,7 +1,0 @@
-### What this data is about:
-The dataset consists of approximately 278,000 songs from Spotify, each labeled with one of four emotions: sad, happy, energetic, or calm. It includes various musical features such as danceability, energy, acousticness, instrumentalness, and more. These features are intended to assist in classifying songs based on their emotional content and musical characteristics.
-
-### How this data could be used:
-- Music recommendation systems
-- Emotion-based playlist generation
-- Music genre classification
