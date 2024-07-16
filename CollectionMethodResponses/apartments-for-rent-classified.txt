@@ -1,7 +1,0 @@
-Данные из датасета "Apartments for Rent Classified" содержат информацию о арендованных квартирах в США, включая их адреса, цены и характеристики. Они были собраны с помощью сервисов по подбору жилья на рынке недвижимости и объединены в единый файл.
-
-В этом датасете присутствуют 5 ключевых слов: "housing", "beginner", "tabular", "text" и "hotels and accommodations". Это позволило быстрее найти и сгруппировать информацию о квартирах. 
-
-Файл содержит большое количество записей, каждая из которых описывает отдельную квартиру или жилье. В каждой записи есть информация об адресе, ценах, характеристиках и других параметрах жилья.
-
-Все данные были собраны в формате CSV (Comma Separated Values) и включают такие столбцы как id, category, title, body, amenities, bathrooms, bedrooms, currency, fee, has_photo, pets_allowed, price, price_display, price_type, square_feet, address, cityname, state, latitude, longitude, source, time.

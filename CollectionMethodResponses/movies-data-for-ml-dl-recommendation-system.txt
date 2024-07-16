@@ -1,7 +1,0 @@
-Данные из датасета "Movies Data  For ML & DL Recommendation System" представляют собой recommendation data, которые можно использовать для создания рекомендательной системы машинного обучения и глубокого обучения. Датасет содержит два файла: tmdb_5000_credits.csv и tmdb_5000_movies.csv. 
-
-Файл tmdb_5000_credits.csv содержит данные о актёрах, режиссёрах и других crew и cast элементах фильмов из базы данных The Movie Database (TMDB). Данные представлены в формате CSV и включают информацию о movie_id, title, cast и crew. 
-
-Файл tmdb_5000_movies.csv содержит данные о фильмах. Данные также представлены в формате CSV и включают информацию о budget, genres, homepage, id, keywords, original_language, original_title, overview, popularity, production_companies, production_countries, release_date, revenue, runtime, spoken_languages, status, tagline, title, vote_average и vote_count. 
-
-Собраные данные можно использовать для построения модели recommend systems, которая поможет предсказывать пользователю фильмы на основе их прошлых предпочтений и поведения. Однако точный процесс сборки данных не указан в описании датасета.

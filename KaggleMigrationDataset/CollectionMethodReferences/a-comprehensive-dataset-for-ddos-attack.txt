@@ -1,1 +1,1 @@
-В представленных секциях нет информации о том, как данные из датасета "A comprehensive dataset for DDOS attack" были собраны. Датасет включает в себя файлы, такие как "train_dataset.csv", и содержит ключевые слова: ['categorical', 'computer science', 'intermediate', 'classification', 'logistic regression'], однако описание процесса сбора данных отсутствует.
+В представленных секциях нет информации о том, как данные из датасета "A comprehensive dataset for DDOS attack" были собраны.
