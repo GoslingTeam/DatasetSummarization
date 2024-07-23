@@ -1,0 +1,35 @@
+ID ДАТАСЕТА:
+/anime-recommendations-database
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Anime Recommendations Database
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Recommendation data from 76,000 users at myanimelist.net
+
+ОПИСАНИЕ ДАТАСЕТА:
+Recommendation data from 76,000 users at myanimelist.net
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['popular culture', 'movies and tv shows', 'comics and animation', 'anime and manga']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\CooperUnion\anime-recommendations-database\anime-recommendations-database\anime.csv
+Первые 1024 байт файла: b'anime_id,name,genre,type,episodes,rating,members\r\n32281,Kimi no Na wa.,"Drama, Romance, School, Supernatural",Movie,1,9.37,200630\r\n5114,Fullmetal Alchemist: Brotherhood,"Action, Adventure, Drama, Fantasy, Magic, Military, Shounen",TV,64,9.26,793665\r\n28977,Gintama\xc2\xb0,"Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen",TV,51,9.25,114262\r\n9253,Steins;Gate,"Sci-Fi, Thriller",TV,24,9.17,673572\r\n9969,Gintama&#039;,"Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen",TV,51,9.16,151266\r\n32935,Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou,"Comedy, Drama, School, Shounen, Sports",TV,10,9.15,93351\r\n11061,Hunter x Hunter (2011),"Action, Adventure, Shounen, Super Power",TV,148,9.13,425855\r\n820,Ginga Eiyuu Densetsu,"Drama, Military, Sci-Fi, Space",OVA,110,9.11,80679\r\n15335,Gintama Movie: Kanketsu-hen - Yorozuya yo Eien Nare,"Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Shounen",Movie,1,9.10,72534\r\n15417,Gintama&#039;: Enchousen,"Action, Comedy, Historical, Parody, Samurai, Sci-Fi, Sh'
+
+Имя файла: Data\CooperUnion\anime-recommendations-database\anime-recommendations-database\rating.csv
+Первые 1024 байт файла: b'user_id,anime_id,rating\r\n1,20,-1\r\n1,24,-1\r\n1,79,-1\r\n1,226,-1\r\n1,241,-1\r\n1,355,-1\r\n1,356,-1\r\n1,442,-1\r\n1,487,-1\r\n1,846,-1\r\n1,936,-1\r\n1,1546,-1\r\n1,1692,-1\r\n1,1836,-1\r\n1,2001,-1\r\n1,2025,-1\r\n1,2144,-1\r\n1,2787,-1\r\n1,2993,-1\r\n1,3455,-1\r\n1,4063,-1\r\n1,4214,-1\r\n1,4224,-1\r\n1,4581,-1\r\n1,4744,-1\r\n1,4898,-1\r\n1,4999,-1\r\n1,5034,-1\r\n1,5277,-1\r\n1,5667,-1\r\n1,5781,-1\r\n1,5958,-1\r\n1,6163,-1\r\n1,6205,-1\r\n1,6324,-1\r\n1,6500,-1\r\n1,6547,-1\r\n1,6682,-1\r\n1,6707,-1\r\n1,6747,-1\r\n1,6773,-1\r\n1,6793,-1\r\n1,7088,-1\r\n1,7148,-1\r\n1,7593,-1\r\n1,7739,-1\r\n1,7858,-1\r\n1,8074,10\r\n1,8407,-1\r\n1,8424,-1\r\n1,8525,-1\r\n1,8630,-1\r\n1,8841,-1\r\n1,9041,-1\r\n1,9062,-1\r\n1,9136,-1\r\n1,9181,-1\r\n1,9330,-1\r\n1,9367,-1\r\n1,9515,-1\r\n1,9581,-1\r\n1,9675,-1\r\n1,9750,-1\r\n1,9790,-1\r\n1,9919,-1\r\n1,10067,-1\r\n1,10073,-1\r\n1,10076,-1\r\n1,10079,-1\r\n1,10080,-1\r\n1,10209,-1\r\n1,10578,-1\r\n1,10604,-1\r\n1,10719,-1\r\n1,10790,-1\r\n1,10793,-1\r\n1,10794,-1\r\n1,10805,-1\r\n1,10897,-1\r\n1,11161,-1\r\n1,11266,-1\r\n1,11617,10\r\n1,11737,-1\r\n1,11757,10\r\n1,11759,-1\r\n1,11771,-1\r\n1,12293,-1\r\n1,12549,-1\r\n1,12729,-1\r\n1,13357,-1'
+
+ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ:
+Пример 1:
+Сбор данных включал генерацию ответов на различные вопросы по программированию моделью CodeLlama.
+
+Пример 2:
+В предоставленной информации нет сведений о том, как данные из датасета были собраны.
+
+Пример 3:
+Данные из датасета "Anime Recommendations Database" были собраны с сайта myanimelist.net, где 76 000 пользователей предоставили свои рекомендации. Датасет включает две части: одну с информацией о аниме (название, жанр, тип, количество серий, рейтинг и число участников), а другую с оценками, которые пользователи ставили различным аниме.
+
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке, формулируя ответ похожим на ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ. 

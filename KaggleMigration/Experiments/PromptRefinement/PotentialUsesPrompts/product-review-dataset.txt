@@ -1,0 +1,17 @@
+ID ДАТАСЕТА:
+anutural/product-review-dataset
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Product Review Dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Can be used to analyze public sentiment, building recommendation system etc.
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\anutural\product-review-dataset\product-review-dataset\Data Attribute Description.csv
+Первые 1024 байт файла: b'Attribute,Attribute Description\r\nid,Uniques identity number to identify each unique review given by the user to a particular product in the dataset\r\nbrand,Name of the brand of the product to which user has given review and rating\r\ncategories,"Category of the product like household essentials, books, personal care products, medicines, cosmetic\xa0items, beauty products, electrical appliances, kitchen and dining products, health care products and many more."\r\nmanufacturer,Name of the manufacturer of the product\r\nname,Name of the product to which user has added review or rating\r\nreviews_date,Date on which the review has been added by the user\r\nreviews_didPurchase,Whether a particular user has purchased the product or not\r\nreviews_doRecommend,Whether a particular user has recommended the product or not\r\nreviews_rating,Rating given by the user to a particular product\r\nreviews_text,Review given by the user to a particular product\r\nreviews_title,The title of the review given by the user to a particular product\r\nreviews'
+
+Имя файла: Data\anutural\product-review-dataset\product-review-dataset\Review Data.csv
+Первые 1024 байт файла: b'id,brand,categories,manufacturer,name,reviews_date,reviews_didPurchase,reviews_doRecommend,reviews_rating,reviews_text,reviews_title,reviews_userCity,reviews_userProvince,reviews_username,user_sentiment\r\nAV13O1A8GV-KLJ3akUyj,Universal Music,"Movies, Music & Books,Music,R&b,Movies & TV,Movie Bundles & Collections,CDs & Vinyl,Rap & Hip-Hop,Bass,Music on CD or Vinyl,Rap,Hip-Hop,Mainstream Rap,Pop Rap",Universal Music Group / Cash Money,Pink Friday: Roman Reloaded Re-Up (w/dvd),2012-11-30T06:21:45.000Z,,,5,i love this album. it\'s very good. more to the hip hop side than her current pop sound.. SO HYPE! i listen to this everyday at the gym! i give it 5star rating all the way. her metaphors are just crazy.,Just Awesome,Los Angeles,,joshua,Positive\r\nAV14LG0R-jtxr-f38QfS,Lundberg,"Food,Packaged Foods,Snacks,Crackers,Snacks, Cookies & Chips,Rice Cakes,Cakes",Lundberg,Lundberg Organic Cinnamon Toast Rice Cakes,2017-07-09T00:00:00.000Z,TRUE,,5,Good flavor. This review was collected as part of a promotion.,Good,,,dorothy'
+
+Cоставь один абзац текста описывающий возможные варианты использования датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Сформулируй ответ в одном абзаце на русском языке.

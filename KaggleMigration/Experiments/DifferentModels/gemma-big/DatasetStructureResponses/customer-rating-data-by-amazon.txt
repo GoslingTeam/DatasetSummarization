@@ -1,0 +1,1 @@
+Данный датасет "Amazon Customer rating for recommendation system" содержит информацию о рейтингах продуктов Amazon. В нем представлены следующие столбцы: "User Id", "Product Id", "Rating", "Time stamp". Структура датасета простая, с четкими столбками и без сложной организации.

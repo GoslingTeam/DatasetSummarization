@@ -1,0 +1,4 @@
+Данные для анализаpublic sentiment были собраны из нескольких источников:
+
+1. **data Attribute Description.csv**: этот файл содержит описание атрибутов данных, таких как название бренда, категория, название продукта, дата добавления, дата покупки, recommend, рейтинг, текст ревью, название ревью и т. д.
+2. **product_review_dataset\Review Data.csv**: этот файл содержит ревью, оставленные usersм. В каждом ревью содержатся id, brand, categories, manufacturer, name, reviews_date, reviews_didPurchase, reviews_doRecommend, reviews_rating, reviews_text, reviews_title, reviews_userCity, reviews_userProvince, reviews_username, user_sentiment.

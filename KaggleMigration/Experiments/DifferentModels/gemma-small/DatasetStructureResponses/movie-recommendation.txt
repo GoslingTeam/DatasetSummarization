@@ -1,0 +1,26 @@
+Структура датасета Movie_recommendation представлена в виде таблицы, где each row описывает одну movie. Таблица содержит следующие столбцы:
+
+- `index` - индекс в таблице
+- `budget` - бюджет
+- `genres` - типы filmmaking
+- `homepage` - сайт
+- `id` - ID-код
+- `keywords` - ключевые слова
+- `original_language` - язык оригинального фильма
+- `original_title` - название оригинального фильма
+- `overview` - описание
+- `popularity` - популярность
+- `production_companies` - компании-занимающиеся производством
+- `production_countries` - страны-ограничение
+- `release_date` - дата релиза
+- `revenue` - доля сбора
+- `runtime` - время и duration
+- `spoken_languages` - языки, которые не являются английским
+- `status` - статус проекта
+- `tagline` - титл
+- `title` - название
+- `vote_average` - средняя оценка
+- `vote_count` - количество голосов
+- `cast` - список актеров
+- `crew` - список сценаристов и режисеров
+- `director` - режиссер

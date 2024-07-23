@@ -1,0 +1,13 @@
+Вот! Я готов помочь вам.
+
+ID ДАТАСЕТА: akhilups/insurance-product-purchase-prediction
+ЗАГОЛОВОК ДАТАСЕТА: Insurance Product Purchase Prediction
+ПОДЗАГОЛОВОК ДАТАСЕТА: Prediction based on shopping history
+
+ОПИСАНИЕ ДАТАСЕТА: This dataset is used for predicting whether a customer will purchase an insurance product based on their shopping history and other demographic information.
+
+СОДЕРЖИМО ФАЙЛА ДАТАСЕТА:
+The file contains data about customers, including their ID, shopping point, record type, day, time, state, location, group size, homeowner status, car age and value, risk factor, age of oldest and youngest family members, marital status, previous purchase history, and cost.
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['business', 'education', 'classification', 'regression', 'insurance']

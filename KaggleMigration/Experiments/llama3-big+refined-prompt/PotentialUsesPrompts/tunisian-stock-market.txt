@@ -1,0 +1,29 @@
+ID ДАТАСЕТА:
+amariaziz/tunisian-stock-market
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Tunisian Stock Market
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Curated list of all tunisian stocks historical data starting from the year 2010
+
+ОПИСАНИЕ ДАТАСЕТА:
+Curated list of all tunisian stocks historical data starting from the year 2010
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['business', 'investing']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА (показано только 4 файла из 91):
+Имя файла: Data\amariaziz\tunisian-stock-market\tunisian-stock-market\ALL_DATA.csv
+Первые 1024 байт файла: b'Ticker,Date,Open,High,Low,Close,Volume\r\nAB,2022-10-24,24.58,24.58,24.58,24.58,130\r\nAB,2022-10-26,23.9,24.58,23.9,23.9,14301\r\nAB,2022-10-27,24.58,24.58,24.57,24.58,505\r\nAB,2022-10-28,24.58,24.58,24.09,24.58,5882\r\nAB,2022-10-31,24.58,24.58,24.57,24.58,1240\r\nAB,2022-11-01,24.58,24.58,24.0,24.58,2171\r\nAB,2022-11-02,24.58,24.58,24.58,24.58,150\r\nAB,2022-11-03,24.58,24.58,24.58,24.58,1098\r\nAB,2022-11-04,24.58,24.58,24.58,24.58,633\r\nAB,2022-11-07,24.58,24.58,24.58,24.58,150\r\nAB,2022-11-09,24.21,24.58,24.21,24.21,2400\r\nAB,2022-11-10,24.59,24.59,24.57,24.59,150\r\nAB,2022-11-11,24.59,24.59,24.17,24.59,2170\r\nAB,2022-11-14,24.59,24.61,24.59,24.59,11064\r\nAB,2022-11-15,24.59,24.61,24.59,24.59,803\r\nAB,2022-11-16,24.61,24.61,24.6,24.61,256\r\nAB,2022-11-17,24.61,24.61,24.6,24.61,134\r\nAB,2022-11-18,24.3,24.61,24.3,24.3,636\r\nAB,2022-11-21,24.61,24.61,24.3,24.61,2014\r\nAB,2022-11-23,24.61,24.61,24.6,24.61,705\r\nAB,2022-11-24,24.54,24.61,24.29,24.54,4287\r\nAB,2022-11-25,24.55,24.55,24.54,24.55,5\r\nAB,2022-11-28,24.55,24.55,24.55,24.55,2'
+
+Имя файла: Data\amariaziz\tunisian-stock-market\tunisian-stock-market\sotcks_list.csv
+Первые 1024 байт файла: b"name,ticker\r\nADWYA,ADWYA\r\nAETECH,AETEC\r\nAIR LIQUIDE TUNISIE,AL\r\nAMEN BANK,AB\r\nAMI,AMI\r\nAMS,AMS\r\nARAB TUNISIAN BANK,ATB\r\nARAB TUNISIAN LEASE,ATL\r\nARTES,ARTES\r\nASSAD,ASSAD\r\nASSURANCES MAGHREBIA,ASSMA\r\nASTREE,AST\r\nATTIJARI LEASING,TJL\r\nBANQUE ATTIJARI DE TUNIS,TJARI\r\nBANQUE DE TUNISIE,BT\r\nBANQUE NATIONALE AGRICOLE,BNA\r\nBEST LEASE,BL\r\nBH ASSURANCE,BHASS\r\nBH BANK,BH\r\nBIAT,BIAT\r\nBTE (ADP),BTE\r\nCARTHAGE CEMENT,CC\r\nCELLCOM,CELL\r\nCEREALIS,CREAL\r\nCIL,CIL\r\nCIMENTS DE BIZERTE,SCB\r\nCITY CARS,CITY\r\nDELICE HOLDING,DH\r\nELBENE,ELBEN\r\nELECTROSTAR,LSTR\r\nENNAKL AUTOMOBILES,NAKL\r\nESSOUKNA,SOKNA\r\nEURO-CYCLES,ECYCL\r\nGIF FILTER,GIF\r\nHANNIBAL LEASE,HL\r\nHEXABYTE,XABYT\r\nICF,ICF\r\nLAND'OR,LNDOR\r\nMAGASIN GENERAL,MAG\r\nMAGHREBIA VIE,AMV\r\nMEUBLES INTERIEURS,SAM\r\nMIP,MIP\r\nMODERN LEASING,BHL\r\nMONOPRIX,MNP\r\nMPBS,MPBS\r\nNEW BODY LINE,NBL\r\nOFFICE PLAST,PLAST\r\nONE TECH,OTH\r\nPLACEMENTS DE TUNISIE - SICAF,PLTU\r\nPOULINA GROUP HOLDING,PGH\r\nSAH,SAH\r\nSANIMED,SMD\r\nSERVICOM,SERVI\r\nSFBT,SFBT\r\nSIAME,SIAME\r\nSIMPAR,SIMPA\r\nSIPHAT,SIPHA\r\nSITS,SITS\r\nSMART TUNISIE"
+
+Имя файла: Data\amariaziz\tunisian-stock-market\tunisian-stock-market\stocks_market_cap.csv
+Первые 1024 байт файла: b'Ticker,Market Cap\r\nADWYA,128.0\r\nARTES,195.0\r\nASSAD,25.9\r\nAMS,5.9\r\nASSMA,252.0\r\nAL,144.0\r\nAB,789.0\r\nATB,240.0\r\nAMI,85.2\r\nATL,84.8\r\nAETEC,1.7\r\nAST,284.0\r\nTJL,36.7\r\nTJARI,1589.0\r\nBL,66.0\r\nBT,1350.0\r\nBNA,538.0\r\nBHASS,133.0\r\nBH,654.0\r\nBIAT,3220.0\r\nBTE,27.0\r\nCC,619.0\r\nCELL,14.7\r\nCREAL,65.0\r\nCIL,100.0\r\nCITY,196.0\r\nDH,667.0\r\nELBEN,22.8\r\nLSTR,5.2\r\nNAKL,345.0\r\nSOKNA,9.1\r\nGIF,4.3\r\nECYCL,254.0\r\nHL,49.5\r\nXABYT,15.7\r\nICF,208.0\r\nLNDOR,97.5\r\nMAG,138.0\r\nAMV,152.0\r\nSAM,16.1\r\nMIP,0.7\r\nBHL,18.2\r\nMNP,118.0\r\nMPBS,45.2\r\nNBL,19.8\r\nPLAST,17.2\r\nOTH,593.0\r\nPGH,1422.0\r\nPLTU,42.1\r\nSAH,731.0\r\nSMD,26.3\r\nSERVI,3.0\r\nSFBT,3267.0\r\nSIAME,51.0\r\nSIMPA,38.5\r\nSIPHA,9.3\r\nSITS,26.1\r\nSMART,159.0\r\nALKIM,69.1\r\nSOMOC,33.3\r\nSOPAT,56.8\r\nSOTET,15.4\r\nSOTEM,82.5\r\nSTPIL,52.6\r\nSTPAP,183.0\r\nMGR,63.8\r\nSOTUV,369.0\r\nSPDIT,222.0\r\nSTA,49.5\r\nSTAR,349.0\r\nSTB,584.0\r\nSTEQ,9.1\r\nSTIP,17.8\r\nSPHAX,21.5\r\nTGH,71.3\r\nTLNET,87.1\r\nTPR,210.0\r\nTINV,8.8\r\nTRE,132.0\r\nTLS,101.0\r\nTVAL,69.9\r\nTAIR,46.7\r\nUBCI,440.0\r\nUADH,13.3\r\nSCB,52.4\r\nUIB,772.0\r\nWIFAK,215.0\r\nUMED,233.0\r\n'
+
+Имя файла: Data\amariaziz\tunisian-stock-market\tunisian-stock-market\data\AB.csv
+Первые 1024 байт файла: b'Ticker,Date,Open,High,Low,Close,Volume\r\nAB,2022-10-24,24.58,24.58,24.58,24.58,130\r\nAB,2022-10-26,23.9,24.58,23.9,23.9,14301\r\nAB,2022-10-27,24.58,24.58,24.57,24.58,505\r\nAB,2022-10-28,24.58,24.58,24.09,24.58,5882\r\nAB,2022-10-31,24.58,24.58,24.57,24.58,1240\r\nAB,2022-11-01,24.58,24.58,24.0,24.58,2171\r\nAB,2022-11-02,24.58,24.58,24.58,24.58,150\r\nAB,2022-11-03,24.58,24.58,24.58,24.58,1098\r\nAB,2022-11-04,24.58,24.58,24.58,24.58,633\r\nAB,2022-11-07,24.58,24.58,24.58,24.58,150\r\nAB,2022-11-09,24.21,24.58,24.21,24.21,2400\r\nAB,2022-11-10,24.59,24.59,24.57,24.59,150\r\nAB,2022-11-11,24.59,24.59,24.17,24.59,2170\r\nAB,2022-11-14,24.59,24.61,24.59,24.59,11064\r\nAB,2022-11-15,24.59,24.61,24.59,24.59,803\r\nAB,2022-11-16,24.61,24.61,24.6,24.61,256\r\nAB,2022-11-17,24.61,24.61,24.6,24.61,134\r\nAB,2022-11-18,24.3,24.61,24.3,24.3,636\r\nAB,2022-11-21,24.61,24.61,24.3,24.61,2014\r\nAB,2022-11-23,24.61,24.61,24.6,24.61,705\r\nAB,2022-11-24,24.54,24.61,24.29,24.54,4287\r\nAB,2022-11-25,24.55,24.55,24.54,24.55,5\r\nAB,2022-11-28,24.55,24.55,24.55,24.55,2'
+
+Cоставь один абзац текста описывающий возможные варианты использования датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Сформулируй ответ в одном абзаце на русском языке.

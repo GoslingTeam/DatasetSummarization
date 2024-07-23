@@ -1,0 +1,4 @@
+Название данных: Movie_recommendation
+Подзаголовок данных: movie details dataset
+Ключевые слова: movies and tv shows, data cleaning, data visualization, recommender systems, ml ethics
+Структура файла: Содержит информацию о фильмах и телесериалах. Файл содержит 1024 байта текстовой информации на английском языке. Формат данных не определен.

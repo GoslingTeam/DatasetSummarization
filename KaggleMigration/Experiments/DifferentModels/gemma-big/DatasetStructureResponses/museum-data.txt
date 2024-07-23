@@ -1,0 +1,7 @@
+Данный датасет содержит информацию о музеях, собранную с TripAdvisor. Он включает в себя несколько сеций, каждая из которых описывает определенный аспект данных. Структура датасета:
+
+* **Заголовок:** Museum Reviews Collected from TripAdvisor
+* ** podзаголовок:** Museum name, type, location, review, rating, rank, etc.
+* **Описание:** Museum name, type, location, review, rating, rank, etc.
+* **Ключевые слова:** ['arts and entertainment', 'museums']
+* **Содержимое файла:** 15 файлов, описывающих категорию музеев, категории экспонатов и отзывы о музеях.

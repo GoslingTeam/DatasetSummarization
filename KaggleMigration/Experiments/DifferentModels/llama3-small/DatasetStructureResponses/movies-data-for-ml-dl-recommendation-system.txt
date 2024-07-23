@@ -1,0 +1,5 @@
+Датасет "Movies Data For ML & DL Recommendation System" содержит две основные таблицы: tmdb_5000_credits.csv и tmdb_5000_movies.csv.
+
+Таблица tmdb_5000_credits.csv имеет columns "movie_id", "title", "cast", "crew". Она содержит информацию о касте и команде фильма, включая имена актёров и их персонажи. В данных есть информация о жанре фильма (Action, Adventure, Fantasy, Science Fiction и другие), а также о характеристиках фильма, таких как бюджет, популярность и рейтинг.
+
+Таблица tmdb_5000_movies.csv имеет(columns "budget", "genres", "homepage", "id", "keywords", "original_language", "original_title", "overview", "popularity", "production_companies", "production_countries", "release_date", "revenue", "runtime", "spoken_languages", "status", "tagline", "title", "vote_average", "vote_count"). Она содержит обширную информацию о фильмах, включая budget, жанры, дату выпуска, рейтинг и другие метрики. Данные могут быть использованы для создания рекомендательных систем или анализа тенденций в киноиндустрии.

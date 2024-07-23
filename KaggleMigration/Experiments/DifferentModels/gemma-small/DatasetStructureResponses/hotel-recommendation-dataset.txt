@@ -1,0 +1,26 @@
+Hotel Recommendation Dataset представляет собой csv-файл, содержащий информацию о recommends Hotel. 
+
+В файле 1024 байт представлены имена столбцов, описывающих разные типы данных, которые представлены в файле. 
+
+Структура данных следующая:
+
+- **site_name:** имя отеля
+- **posa_continent:** тип региона
+- **user_location_country:** код страны пользователя
+- **user_location_region:** код региона пользователя
+- **user_location_city:** город пользователя
+- **user_id:** идентификатор пользователя
+- **is_mobile:** флаг, indicates, что это мобильная заявка
+- **is_package:** флаг, indicates, что заявка содержитpackage
+- **channel:** канал, по которому была сделана заявка
+- **srch_adults_cnt:** количество взрослых в заявке
+- **srch_children_cnt:** количество детей в заявке
+- **srch_rm_cnt:** количество room в заявке
+- **srch_destination_id:** ID выбранного места для размещения
+- **srch_destination_type_id:** ID типа выбранного места для размещения
+- **is_booking:** флаг, indicates, что заявка на confirmed
+- **cnt:** количество доступных room
+- **hotel_continent:** код страны отеля
+- **hotel_country:** код страны, в котором находится отель
+- **hotel_market:** код рынка
+- **hotel_cluster:** группа, в которой находится отель

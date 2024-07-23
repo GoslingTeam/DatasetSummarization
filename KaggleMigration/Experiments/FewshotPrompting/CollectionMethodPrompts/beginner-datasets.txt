@@ -1,0 +1,41 @@
+ID ДАТАСЕТА:
+ahmettezcantekin/beginner-datasets
+
+ЗАГОЛОВОК ДАТАСЕТА:
+beginner_datasets
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+sample datasets for datascience
+
+ОПИСАНИЕ ДАТАСЕТА:
+sample datasets for datascience
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['social science', 'beginner', 'classification', 'clustering', 'multiclass classification', 'regression']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА (показано только 4 файла из 52):
+Имя файла: Data\ahmettezcantekin\beginner-datasets\beginner-datasets\beginner_datasets\amazon.csv
+Первые 1024 байт файла: b'reviewText,Positive\r\nThis is a one of the best apps acording to a bunch of people and I agree it has bombs eggs pigs TNT king pigs and realustic stuff,1\r\nThis is a pretty good version of the game for being free. There are LOTS of different levels to play. My kids enjoy it a lot too.,1\r\nthis is a really cool game. there are a bunch of levels and you can find golden eggs. super fun.,1\r\n"This is a silly game and can be frustrating, but lots of fun and definitely recommend just as a fun time.",1\r\nThis is a terrific game on any pad. Hrs of fun.  My grandkids love it. Great entertainment when waiting in long lines,1\r\nThis is a very entertaining game!  You don\'t have to be smart to play it.  I guess that\'s why I like it...it\'s easy and fun and that\'s what games are suppose to be.  Be warned: this game is highly addictive.,1\r\nthis is awesome and you don\'t need wi ti to play trust me. it is really fun and addicting. there are like 100 levels it is even free don\'t waste your money on the expensive one I mean seriously.'
+
+Имя файла: Data\ahmettezcantekin\beginner-datasets\beginner-datasets\beginner_datasets\anomaly.csv
+Первые 1024 байт файла: b'Col1,Col2,Col3,Col4,Col5,Col6,Col7,Col8,Col9,Col10\r\n0.263995357,0.764928588,0.13842355,0.935242061,0.605866573,0.518789697,0.912225161,0.6082344510000001,0.723781923,0.73359095\r\n0.546092303,0.65397459,0.065575135,0.22777191300000002,0.845269445,0.8370658790000001,0.272378939,0.331678698,0.429296975,0.367422001\r\n0.33671410399999996,0.5388424510000001,0.192801069,0.5535628220000001,0.07451451099999999,0.332993162,0.365792205,0.861309323,0.899016587,0.08860015199999999\r\n0.092107835,0.995016662,0.014465045,0.17637064600000002,0.241530075,0.514723634,0.562208164,0.158963258,0.073715215,0.20846322399999997\r\n0.325261175,0.805967636,0.957033424,0.331664957,0.30792336600000003,0.35531477200000006,0.50189852,0.5584494520000001,0.885169295,0.18275440899999998\r\n0.212464853,0.7803047609999999,0.45844365600000003,0.634508561,0.373030452,0.465650668,0.413997158,0.013080053999999999,0.570250227,0.7366723629999999\r\n0.258565714,0.437317789,0.559647989,0.109202597,0.9945533059999999,0.896994183,0.488468506,0.251942977,0.0172651'
+
+Имя файла: Data\ahmettezcantekin\beginner-datasets\beginner-datasets\beginner_datasets\asia_gdp.csv
+Первые 1024 байт файла: b'Country Name,Indicator Name,2013,2014,2015,2016,2017,2018,2019,2020,2021\r\n"China, P.R.: Macao","National Accounts, Gross Domestic Product, Real, Constant Prices, Percent Change",11.20061279,-0.852107968,-20.34874242,-4.748693225,0.23877415600000002,0.410595217,1.087283077,1.94296636,2.583093715\r\nMongolia,"National Accounts, Gross Domestic Product, Real, Constant Prices, Percent Change",11.64891619,7.885225481,2.3571711890000002,0.041471652000000005,0.97636868,3.466654065,5.129723428,8.574177658,5.467369047999999\r\nVanuatu,"National Accounts, Gross Domestic Product, Real, Constant Prices, Percent Change",1.96914608,2.3304363759999998,-0.8,4.0,4.5,4.0,3.5,3.0,3.0\r\nTuvalu,"National Accounts, Gross Domestic Product, Real, Constant Prices, Percent Change",1.2923264620000001,2.236106813,2.6420137130000003,3.951913367,2.267878331,2.335116729,2.216674225,2.021799219,2.070993406\r\nTonga,"National Accounts, Gross Domestic Product, Real, Constant Prices, Percent Change",-0.565545018,2.896921266,3.411636443,2.7263083139999'
+
+Имя файла: Data\ahmettezcantekin\beginner-datasets\beginner-datasets\beginner_datasets\automobile.csv
+Первые 1024 байт файла: b'symboling,normalized-losses,make,fuel-type,aspiration,num-of-doors,body-style,drive-wheels,engine-location,wheel-base,length,width,height,curb-weight,engine-type,num-of-cylinders,engine-size,fuel-system,bore,stroke,compression-ratio,horsepower,peak-rpm,city-mpg,highway-mpg,price\r\n3,,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,13495\r\n3,,alfa-romero,gas,std,two,convertible,rwd,front,88.6,168.8,64.1,48.8,2548,dohc,four,130,mpfi,3.47,2.68,9.0,111,5000,21,27,16500\r\n1,,alfa-romero,gas,std,two,hatchback,rwd,front,94.5,171.2,65.5,52.4,2823,ohcv,six,152,mpfi,2.68,3.47,9.0,154,5000,19,26,16500\r\n2,164.0,audi,gas,std,four,sedan,fwd,front,99.8,176.6,66.2,54.3,2337,ohc,four,109,mpfi,3.19,3.4,10.0,102,5500,24,30,13950\r\n2,164.0,audi,gas,std,four,sedan,4wd,front,99.4,176.6,66.4,54.3,2824,ohc,five,136,mpfi,3.19,3.4,8.0,115,5500,18,22,17450\r\n2,,audi,gas,std,two,sedan,fwd,front,99.8,177.3,66.3,53.1,2507,ohc,five,136,mpfi,3.19,3.4,8.5,110,5500,19,25,15250'
+
+ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ:
+Пример 1:
+Сбор данных включал генерацию ответов на различные вопросы по программированию моделью CodeLlama.
+
+Пример 2:
+В предоставленной информации нет сведений о том, как данные из датасета были собраны.
+
+Пример 3:
+Данные из датасета "Anime Recommendations Database" были собраны с сайта myanimelist.net, где 76 000 пользователей предоставили свои рекомендации. Датасет включает две части: одну с информацией о аниме (название, жанр, тип, количество серий, рейтинг и число участников), а другую с оценками, которые пользователи ставили различным аниме.
+
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке, формулируя ответ похожим на ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ. 

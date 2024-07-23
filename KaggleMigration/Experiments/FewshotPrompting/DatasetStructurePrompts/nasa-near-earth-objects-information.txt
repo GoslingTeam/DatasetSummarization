@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+adityaramachandran27/nasa-near-earth-objects-information
+
+ЗАГОЛОВОК ДАТАСЕТА:
+NASA Near Earth Objects Information 
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Information about all the NEOs by NASA
+
+ОПИСАНИЕ ДАТАСЕТА:
+Information about all the NEOs by NASA
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['earth and nature', 'astronomy', 'intermediate', 'classification', 'regression']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\adityaramachandran27\nasa-near-earth-objects-information\nasa-near-earth-objects-information\NASA Near-Earth Objects.csv
+Первые 1024 байт файла: b',id,neo_reference_id,name,name_limited,designation,absolute_magnitude_h,is_potentially_hazardous_asteroid,is_sentry_object,kilometers_estimated_diameter_min,kilometers_estimated_diameter_max,orbit_id,orbit_class_type,perihelion_distance,aphelion_distance,first_observation_date,last_observation_date,orbit_class_description\r\n0,2001981,2001981,1981 Midas (1973 EA),Midas,1981,15.22,True,False,2.4019003012,5.3708123486,229,APO,0.621512027006993,2.931359900542769,1973-03-06,2021-10-20,Near-Earth asteroid orbits which cross the Earth\xe2\x80\x99s orbit similar to that of 1862 Apollo\r\n1,2002059,2002059,2059 Baboquivari (1963 UA),Baboquivari,2059,15.97,False,False,1.7004151927,3.8022439609,268,AMO,1.23853742528094,4.04794500021122,1963-10-16,2021-04-15,Near-Earth asteroid orbits similar to that of 1221 Amor\r\n2,2002061,2002061,2061 Anza (1960 UA),Anza,2061,16.36,False,False,1.4208720673,3.1771665298,180,AMO,1.050403440408666,3.478155246544549,1960-10-22,2021-06-12,Near-Earth asteroid orbits similar to that of 1221 Amor\r\n3,20020'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

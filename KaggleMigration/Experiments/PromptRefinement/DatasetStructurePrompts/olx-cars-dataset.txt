@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+abdullahkhanuet22/olx-cars-dataset
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Cars Dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Best dataset for building Predictive models, Recommendation systems or report. 
+
+ОПИСАНИЕ ДАТАСЕТА:
+Best dataset for building Predictive models, Recommendation systems or report. 
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['automobiles and vehicles', 'intermediate', 'linear regression', 'tabular', 'english']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\abdullahkhanuet22\olx-cars-dataset\olx-cars-dataset\OLX_cars_dataset00.csv
+Первые 1024 байт файла: b'Ad ID,Car Name,Make,Model,Year,KM\'s driven,Price,Fuel,Registration city,Car documents,Assembly,Transmission,Condition,Seller Location,Description,Car Features,Images URL\'s,Car Profile\r\n1079071571,fresh import Passo 2021model,Toyota,Passo,2021,54000,4190000,Petrol,Unregistered,Original,Imported,Automatic,Used,"Airline Avenue, Islamabad","it\'s 2021 model fresh import, perfect engine suspension,non accidented,push start ,fully loaded car,need to sell urgently.","ABS, Air Bags, AM/FM Radio, CD Player, Cassette Player, Climate Control, DVD Player, Front Speakers, Front Camera, Immobilizer Key, Keyless Entry, Navigation System, Power Locks, Power Mirrors, Power Steering, Power Windows, Rear speakers, Rear Camera","[\'https://images.olx.com.pk/thumbnails/403946098-800x600.jpeg\', \'https://images.olx.com.pk/thumbnails/403946101-800x600.jpeg\', \'https://images.olx.com.pk/thumbnails/403946103-800x600.jpeg\', \'https://images.olx.com.pk/thumbnails/403946105-800x600.jpeg\', \'https://images.olx.com.pk/thumbnails/403946107-800x6'
+
+Cоставь один абзац текста описывающий структуру датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не упоминай фразу "первые 1024 байт датасета". Говори только собственное имя файла, игнорируя полный путь. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

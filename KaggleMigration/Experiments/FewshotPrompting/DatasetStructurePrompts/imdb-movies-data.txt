@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+amanbarthwal/imdb-movies-data
+
+ЗАГОЛОВОК ДАТАСЕТА:
+IMDB Movies Dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+A Comprehensive Database of Movie Information, Ratings, and Reviews from IMDB
+
+ОПИСАНИЕ ДАТАСЕТА:
+A Comprehensive Database of Movie Information, Ratings, and Reviews from IMDB
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['movies and tv shows']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\amanbarthwal\imdb-movies-data\imdb-movies-data\imdb-movies-dataset.csv
+Первые 1024 байт файла: b'Poster,Title,Year,Certificate,Duration (min),Genre,Rating,Metascore,Director,Cast,Votes,Description,Review Count,Review Title,Review\n"https://m.media-amazon.com/images/M/MV5BYWRkZjJiODEtM2IwZi00ZjM1LWEyOTUtOThjMDk3YThjZDUzXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY209_CR0,0,140,209_AL_.jpg",The Idea of You,2023,R,115,"Comedy, Drama, Romance",6.4,67,Michael Showalter,"Anne Hathaway, Nicholas Galitzine, Ella Rubin, Annie Mumolo","28,744","Sol\xc3\xa8ne, a 40-year-old single mom, begins an unexpected romance with 24-year-old Hayes Campbell, the lead singer of August Moon, the hottest boy band on the planet.",166,Hypocrisy as an idea,"This film, as well as the reaction to it, is a wonderful example of modern hypocrisy:The story is about an adult woman who is attracted to a young guy, 16 years younger than her, young enough to be her son, whom she sees at his boys band concert, and from people reactions starts from the movie trailer and beyond, we get praise and stories that this is the destruction of the stigma about the happi'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

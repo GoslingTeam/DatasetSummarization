@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+arplusman/papers-by-subject
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Papers by Subject
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+More than 50K papers and their metadata in 155 different subject areas
+
+ОПИСАНИЕ ДАТАСЕТА:
+More than 50K papers and their metadata in 155 different subject areas
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['research', 'museums', 'earth and nature', 'nlp', 'classification', 'recommender systems', 'retrieval/ranking']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\arplusman\papers-by-subject\papers-by-subject\arXiv-DataFrame.csv
+Первые 1024 байт файла: b',id,Title,Summary,Author,Link,Publish Date,Update Date,Primary Category,Category\n0,cs/9308101v1,Dynamic Backtracking,"Because of their occasional need to return to shallow points in a search tree, existing backtracking methods can sometimes erase meaningful progress toward solving a search problem. In this paper, we present a method by which backtrack points can be moved deeper in the search space, thereby avoiding this difficulty. The technique developed is a variant of dependency-directed backtracking that uses only polynomial space while still providing useful control information and retaining the completeness guarantees provided by earlier approaches.",M. L. Ginsberg,http://arxiv.org/pdf/cs/9308101v1,1993-08-01T00:00:00Z,1993-08-01T00:00:00Z,cs.AI,[\'cs.AI\']\n1,cs/9308102v1,"A Market-Oriented Programming Environment and its Application to\n  Distributed Multicommodity Flow Problems","Market price systems constitute a well-understood class of mechanisms that under certain conditions provide effective decentra'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

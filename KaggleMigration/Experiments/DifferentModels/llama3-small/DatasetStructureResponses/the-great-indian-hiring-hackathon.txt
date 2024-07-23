@@ -1,0 +1,3 @@
+Согласно предоставленной информации, можно сформулировать следующий абзац текста описывающий структуру датасета:
+
+Датасет "the-great-indian-hiring-hackathon" имеет 12 столбцов: InvoiceNo (номер заказа), StockCode (код товара), Description (описание товара), Quantity (количество товаров), InvoiceDate (дата заказа), UnitPrice (цена единицы товара), CustomerID (идентификатор клиента), Country (страна). Файл имеет имя "Data\arbazkhan971\the-great-indian-hiring-hackathon\Participants_Data_TGIH\Train.csv".

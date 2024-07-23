@@ -1,0 +1,1 @@
+Файл Data\arbazkhan971\the-great-indian-hiring-hackathon\the-great-indian-hiring-hackathon\Participants_Data_TGIH\Train.csv содержит информацию о покупках, включая номер счета, код товара, описание, количество, дату и время продажи, цену за единицу и идентификатор клиента.

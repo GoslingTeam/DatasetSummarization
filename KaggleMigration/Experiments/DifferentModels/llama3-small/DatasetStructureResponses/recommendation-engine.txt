@@ -1,0 +1,9 @@
+Данное задание - Recommendation Engine, предназначено для рекомендации вопросов, которые программисту следует решать.
+
+Структура датасета следующая: в директории Data\ashishvaya\recommendation-engine\recommendation-engine содержится четыре файла. Первый файл, problem_data.csv, имеет columns "problem_id", "level_type", "points" и "tags". Он содержит информацию о проблемах для решения.
+
+Второй файл, sample_submissions_wbscxqU.csv, имеет только одну column "ID" и range значений "attempts_range".
+
+Третий файл, submission.csv, имеет columns "ID" и "attempts_range", где каждый ряд соответствует подписке пользователя.
+
+Четвертый файл, test_submissions_NeDLEvX.csv, имеет три columns "ID", "user_id" и "problem_id", где каждый ряд содержит информацию о пользователе и проблеме, с которой он столкнулся.

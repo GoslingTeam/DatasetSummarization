@@ -1,0 +1,1 @@
+Данные из датасета "Africa Soil Mapping - ISDASoil Exploration" были собраны с сайта Africa Soil Information Service (AfSIS). В предоставленной информации нет сведений о том, как данные из датасета были собраны.

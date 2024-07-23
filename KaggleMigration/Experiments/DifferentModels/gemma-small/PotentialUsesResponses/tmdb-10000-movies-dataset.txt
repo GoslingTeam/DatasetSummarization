@@ -1,0 +1,7 @@
+TMDB 10000 Movies Dataset обладает rich information about movies and their production. It can be used for various purposes, including:
+
+* **Historical analysis:** Tracing the evolution of specific movie genres or production companies.
+* **Genre classification:** Identifying movies based on their genre.
+* **Visual analysis:** Exploring the technical aspects of filmmaking, such as cinematography and editing.
+* **Audience insights:** Understanding how audiences perceive and respond to different films.
+* **Marketing and recommendation:** Targeting specific demographics with tailored movie suggestions.

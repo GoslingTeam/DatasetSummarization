@@ -1,0 +1,24 @@
+Этот текст описывает содержимое файла train.csv из набора данных Hotel Recommendation Dataset.
+
+Файл train.csv содержит таблицу с 18 столбцами, где каждый столбец представляет собой некоторую информацию о бронировании отеля в гостинице. Столбцы имеют следующие названия:
+
+1. site_name
+2. posa_continent
+3. user_location_country
+4. user_location_region
+5. user_location_city
+6. user_id
+7. is_mobile
+8. is_package
+9. channel
+10. srch_adults_cnt
+11. srch_children_cnt
+12. srch_rm_cnt
+13. srch_destination_id
+14. srch_destination_type_id
+15. is_booking
+16. cnt
+17. hotel_continent
+18. hotel_market
+
+Каждая строка файла представляет собой отдельный пример бронирования отеля в гостинице, где значения столбцов разделены запятыми.

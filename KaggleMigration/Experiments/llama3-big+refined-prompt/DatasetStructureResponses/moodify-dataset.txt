@@ -1,0 +1,1 @@
+Датасет состоит из двух файлов: `Data\abdullahorzan\moodify-dataset\278k_labelled_uri.csv` и `Data\abdullahorzan\moodify-dataset\278k_song_labelled.csv`. Оба файла содержат информацию о песнях из Spotify, включая длительность трека, танцевальность, энергию, громкость, речевую активность, акустические параметры и эмоциональную оценку.

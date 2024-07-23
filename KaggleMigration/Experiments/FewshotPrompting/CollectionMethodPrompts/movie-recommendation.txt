@@ -1,0 +1,32 @@
+ID ДАТАСЕТА:
+abuchionwuegbusi/movie-recommendation
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Movie_recommendation
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+movie details dataset
+
+ОПИСАНИЕ ДАТАСЕТА:
+movie details dataset
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['movies and tv shows', 'data cleaning', 'data visualization', 'recommender systems', 'ml ethics']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\abuchionwuegbusi\movie-recommendation\movie-recommendation\movies.csv
+Первые 1024 байт файла: b'index,budget,genres,homepage,id,keywords,original_language,original_title,overview,popularity,production_companies,production_countries,release_date,revenue,runtime,spoken_languages,status,tagline,title,vote_average,vote_count,cast,crew,director\n0,237000000,Action Adventure Fantasy Science Fiction,http://www.avatarmovie.com/,19995,culture clash future space war space colony society,en,Avatar,"In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",150.437577,"[{""name"": ""Ingenious Film Partners"", ""id"": 289}, {""name"": ""Twentieth Century Fox Film Corporation"", ""id"": 306}, {""name"": ""Dune Entertainment"", ""id"": 444}, {""name"": ""Lightstorm Entertainment"", ""id"": 574}]","[{""iso_3166_1"": ""US"", ""name"": ""United States of America""}, {""iso_3166_1"": ""GB"", ""name"": ""United Kingdom""}]",2009-12-10,2787965087,162.0,"[{""iso_639_1"": ""en"", ""name"": ""English""}, {""iso_'
+
+ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ:
+Пример 1:
+Сбор данных включал генерацию ответов на различные вопросы по программированию моделью CodeLlama.
+
+Пример 2:
+В предоставленной информации нет сведений о том, как данные из датасета были собраны.
+
+Пример 3:
+Данные из датасета "Anime Recommendations Database" были собраны с сайта myanimelist.net, где 76 000 пользователей предоставили свои рекомендации. Датасет включает две части: одну с информацией о аниме (название, жанр, тип, количество серий, рейтинг и число участников), а другую с оценками, которые пользователи ставили различным аниме.
+
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке, формулируя ответ похожим на ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ. 

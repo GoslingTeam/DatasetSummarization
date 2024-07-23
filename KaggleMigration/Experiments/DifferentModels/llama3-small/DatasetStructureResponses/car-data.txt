@@ -1,0 +1,3 @@
+Данные из секций "ЗАГОЛОВОК ДАТАСЕТА" и "СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА" позволяют составить следующий абзац о структуре датасета:
+
+Датасет "car_data" содержит информацию о автомобилях, включая колонки "Unnamed: 0", "brand", "model", "color", "registration_date", "year", "price_in_euro", "power_kw", "power_ps", "transmission_type", "fuel_type", "fuel_consumption_l_100km", "fuel_consumption_g_km", "mileage_in_km" и "offer_description". Каждая строка файла "gcar_data.csv" отображает информацию о конкретном автомобиле.

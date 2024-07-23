@@ -1,0 +1,1 @@
+Файл crocodile_edges.csv находится в папке Data\andreagarritano\wikipedia-article-networks\crocodile и содержит информацию о связях между статьями Википедии, представленную в виде пар id статей.

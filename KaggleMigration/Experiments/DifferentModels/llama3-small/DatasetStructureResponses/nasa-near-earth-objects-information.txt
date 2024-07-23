@@ -1,0 +1,3 @@
+Вот мой ответ:
+
+Датасет "NASA Near Earth Objects Information" содержит информацию о всех объектах, которые пересекают орбиту Земли (Near-Earth Objects). Структура датасета включает в себя 24 столбца: id, neo_reference_id, name, name_limited, designation, absolute_magnitude_h, is_potentially_hazardous_asteroid, is_sentry_object, kilometers_estimated_diameter_min, kilometers_estimated_diameter_max, orbit_id, orbit_class_type, perihelion_distance, aphelion_distance, first_observation_date и last_observation_date. Orbit_class_description - это описание класса орбиты объекта.

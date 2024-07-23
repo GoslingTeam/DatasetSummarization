@@ -1,0 +1,21 @@
+Структура датасета:
+
+- **Column_name**: название столбца
+- **description**: описание столбца
+- **unit**: единица измерения столбца
+- **longitude**:Longitude of soil sampling location
+- **latitude**:Longitude of soil sampling location
+- **start_date**:  Timespan over which data were collected
+- **end_date**: Timespan over which data were collected
+- **source**: ссылка на источник исходных данных.
+- **horizon_lower**:  Пробельный уровень beneath the sampled layer
+- **horizon_upper**: Пробельный уровень above the sampled layer
+- **alumina_extractable**: количество Al в образце
+- **boron_extractable**: количество B в образце
+- **calcium_extractable**: количество Ca в образце
+- **carbon_organic**: количество C в образце
+- **carbon_total**: количество C в образце
+- **copper_extractable**: количество Cu в образце
+- **electrical_conductivity**: электрориентация образца
+- **iron_extractable**: количество Fe в образце
+- **magnesium_extractable**: количество Mg в образце

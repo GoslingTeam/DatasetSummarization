@@ -1,0 +1,1 @@
+Данные для построения атак DDOS были собраны путём нескольких методов, в том числе с помощью автоматом, который автоматически gathered and labelled data from various sources, including a variety of security feeds.

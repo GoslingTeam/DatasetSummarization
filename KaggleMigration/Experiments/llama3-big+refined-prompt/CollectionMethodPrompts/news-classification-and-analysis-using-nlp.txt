@@ -1,0 +1,17 @@
+ID ДАТАСЕТА:
+adhamelkomy/news-classification-and-analysis-using-nlp
+
+ЗАГОЛОВОК ДАТАСЕТА:
+News Classification and Analysis using NLP
+
+ОПИСАНИЕ ДАТАСЕТА:
+
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['earth and nature', 'computer science', 'nlp', 'news', 'multilabel classification']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\adhamelkomy\news-classification-and-analysis-using-nlp\news-classification-and-analysis-using-nlp\english_news_dataset.csv
+Первые 1024 байт файла: b'Headline,Content,News Categories,Date\r\nCongress leader Baljinder Singh shot dead at home in Punjab\'s Moga,"Congress leader Baljinder Singh was shot dead at his house in Punjab\'s Moga on Monday, a video of which has also surfaced online. According to a report by the Free Press Journal, Singh received a call from someone regarding the signing of documents. In the video, the accused can be seen shooting at Singh while he is walking towards him. ",[\'national\'],19-09-2023\r\n17-year-old girl preparing for NEET dies by suicide in Rajasthan\'s Kota,"Another NEET aspirant died by suicide in Rajasthan\'s Kota on Monday, taking the number of student suicides this year to around 26. The girl was reportedly a native of UP\'s Mau and had been staying at a hostel in the city\'s Vigyan Nagar area. She was rushed to a hospital after she reportedly started vomiting, and passed away later.",[\'national\'],19-09-2023\r\n"Hampers to welcome MPs in new Parliament tomorrow, pics surface","In order to mark the first-ever working day of the n'
+
+Cоставь один абзац текста описывающий как были собраны данные. Если ты не знаешь как были собраны данные, то в ответе напиши, что нет информации о том, как были собраны данные. Не упоминай заголовок и ID датасета. Не упоминай файлы датасета. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

@@ -1,0 +1,1 @@
+Структура датасета состоит из четырех файлов: museum_categories_USonly.json, содержащего категории музеев только в США; museum_categories_world.json, содержащего категории музеев по всему миру; review_content_USonly.json, содержащего отзывы о музеях только в США; и review_content_world.json, содержащего отзывы о музеях по всему миру.

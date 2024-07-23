@@ -1,0 +1,17 @@
+ID ДАТАСЕТА:
+ashishkumarsingh123/telecom-churn-dataset
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Telecom Churn Dataset
+
+ОПИСАНИЕ ДАТАСЕТА:
+
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['business']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\ashishkumarsingh123\telecom-churn-dataset\telecom-churn-dataset\telecom_churn_data.csv
+Первые 1024 байт файла: b'mobile_number,circle_id,loc_og_t2o_mou,std_og_t2o_mou,loc_ic_t2o_mou,last_date_of_month_6,last_date_of_month_7,last_date_of_month_8,last_date_of_month_9,arpu_6,arpu_7,arpu_8,arpu_9,onnet_mou_6,onnet_mou_7,onnet_mou_8,onnet_mou_9,offnet_mou_6,offnet_mou_7,offnet_mou_8,offnet_mou_9,roam_ic_mou_6,roam_ic_mou_7,roam_ic_mou_8,roam_ic_mou_9,roam_og_mou_6,roam_og_mou_7,roam_og_mou_8,roam_og_mou_9,loc_og_t2t_mou_6,loc_og_t2t_mou_7,loc_og_t2t_mou_8,loc_og_t2t_mou_9,loc_og_t2m_mou_6,loc_og_t2m_mou_7,loc_og_t2m_mou_8,loc_og_t2m_mou_9,loc_og_t2f_mou_6,loc_og_t2f_mou_7,loc_og_t2f_mou_8,loc_og_t2f_mou_9,loc_og_t2c_mou_6,loc_og_t2c_mou_7,loc_og_t2c_mou_8,loc_og_t2c_mou_9,loc_og_mou_6,loc_og_mou_7,loc_og_mou_8,loc_og_mou_9,std_og_t2t_mou_6,std_og_t2t_mou_7,std_og_t2t_mou_8,std_og_t2t_mou_9,std_og_t2m_mou_6,std_og_t2m_mou_7,std_og_t2m_mou_8,std_og_t2m_mou_9,std_og_t2f_mou_6,std_og_t2f_mou_7,std_og_t2f_mou_8,std_og_t2f_mou_9,std_og_t2c_mou_6,std_og_t2c_mou_7,std_og_t2c_mou_8,std_og_t2c_mou_9,std_og_mou_6,std_og_mou_7,std_og_mo'
+
+Cоставь один абзац текста описывающий возможные варианты использования датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Сформулируй ответ в одном абзаце на русском языке.

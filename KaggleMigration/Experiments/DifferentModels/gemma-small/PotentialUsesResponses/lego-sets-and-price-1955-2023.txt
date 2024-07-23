@@ -1,0 +1,1 @@
+Датасет позволяет классифицировать, clustering и таблировать результаты исследования по Lego-сетям и их ценах. Он также может предоставлять информацию о star rating и provides visual representation in the form of charts and graphs. This makes it an useful tool for researchers, collectors and anyone interested in exploring and analyzing Lego sets and prices over time.

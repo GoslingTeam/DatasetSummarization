@@ -1,0 +1,18 @@
+ID ДАТАСЕТА:
+abdelrahman16/car-data
+
+ЗАГОЛОВОК ДАТАСЕТА:
+car_data
+
+ОПИСАНИЕ ДАТАСЕТА:
+
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['automobiles and vehicles']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\abdelrahman16\car-data\car-data\gcar_data.csv
+Первые 1024 байт файла: b'Unnamed: 0,brand,model,color,registration_date,year,price_in_euro,power_kw,power_ps,transmission_type,fuel_type,fuel_consumption_l_100km,fuel_consumption_g_km,mileage_in_km,offer_description\r\n75721,ford,Ford Kuga,black,05/2023,2023,38490,140,190,Automatic,Hybrid,"5,4 l/100 km",124 g/km,100.0,ST-Line Hybrid Adapt.LED+Head-Up-Display Klima\r\n80184,hyundai,Hyundai i10,black,09/2018,2018,11555,49,67,Manual,Petrol,"4,6 l/100 km",106 g/km,27782.0,"blue Trend,Viele Extras,Top-Zustand"\r\n19864,audi,Audi Q4 e-tron,grey,05/2021,2021,48886,125,170,Automatic,Electric,,0 g/km,4247.0,35 e-tron S line/Matrix/Pano/ACC/SONOS/LM 21\r\n76699,honda,Honda CR-V,red,07/2018,2018,24490,114,155,Automatic,Petrol,"7,5 l/100 km",175 g/km,57000.0,2.0 Lifestyle Plus Automatik Navi FAP\r\n92991,kia,Kia Sportage,black,02/2023,2023,34990,110,150,Manual,Petrol,"5,9 l/100 km",150 g/km,7500.0,"1.6 T 48V 2WD Spirit LED, WR"\r\n76434,honda,Honda Civic,black,09/2009,2009,5800,103,140,Manual,Petrol,"6,7 l/100 km",155 g/km,160000.0,Honda Civic 1.8i-VTEC Spo'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

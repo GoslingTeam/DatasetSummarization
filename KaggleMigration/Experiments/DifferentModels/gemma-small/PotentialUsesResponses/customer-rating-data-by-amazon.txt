@@ -1,0 +1,2 @@
+Amazon Customer rating for recommendation system позволяет получить информацию о рейтингх товаров в recommendation system. 
+Usuario может использовать эту информацию для анализа данных, определения трендов и оптимизации рекомендаций.

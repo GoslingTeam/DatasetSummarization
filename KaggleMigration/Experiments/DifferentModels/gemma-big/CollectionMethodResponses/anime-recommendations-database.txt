@@ -1,0 +1,1 @@
+Данные из датасета "Anime Recommendations Database" были собраны из recommendation data с сайта myanimelist.net. Несостоятельно, информация о методах сбора данных в этом тексте не contained.

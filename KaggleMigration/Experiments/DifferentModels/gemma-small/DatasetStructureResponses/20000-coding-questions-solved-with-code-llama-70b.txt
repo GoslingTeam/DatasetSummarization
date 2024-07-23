@@ -1,0 +1,9 @@
+**Структура датасета:**
+
+- **filename:** `Data\anthonytherrien\20000-coding-questions-solved-with-code-llama-70b\20000-coding-questions-solved-with-code-llama-70b\responses.jsonl`
+- **content:** JSON-файл, содержащий AI-генрированные ответа на задачу.
+- **metadata:**
+    - **title:** "Coding Questions Solved With Code Llama 70B"
+    - **description:** "19,983 AI-Generated Responses by CodeLlama-70b-Instruct-hf"
+    - **key_words:** ["earth and nature", "computer science", "programming"]
+- **payload:** JSON-объект с данными ответам на задачу.

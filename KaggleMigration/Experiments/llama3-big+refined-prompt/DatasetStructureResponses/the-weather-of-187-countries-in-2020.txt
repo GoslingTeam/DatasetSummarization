@@ -1,0 +1,1 @@
+Структура датасета представлена двумя файлами: "the weather of 155 countries in 2020.csv" и "the weather of 187 countries in 2020.csv", расположенными по пути "Data\amirhoseinsedaghati\the-weather-of-187-countries-in-2020\the-weather-of-187-countries-in-2020\", каждый из которых содержит данные о погоде для соответствующего количества стран в 2020 году.

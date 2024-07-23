@@ -1,0 +1,6 @@
+Данные из датасета были собраны из нескольких источников:
+- веб-сайта Flight Coffee Co.
+- веб-сайта CafeReview.com
+- веб-сайта CoffeeReview.com
+- веб-сайта The Coffee Critic
+- веб-сайта Panama Ninety Plus

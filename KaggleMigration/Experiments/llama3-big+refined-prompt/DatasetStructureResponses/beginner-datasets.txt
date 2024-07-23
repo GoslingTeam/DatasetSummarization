@@ -1,0 +1,1 @@
+Файл автомобильных данных, расположенный по пути Data\ahmettezcantekin\beginner-datasets\beginner-datasets\beginner_datasets\automobile.csv, содержит информацию о характеристиках различных автомобилей.

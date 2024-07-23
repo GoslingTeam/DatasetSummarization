@@ -1,0 +1,1 @@
+Файл Data\anmolkumar\house-price-prediction-challenge\house-price-prediction-challenge\train.csv содержит информацию о жилых помещениях, включая данные о владельцах, типе объекта, количестве комнат, площади, готовности к заселению, адресе и координатах.

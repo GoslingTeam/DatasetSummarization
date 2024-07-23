@@ -1,0 +1,25 @@
+Based on the provided dataset files, I can describe possible use cases for these datasets.
+
+**ahmettezcantekin/beginner-datasets/automobile.csv**
+
+This dataset appears to contain information about various automobile models, including their characteristics and specifications. The columns include make, fuel type, number of doors, body style, drive wheels, engine location, wheelbase, length, width, height, curb weight, engine type, number of cylinders, engine size, fuel system, bore, stroke, compression ratio, horsepower, peak RPM, city MPG, highway MPG, and price.
+
+Possible use cases for this dataset:
+
+* Analyzing the relationship between automobile characteristics and their impact on performance, fuel efficiency, or safety.
+* Predicting the price of an automobile based on its specifications.
+* Identifying trends in automobile design and development over time.
+* Comparing the features and specifications of different automobile models.
+
+**ahmettezcantekin/beginner-datasets/beginner-d.csv**
+
+This dataset contains information about various countries, including their gross domestic product (GDP) growth rates from 2013 to 2021. The columns include country name, indicator name, and GDP growth rates for each year.
+
+Possible use cases for this dataset:
+
+* Analyzing the economic growth trends of different countries over time.
+* Identifying correlations between economic indicators and other factors such as inflation rate, unemployment rate, or trade policies.
+* Predicting future GDP growth rates based on historical data.
+* Comparing the economic performance of different countries and regions.
+
+Overall, these datasets can be used for a wide range of applications, including data analysis, machine learning model training, and business intelligence.

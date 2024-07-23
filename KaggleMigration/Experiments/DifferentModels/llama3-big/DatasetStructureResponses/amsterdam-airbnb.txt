@@ -1,0 +1,7 @@
+На основе предоставленных секторов можно заключить, что датасет amsterdam-airbnb имеет структуру, состоящую из двух типов данных: числовых значений и координат.
+
+Числовые значения представляют собой различные параметры квартир, such as price, area, and amenities. Они хранятся в файле y_test.csv и имеют формат десятичных дробей с точкой как разделителем.
+
+Координаты, представленные в виде пар значений широты и долготы, likely correspond to the geographic locations of the apartments. They are stored in a separate format with commas as separators.
+
+However, without more information about the dataset and its features, it is difficult to provide a more detailed description of the structure.

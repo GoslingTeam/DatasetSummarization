@@ -1,0 +1,3 @@
+Согласно информации из секций ЗАГОЛОВОК и ОПИСАНИЕ, датасет "moodify-dataset" содержит приблизительно 278 тысяч песен с Spotify, каждый из которых имеет эмоциональное свойство (labels). Датасет состоит из двух файлов: "278k_labelled_uri.csv" и "278k_song_labelled.csv". В этих файлах содержится информация о песнях, включая их продолжительность (duration), танцеваемость (danceability), энергию (energy) и другие аудиометрические параметры. Каждый файл имеет структуру с 15 столбцами: duration (ms), danceability, energy, loudness, speechiness, acousticness, instrumentalness, liveness, valence, tempo, spec_rate, labels, uri.
+
+В целом, датасет "moodify-dataset" представляет собой huge dataset для классификации эмоций песен на основе их аудиометрических характеристик.

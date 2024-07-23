@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+asaniczka/52000-animation-movie-details-dataset-2024
+
+ЗАГОЛОВОК ДАТАСЕТА:
+52,000 Animation Movie Details (2024)
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Scraped dataset from TMDB API. Detailed information about animation movies.
+
+ОПИСАНИЕ ДАТАСЕТА:
+Scraped dataset from TMDB API. Detailed information about animation movies.
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['arts and entertainment', 'movies and tv shows', 'internet', 'data visualization', 'comics and animation']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\asaniczka\52000-animation-movie-details-dataset-2024\52000-animation-movie-details-dataset-2024\Animation_Movies.csv
+Первые 1024 байт файла: b'"id","title","vote_average","vote_count","status","release_date","revenue","runtime","adult","backdrop_path","budget","homepage","imdb_id","original_language","original_title","overview","popularity","poster_path","tagline","genres","production_companies","production_countries","spoken_languages"\n"150540","Inside Out","7.922","19463","Released","2015-06-09","857611174","95","False","/j29ekbcLpBvxnGk6LjdTc2EI5SA.jpg","175000000","http://movies.disney.com/inside-out","tt2096673","en","Inside Out","Growing up can be a bumpy road, and it\'s no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Riley\'s guiding emotions\xe2\x80\x94 Joy, Fear, Anger, Disgust and Sadness\xe2\x80\x94live in Headquarters, the control centre inside Riley\'s mind, where they help advise her through everyday life and tries to keep things positive, but the emotions conflict on how best to navigate a new city, house and school.","107.292","/2H1TmgdfNtsKlU9jKdeNyYL5y8T.jpg","Meet the little voices insid'
+
+Cоставь один абзац текста описывающий структуру датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не упоминай фразу "первые 1024 байт датасета". Говори только собственное имя файла, игнорируя полный путь. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

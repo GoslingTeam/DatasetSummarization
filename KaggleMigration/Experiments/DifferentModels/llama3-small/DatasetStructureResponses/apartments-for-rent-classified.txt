@@ -1,0 +1,28 @@
+Согласно секции "ОПИСАНИЕ ДАТАСЕТА", датастет "Apartments for Rent Classified" содержит описание объявлений о аренде квартир в США.
+
+Секция "СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА" показывает, что файлы датасета называются в формате "apartments_for_rent_classified_***K.csv", где ***K - количество записей в файле. В каждом файле содержится таблица с колонками:
+
+* id
+* category
+* title
+* body
+* amenities
+* bathrooms
+* bedrooms
+* currency
+* fee
+* has_photo
+* pets_allowed
+* price
+* price_display
+* price_type
+* square_feet
+* address
+* cityname
+* state
+* latitude
+* longitude
+* source
+* time
+
+Структура датасета может быть описана следующим образом: датастет "Apartments for Rent Classified" представляет собой таблицу с информацией о объявлениях аренды квартир в США, которая содержит 20 колонок и более чем 100 тыс. записей.

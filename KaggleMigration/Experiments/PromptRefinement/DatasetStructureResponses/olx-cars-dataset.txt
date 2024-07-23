@@ -1,0 +1,1 @@
+Файл OLX_cars_dataset00.csv содержит информацию о автомобилях, представленную в виде таблицы с 17 столбцами: Ad ID, Car Name, Make, Model, Year, KM's driven, Price, Fuel, Registration city, Car documents, Assembly, Transmission, Condition, Seller Location, Description, Car Features и Images URL's.

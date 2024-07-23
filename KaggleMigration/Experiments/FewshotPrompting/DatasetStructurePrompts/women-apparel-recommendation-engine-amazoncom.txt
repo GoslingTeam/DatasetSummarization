@@ -1,0 +1,15 @@
+ID ДАТАСЕТА:
+ajaysh/women-apparel-recommendation-engine-amazoncom
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Women Apparel Recommendation Engine (amazon.com)
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['internet', 'recommender systems']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\ajaysh\women-apparel-recommendation-engine-amazoncom\women-apparel-recommendation-engine-amazoncom\tops_fashion.json
+Первые 1024 байт файла: b'[\n    {\n        "sku": null, \n        "asin": "B016I2TS4W", \n        "product_type_name": "SHIRT", \n        "formatted_price": null, \n        "author": null, \n        "color": null, \n        "brand": "FNC7C", \n        "publisher": null, \n        "availability": null, \n        "reviews": [\n            false, \n            "https://www.amazon.com/reviews/iframe?akid=AKIAIAKOAEV2HN4GKVDQ&alinkCode=xm2&asin=B016I2TS4W&atag=123456000e-20&exp=2017-09-05T06%3A59%3A21Z&v=2&sig=LDmdE4MmvXmyykwLtlen%252FtB3%252FlWVYIR%252FyWrzDeDtp%252BI%253D"\n        ], \n        "large_image_url": "https://images-na.ssl-images-amazon.com/images/I/41cfoWwna2L.jpg", \n        "availability_type": null, \n        "small_image_url": "https://images-na.ssl-images-amazon.com/images/I/41cfoWwna2L._SL75_.jpg", \n        "editorial_review": "Minions Como Superheroes Ironman Women\'s O Neck Long Sleeve T-shirt,it Is Made Of 100% Cotton,well Printed Images By Environmental Healthy Inks,Customized T Shirts Will Be The Best And Sincere Gifts For Your F'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

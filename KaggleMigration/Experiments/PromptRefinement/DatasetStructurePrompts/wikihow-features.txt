@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+aniketsharma00411/wikihow-features
+
+ЗАГОЛОВОК ДАТАСЕТА:
+wikiHow Features
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Features extracted from wikiHow articles
+
+ОПИСАНИЕ ДАТАСЕТА:
+Features extracted from wikiHow articles
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['tabular', 'regression']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\aniketsharma00411\wikihow-features\wikihow-features\wikihow.csv
+Первые 1024 байт файла: b'character_count,word_count,method_count,mean_method_size,mean_paragraph_size,size_largest_method,size_shortest_method,std_method_size,step_count,mean_steps_per_method,introduction_size,summary_size,references_count,references_count_per_text_length,references_count_per_method,image_count,image_count_per_method,num_votes,is_expert,views,co_authors,warnings,tips,to_be_verb,aux_verb,conjunction,pronoun,preposition,nominalization,sentence_beginning_pronoun,sentence_beginning_interrogative,sentence_beginning_article,sentence_beginning_subordination,sentence_beginning_conjunction,sentence_beginning_preposition,Kincaid,ARI,Coleman_Liau,FleschReadingEase,GunningFogIndex,LIX,SMOGIndex,RIX,DaleChallIndex,percent_helpful\n7107,1508,2,3357.5,379.8235294117647,4321,2394,963.5,16,8.0,359,518,24.0,0.0033769523005487546,12.0,14,7.0,30,True,124766.0,12.0,4,1,35,43,64,135,186,34,26,2,4,4,0,2,7.523760337026058,8.15974970094139,9.908876700928381,67.45345737764603,10.820887293909607,36.86654184220107,10.376433061167326,3.2647058823'
+
+Cоставь один абзац текста описывающий структуру датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не упоминай фразу "первые 1024 байт датасета". Говори только собственное имя файла, игнорируя полный путь. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

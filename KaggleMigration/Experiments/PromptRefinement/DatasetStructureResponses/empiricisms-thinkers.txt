@@ -1,0 +1,1 @@
+Файл "Empiricism_works_corpus.csv" содержит тексты ключевых работ известных философов-эмпириков, представленных в виде таблицы с колонками "book_title", "publishing_date", "authors", "text" и "text_clean".

@@ -1,0 +1,3 @@
+Кажется, что данный файл содержит информацию о рейтингах книг из датасета GoodBooks-10k от пользователя alexanderfrosati. Файл имеет название "ratings.csv" и находится в папке "Data\alexanderfrosati\goodbooks-10k-updated\goodbooks-10k-updated". 
+
+В первой строке файла указана заголовка с тремя column: user_id, book_id, rating. Далее следуют строки с рейтингами, где каждый рядокresents собой в формате "user_id, book_id, rating", где user_id - это идентификатор пользователя, book_id - это идентификатор книги, а rating - это оценка, которую пользователь поставил этой книге.

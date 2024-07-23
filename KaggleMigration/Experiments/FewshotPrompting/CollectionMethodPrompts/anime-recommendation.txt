@@ -1,0 +1,32 @@
+ID ДАТАСЕТА:
+astronautelvis/anime-recommendation
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Anime Recommendation
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+10000 anime and their correlated anime based on user descriptions
+
+ОПИСАНИЕ ДАТАСЕТА:
+10000 anime and their correlated anime based on user descriptions
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['anime and manga']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\astronautelvis\anime-recommendation\anime-recommendation\data.csv
+Первые 1024 байт файла: b'anime_1,anime_2,recommendation_text\r\nYuu\xe2\x98\x86Yuu\xe2\x98\x86Hakusho,JoJo no Kimyou na Bouken Part 3: Stardust Crusaders,"Both are long-running shonens that were originally published in shonen jump in the 90s. Both have a format of following a group of 4-5 characters that often were originally encountered as enemies before they become allies. Both protagonists are japanese, have delinquent tendencies but with hearts of gold and use an ability related to pointing their index finger. Both feature paranormal and horror elements as well as spirits. Both have supporting characters that fight with swords, pyrokinesis, and vines. Both have shonen battles that are fought through methods other than normal fighting. Both have nonhuman supporting characters that serve as comic relief. Both have a huge focus on comedy and character development, with occasional emotional moments."\r\nSuzumiya Haruhi no Shoushitsu,Zoku Owarimonogatari,Both have similar starting plots. Disappearance takes a much more emotional route than Zoku does but I '
+
+ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ:
+Пример 1:
+Сбор данных включал генерацию ответов на различные вопросы по программированию моделью CodeLlama.
+
+Пример 2:
+В предоставленной информации нет сведений о том, как данные из датасета были собраны.
+
+Пример 3:
+Данные из датасета "Anime Recommendations Database" были собраны с сайта myanimelist.net, где 76 000 пользователей предоставили свои рекомендации. Датасет включает две части: одну с информацией о аниме (название, жанр, тип, количество серий, рейтинг и число участников), а другую с оценками, которые пользователи ставили различным аниме.
+
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке, формулируя ответ похожим на ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ. 

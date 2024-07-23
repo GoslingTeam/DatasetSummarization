@@ -1,0 +1,29 @@
+ID ДАТАСЕТА:
+adityadesai13/used-car-dataset-ford-and-mercedes
+
+ЗАГОЛОВОК ДАТАСЕТА:
+100,000 UK Used Car Data set
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+100,000 scraped used car listings, cleaned and split into car make.
+
+ОПИСАНИЕ ДАТАСЕТА:
+100,000 scraped used car listings, cleaned and split into car make.
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['automobiles and vehicles']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА (показано только 4 файла из 13):
+Имя файла: Data\adityadesai13\used-car-dataset-ford-and-mercedes\used-car-dataset-ford-and-mercedes\audi.csv
+Первые 1024 байт файла: b'model,year,price,transmission,mileage,fuelType,tax,mpg,engineSize\r\n A1,2017,12500,Manual,15735,Petrol,150,55.4,1.4\r\n A6,2016,16500,Automatic,36203,Diesel,20,64.2,2.0\r\n A1,2016,11000,Manual,29946,Petrol,30,55.4,1.4\r\n A4,2017,16800,Automatic,25952,Diesel,145,67.3,2.0\r\n A3,2019,17300,Manual,1998,Petrol,145,49.6,1.0\r\n A1,2016,13900,Automatic,32260,Petrol,30,58.9,1.4\r\n A6,2016,13250,Automatic,76788,Diesel,30,61.4,2.0\r\n A4,2016,11750,Manual,75185,Diesel,20,70.6,2.0\r\n A3,2015,10200,Manual,46112,Petrol,20,60.1,1.4\r\n A1,2016,12000,Manual,22451,Petrol,30,55.4,1.4\r\n A3,2017,16100,Manual,28955,Petrol,145,58.9,1.4\r\n A6,2016,16500,Automatic,52198,Diesel,125,57.6,2.0\r\n Q3,2016,17000,Manual,44915,Diesel,145,52.3,2.0\r\n A3,2017,16400,Manual,21695,Petrol,30,58.9,1.4\r\n A6,2015,15400,Manual,47348,Diesel,30,61.4,2.0\r\n A3,2017,14500,Automatic,26156,Petrol,145,58.9,1.4\r\n Q3,2016,15700,Automatic,28396,Diesel,145,53.3,2.0\r\n A3,2014,13900,Automatic,30516,Petrol,30,56.5,1.4\r\n Q5,2016,19000,Automatic,37652,Diesel,200,47.1,2.0\r\n Q3,2014,1'
+
+Имя файла: Data\adityadesai13\used-car-dataset-ford-and-mercedes\used-car-dataset-ford-and-mercedes\bmw.csv
+Первые 1024 байт файла: b'model,year,price,transmission,mileage,fuelType,tax,mpg,engineSize\r\n 5 Series,2014,11200,Automatic,67068,Diesel,125,57.6,2.0\r\n 6 Series,2018,27000,Automatic,14827,Petrol,145,42.8,2.0\r\n 5 Series,2016,16000,Automatic,62794,Diesel,160,51.4,3.0\r\n 1 Series,2017,12750,Automatic,26676,Diesel,145,72.4,1.5\r\n 7 Series,2014,14500,Automatic,39554,Diesel,160,50.4,3.0\r\n 5 Series,2016,14900,Automatic,35309,Diesel,125,60.1,2.0\r\n 5 Series,2017,16000,Automatic,38538,Diesel,125,60.1,2.0\r\n 2 Series,2018,16250,Manual,10401,Petrol,145,52.3,1.5\r\n 4 Series,2017,14250,Manual,42668,Diesel,30,62.8,2.0\r\n 5 Series,2016,14250,Automatic,36099,Diesel,20,68.9,2.0\r\n X3,2017,15500,Manual,74907,Diesel,145,52.3,2.0\r\n 1 Series,2017,11800,Manual,29840,Diesel,20,68.9,2.0\r\n X3,2016,15500,Automatic,77823,Diesel,125,54.3,2.0\r\n 2 Series,2015,10500,Manual,31469,Diesel,20,68.9,2.0\r\n X3,2017,22000,Automatic,19057,Diesel,145,54.3,2.0\r\n 3 Series,2017,16500,Manual,16570,Diesel,125,58.9,2.0\r\n 3 Series,2017,14250,Automatic,55594,Other,135,148.7,2.0\r\n 3 Series,2'
+
+Имя файла: Data\adityadesai13\used-car-dataset-ford-and-mercedes\used-car-dataset-ford-and-mercedes\cclass.csv
+Первые 1024 байт файла: b'model,year,price,transmission,mileage,fuelType,engineSize\r\n C Class,2020,30495,Automatic,1200,Diesel,2.0\r\n C Class,2020,29989,Automatic,1000,Petrol,1.5\r\n C Class,2020,37899,Automatic,500,Diesel,2.0\r\n C Class,2019,30399,Automatic,5000,Diesel,2.0\r\n C Class,2019,29899,Automatic,4500,Diesel,2.0\r\n C Class,2020,30999,Automatic,1000,Diesel,2.0\r\n C Class,2020,35999,Automatic,500,Diesel,2.0\r\n C Class,2019,37990,Automatic,1412,Petrol,3.0\r\n C Class,2019,28990,Automatic,3569,Diesel,2.0\r\n C Class,2019,28990,Automatic,3635,Diesel,2.0\r\n C Class,2013,9995,Automatic,44900,Petrol,1.6\r\n C Class,2012,6995,Automatic,88200,Diesel,2.1\r\n C Class,2012,7495,Automatic,115000,Diesel,2.1\r\n C Class,2011,8995,Automatic,69250,Diesel,2.1\r\n C Class,2015,14995,Automatic,49850,Diesel,2.1\r\n C Class,2013,8595,Automatic,82685,Diesel,2.1\r\n C Class,2016,19250,Semi-Auto,32506,Diesel,2.1\r\n C Class,2017,23500,Semi-Auto,17000,Diesel,2.1\r\n C Class,2018,24995,Semi-Auto,17744,Diesel,2.0\r\n C Class,2016,29995,Semi-Auto,64291,Petrol,4.0\r\n C Class,2014,17990,A'
+
+Имя файла: Data\adityadesai13\used-car-dataset-ford-and-mercedes\used-car-dataset-ford-and-mercedes\focus.csv
+Первые 1024 байт файла: b'model,year,price,transmission,mileage,fuelType,engineSize\r\n Focus,2016,8000,Manual,38852,Petrol,1.0\r\n Focus,2019,13400,Manual,11952,Petrol,1.0\r\n Focus,2019,14600,Manual,22142,Petrol,1.5\r\n Focus,2016,9450,Manual,14549,Diesel,1.6\r\n Focus,2015,9999,Manual,7010,Diesel,1.6\r\n Focus,2016,10699,Automatic,26796,Petrol,1.0\r\n Focus,2018,12849,Manual,16128,Petrol,1.0\r\n Focus,2020,24999,Manual,4900,Petrol,2.3\r\n Focus,2018,11999,Manual,30953,Petrol,1.5\r\n Focus,2019,19500,Manual,3000,Diesel,1.5\r\n Focus,2018,12300,Manual,13255,Petrol,1.0\r\n Focus,2015,7500,Manual,42112,Petrol,1.0\r\n Focus,2017,9600,Manual,50689,Diesel,1.5\r\n Focus,2015,9500,Automatic,30292,Petrol,1.6\r\n Focus,2016,9400,Manual,25998,Petrol,1.0\r\n Focus,2017,9800,Manual,33629,Diesel,1.5\r\n Focus,2016,8000,Manual,43526,Diesel,1.5\r\n Focus,2018,10600,Manual,25151,Petrol,1.0\r\n Focus,2018,10300,Manual,45773,Petrol,1.0\r\n Focus,2018,11400,Manual,26656,Petrol,1.0\r\n Focus,2016,7900,Manual,58898,Diesel,1.5\r\n Focus,2015,7000,Manual,78533,Diesel,1.5\r\n Focus,2019,13500,Manual,27'
+
+Cоставь один абзац текста описывающий структуру датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не упоминай фразу "первые 1024 байт датасета". Говори только собственное имя файла, игнорируя полный путь. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

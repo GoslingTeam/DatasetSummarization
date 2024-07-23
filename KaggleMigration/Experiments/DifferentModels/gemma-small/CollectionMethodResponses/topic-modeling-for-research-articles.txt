@@ -1,0 +1,1 @@
+Данные из датасета были собраны из нескольких источников. Первые 1024 байт файла "Data\abisheksudarshan\topic-modeling-for-research-articles\topic-modeling-for-research-articles\sample_sub.csv" содержит описание поддела, а также 17934 записей, описывающих различные аспекты исследования, для которого был собран данс.

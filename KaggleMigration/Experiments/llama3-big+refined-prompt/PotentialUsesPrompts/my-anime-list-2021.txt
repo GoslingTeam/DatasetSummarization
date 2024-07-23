@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+abhishtagatya/my-anime-list-2021
+
+ЗАГОЛОВОК ДАТАСЕТА:
+MyAnimeList 2021
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+MyAnimeList Dataset Updated to 2021
+
+ОПИСАНИЕ ДАТАСЕТА:
+MyAnimeList Dataset Updated to 2021
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['tabular', 'anime and manga']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\abhishtagatya\my-anime-list-2021\my-anime-list-2021\MyAnimeList_Anime_2021_05_16.json
+Первые 1024 байт файла: b'[{"mal_id":1,"url":"https:\\/\\/myanimelist.net\\/anime\\/1\\/Cowboy_Bebop","image_url":"https:\\/\\/cdn.myanimelist.net\\/images\\/anime\\/4\\/19644.jpg","trailer_url":"https:\\/\\/www.youtube.com\\/embed\\/qig4KOK2R2g?enablejsapi=1&wmode=opaque&autoplay=1","title":"Cowboy Bebop","title_en":"Cowboy Bebop","title_jp":"\\u30ab\\u30a6\\u30dc\\u30fc\\u30a4\\u30d3\\u30d0\\u30c3\\u30d7","title_synonyms":[],"type":"TV","source":"Original","episodes":26.0,"status":"Finished Airing","airing":false,"aired_start":"1998-04-03T00:00:00+00:00","aired_end":"1999-04-24T00:00:00+00:00","premiered":"Spring 1998","broadcast":"Saturdays at 01:00 (JST)","episode_duration":"24 min per ep","synopsis":"In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to keep peace in the galaxy, aided in part by outlaw bounty hunters, referred to as \\"Cowboys.\\" The ragtag team aboard the spaceship Bebop are two such individuals'
+
+Cоставь один абзац текста описывающий возможные варианты использования датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Сформулируй ответ в одном абзаце на русском языке.

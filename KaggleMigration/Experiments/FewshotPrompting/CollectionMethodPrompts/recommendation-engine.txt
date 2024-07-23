@@ -1,0 +1,41 @@
+ID ДАТАСЕТА:
+ashishvaya/recommendation-engine
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Recommendation Engine
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Recommending the questions that a programmer should solve
+
+ОПИСАНИЕ ДАТАСЕТА:
+Recommending the questions that a programmer should solve
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['computer science', 'programming']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА (показано только 4 файла из 6):
+Имя файла: Data\ashishvaya\recommendation-engine\recommendation-engine\problem_data.csv
+Первые 1024 байт файла: b'problem_id,level_type,points,tags\nprob_3649,H,,\nprob_6191,A,,\nprob_2020,F,,\nprob_313,A,500.0,"greedy,implementation"\nprob_101,A,500.0,"constructive algorithms,greedy,math"\nprob_1479,E,,\nprob_2940,B,,\nprob_3059,B,5.0,brute force\nprob_1958,D,,\nprob_6154,C,,\nprob_4069,B,1000.0,"dfs and similar,dsu,graphs"\nprob_4926,A,500.0,implementation\nprob_3154,K,,\nprob_1538,A,,\nprob_3750,B,1000.0,math\nprob_4440,I,,\nprob_4569,A,,\nprob_4189,D,,\nprob_526,D,2000.0,"math,number theory"\nprob_5498,I,,\nprob_3216,F,,\nprob_1412,C,1500.0,"brute force,dp,number theory"\nprob_5088,B,,\nprob_5693,D,2000.0,"brute force,dfs and similar,graphs"\nprob_75,A,500.0,implementation\nprob_1035,I,,\nprob_2822,C,,"data structures,expression parsing,math"\nprob_3277,D,2000.0,"dfs and similar,greedy"\nprob_3284,,,\nprob_3714,D,,\nprob_1552,C,,\nprob_2092,E,,\nprob_4119,B,,\nprob_1397,B,1000.0,"bitmasks,brute force,dfs and similar,expression parsing,implementation"\nprob_5862,G,,"constructive algorithms,divide and conquer,implementation"\nprob_6212,A,500.0,"brute for'
+
+Имя файла: Data\ashishvaya\recommendation-engine\recommendation-engine\sample_submissions_wbscxqU.csv
+Первые 1024 байт файла: b'ID,attempts_range\r\n'
+
+Имя файла: Data\ashishvaya\recommendation-engine\recommendation-engine\submission.csv
+Первые 1024 байт файла: b'ID,attempts_range\r\nuser_856_prob_5822,1\r\nuser_2642_prob_2334,1\r\nuser_2557_prob_2920,1\r\nuser_1572_prob_4598,1\r\nuser_295_prob_6139,1\r\nuser_1202_prob_6253,1\r\nuser_1017_prob_2630,1\r\nuser_2907_prob_6360,1\r\nuser_3473_prob_4350,1\r\nuser_401_prob_1966,1\r\nuser_689_prob_791,1\r\nuser_285_prob_5518,1\r\nuser_367_prob_4425,1\r\nuser_1580_prob_1728,1\r\nuser_1562_prob_6500,1\r\nuser_2464_prob_2429,1\r\nuser_3519_prob_4971,1\r\nuser_1620_prob_2998,1\r\nuser_1207_prob_3335,1\r\nuser_792_prob_6173,2\r\nuser_3380_prob_51,1\r\nuser_1160_prob_5804,1\r\nuser_2860_prob_5661,1\r\nuser_1086_prob_4967,2\r\nuser_1356_prob_3508,2\r\nuser_344_prob_5186,1\r\nuser_3166_prob_574,1\r\nuser_1559_prob_767,2\r\nuser_56_prob_2872,1\r\nuser_1691_prob_5781,1\r\nuser_1758_prob_5067,1\r\nuser_1631_prob_4971,1\r\nuser_2546_prob_2939,1\r\nuser_698_prob_3548,1\r\nuser_785_prob_1675,1\r\nuser_1245_prob_2334,1\r\nuser_2975_prob_5932,1\r\nuser_1523_prob_3641,1\r\nuser_180_prob_5736,1\r\nuser_1650_prob_1279,1\r\nuser_3255_prob_5040,2\r\nuser_347_prob_1128,1\r\nuser_3076_prob_4407,2\r\nuser_3075_prob_6118,1\r\nuser_2969_pr'
+
+Имя файла: Data\ashishvaya\recommendation-engine\recommendation-engine\test_submissions_NeDLEvX.csv
+Первые 1024 байт файла: b'ID,user_id,problem_id\r\nuser_856_prob_5822,user_856,prob_5822\r\nuser_2642_prob_2334,user_2642,prob_2334\r\nuser_2557_prob_2920,user_2557,prob_2920\r\nuser_1572_prob_4598,user_1572,prob_4598\r\nuser_295_prob_6139,user_295,prob_6139\r\nuser_1202_prob_6253,user_1202,prob_6253\r\nuser_1017_prob_2630,user_1017,prob_2630\r\nuser_2907_prob_6360,user_2907,prob_6360\r\nuser_3473_prob_4350,user_3473,prob_4350\r\nuser_401_prob_1966,user_401,prob_1966\r\nuser_689_prob_791,user_689,prob_791\r\nuser_285_prob_5518,user_285,prob_5518\r\nuser_367_prob_4425,user_367,prob_4425\r\nuser_1580_prob_1728,user_1580,prob_1728\r\nuser_1562_prob_6500,user_1562,prob_6500\r\nuser_2464_prob_2429,user_2464,prob_2429\r\nuser_3519_prob_4971,user_3519,prob_4971\r\nuser_1620_prob_2998,user_1620,prob_2998\r\nuser_1207_prob_3335,user_1207,prob_3335\r\nuser_792_prob_6173,user_792,prob_6173\r\nuser_3380_prob_51,user_3380,prob_51\r\nuser_1160_prob_5804,user_1160,prob_5804\r\nuser_2860_prob_5661,user_2860,prob_5661\r\nuser_1086_prob_4967,user_1086,prob_4967\r\nuser_1356_prob_3508,user_1356,prob_35'
+
+ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ:
+Пример 1:
+Сбор данных включал генерацию ответов на различные вопросы по программированию моделью CodeLlama.
+
+Пример 2:
+В предоставленной информации нет сведений о том, как данные из датасета были собраны.
+
+Пример 3:
+Данные из датасета "Anime Recommendations Database" были собраны с сайта myanimelist.net, где 76 000 пользователей предоставили свои рекомендации. Датасет включает две части: одну с информацией о аниме (название, жанр, тип, количество серий, рейтинг и число участников), а другую с оценками, которые пользователи ставили различным аниме.
+
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. Свой ответ составь на русском языке, формулируя ответ похожим на ПРИМЕРЫ АБЗАЦЕВ ТЕКСТА ОПИСЫВАЮЩЕГО КАК БЫЛИ СОБРАНЫ ДАННЫЕ. 

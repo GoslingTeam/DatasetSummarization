@@ -1,0 +1,1 @@
+Структура датасета состоит из 10k записей, описывающих 10k самых top-рассвеенных TMDB movies.每 записка содержит 8 столбцов: "id", "title", "genre", "original_language", "overview", "popularity", "release_date", "vote_average", "vote_count".

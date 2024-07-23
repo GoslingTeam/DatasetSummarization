@@ -1,0 +1,1 @@
+Данное датаセット "uci-drug" состоит из двух CSV-файлов: "UCIdrug_test.csv" и "UCIdrug_train.csv". В каждом файле есть несколько столбцов, таких как "uniqueID", "drugName", "condition", "review", "rating", "date" и "usefulCount". Строчки в данных файлах представляют собой записи оmedicментах и ихEffectе на больных.

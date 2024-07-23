@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+apkaayush/tmdb-10000-movies-dataset
+
+ЗАГОЛОВОК ДАТАСЕТА:
+TMDB 10000 Movies Dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+TMDB 10000 Movies Dataset: Unveiling Cinematic Insights.
+
+ОПИСАНИЕ ДАТАСЕТА:
+TMDB 10000 Movies Dataset: Unveiling Cinematic Insights.
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['arts and entertainment', 'movies and tv shows', 'categorical']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\apkaayush\tmdb-10000-movies-dataset\tmdb-10000-movies-dataset\CleanedTMDB1000.csv
+Первые 1024 байт файла: b'Unnamed: 0,adult,backdrop_path,genre_ids,id,original_language,original_title,overview,popularity,poster_path,release_date,title,video,vote_average,vote_count,keywords,cast,crew\n0,False,https://image.tmdb.org/t/p/original//xOA4MbyJZVJHGZ38wC4LPpruBBX.jpg,"[\'Drama\', \'Crime\']",238,en,The Godfather,"Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",124.718,https://image.tmdb.org/t/p/original//3bhkrj58Vtu7enYsRolD1fZdja1.jpg,1972-03-14,The Godfather,False,8.7,18148,"[{\'id\': 131, \'name\': \'italy\'}, {\'id\': 697, \'name\': \'loss of loved one\'}, {\'id\': 699, \'name\': \'love at first sight\'}, {\'id\': 818, \'name\': \'based on novel or book\'}, {\'id\': 1295, \'name\': \'europe\'}, {\'id\': 1715, \'name\': \'symbolism\'}, {\'id\': 4677, \'name\': \'patriarch\'}, {\'id\': 10291, \'name\': \'organized '
+
+Cоставь один абзац текста описывающий как были собраны данные. Если ты не знаешь как были собраны данные, то в ответе напиши, что нет информации о том, как были собраны данные. Не упоминай заголовок и ID датасета. Не упоминай файлы датасета. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Не говори для чего датасет может быть полезен. Сформулируй ответ в одном абзаце на русском языке.

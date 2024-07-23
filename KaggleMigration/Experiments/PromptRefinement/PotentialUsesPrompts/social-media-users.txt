@@ -1,0 +1,20 @@
+ID ДАТАСЕТА:
+arindamsahoo/social-media-users
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Social-Media-Users-Dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+The Ultimate Dummy Users Dataset for Social Media Recommendation Models
+
+ОПИСАНИЕ ДАТАСЕТА:
+The Ultimate Dummy Users Dataset for Social Media Recommendation Models
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['social networks']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\arindamsahoo\social-media-users\social-media-users\SocialMediaUsersDataset.csv
+Первые 1024 байт файла: b'UserID,Name,Gender,DOB,Interests,City,Country\r\n00001,Jesse Lawhorn,Female,1958-10-15,"\'Movies\', \'Fashion\', \'Fashion\', \'Books\'",Sibolga,Indonesia\r\n00002,Stacy Payne,Female,2004-07-21,"\'Gaming\', \'Finance and investments\', \'Outdoor activities\', \'Travel\'",Al Aby\xc4\x81r,Libya\r\n00003,Katrina Nicewander,Female,2000-02-07,"\'DIY and crafts\', \'Music\', \'Science\', \'Fashion\'",W\xc4\x81d\xc4\xab as S\xc4\xabr,Jordan\r\n00004,Eric Yarbrough,Male,1985-04-14,"\'Outdoor activities\', \'Cars and automobiles\'",Matera,Italy\r\n00005,Daniel Adkins,Female,1955-09-18,"\'Politics\', \'History\'",Biruaca,Venezuela\r\n00006,Diane Jara,Male,1967-06-18,\'Travel\',Belton,United States\r\n00007,Sheryl Morgan,Female,1969-02-09,"\'Outdoor activities\', \'Movies\'",Haslingden,United Kingdom\r\n00008,William Harper,Male,1965-12-30,"\'Beauty\', \'Nature\', \'Gardening\', \'Food and dining\', \'DIY and crafts\'",Ad-Damazin,Sudan\r\n00009,Virginia Varron,Male,1984-08-16,"\'Parenting and family\', \'Photography\', \'Finance and investments\'",Tabuk,Saudi Arabia\r\n00010,Charles Figueroa,Female,2003-03-08,\'Garde'
+
+Cоставь один абзац текста описывающий возможные варианты использования датасета. Не упоминай ID датасета, заголовок и подзаголовок. Не рассказывай как был собран датасет. Не говори о ключевых словах датасета. Не упоминай себя и автоматического ассистента Сайга. Сформулируй ответ в одном абзаце на русском языке.

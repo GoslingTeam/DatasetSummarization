@@ -1,0 +1,26 @@
+Данные из файла train.csv можно быть интерпретированы как информация о поиске отелей в отелях, где каждый столбец соответствует определенной характеристике или свойству. 
+
+Структура данных может быть описана следующим образом:
+
+* site_name (string) - имя сайта
+* posa_continent (integer) - континент пользователя
+* user_location_country (integer) - страна расположения пользователя
+* user_location_region (integer) - регион расположения пользователя
+* user_location_city (integer) - город расположения пользователя
+* user_id (integer) - уникальный идентификатор пользователя
+* is_mobile (integer) - является ли пользователь мобильным
+* is_package (integer) - является ли бронированным пакетом
+* channel (string) - канал поиска
+* srch_adults_cnt (integer) - количество взрослых в поиске
+* srch_children_cnt (integer) - количество детей в поиске
+* srch_rm_cnt (integer) - количество номеров в поиске
+* srch_destination_id (integer) - идентификатор目的 поиска
+* srch_destination_type_id (integer) - тип цели поиска
+* is_booking (integer) - является ли бронированным
+* cnt (integer) - количество отелей
+* hotel_continent (string) - континент отеля
+* hotel_country (string) - страна отеля
+* hotel_market (string) - рынок отеля
+* hotel_cluster (string) - кластер отелей
+
+Каждый столбец содержит информацию о конкретном поиске отелей, включая в себя информацию о пользователе, его местоположении и предпочтениях.

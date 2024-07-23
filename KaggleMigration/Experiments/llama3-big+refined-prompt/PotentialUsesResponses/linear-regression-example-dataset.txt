@@ -1,0 +1,1 @@
+Данный датасет может быть использован для тренировки и тестирования моделей машинного обучения, , таких как линейная регрессия, для прогнозирования непрерывных значений, A possible application of this dataset is to train and test machine learning models, such as linear regression, for predicting continuous values.

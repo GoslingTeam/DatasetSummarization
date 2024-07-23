@@ -1,0 +1,1 @@
+Данные из датасета "apartments-for-rent-classified" были собраны из Apartment rental advertisement descriptions in US. Текстов описаний объявлений о rental apartments в США.

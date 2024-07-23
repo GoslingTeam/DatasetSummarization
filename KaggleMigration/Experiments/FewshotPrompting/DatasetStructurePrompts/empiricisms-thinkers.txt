@@ -1,0 +1,21 @@
+ID ДАТАСЕТА:
+akouaorsot/empiricisms-thinkers
+
+ЗАГОЛОВОК ДАТАСЕТА:
+Empiricist Thinkers
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Key works of prominent empiricist thinkers
+
+ОПИСАНИЕ ДАТАСЕТА:
+Key works of prominent empiricist thinkers
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['philosophy', 'nlp', 'text mining', 'text', 'nltk']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\akouaorsot\empiricisms-thinkers\empiricisms-thinkers\Empiricism_works_corpus.csv
+Первые 1024 байт файла: b',book_title,publishing_date,authors,text,text_clean\r\n0,"An Essay Concerning Humane Understanding, Volume I",1689,John Locke,"TO THE RIGHT HONOURABLE THOMAS, EARL OF PEMBROKE AND MONTGOMERY, BARON\r\nHERBERT OF CARDIFF LORD ROSS, OF KENDAL, PAR, FITZHUGH, MARMION, ST.\r\nQUINTIN, AND SHURLAND;\r\n\r\nLORD PRESIDENT OF HIS MAJESTY\xe2\x80\x99S MOST HONOURABLE PRIVY COUNCIL; AND LORD\r\nLIEUTENANT OF THE COUNTY OF WILTS, AND OF SOUTH WALES.\r\n\r\nMY LORD,\r\n\r\nThis Treatise, which is grown up under your lordship\xe2\x80\x99s eye, and has\r\nventured into the world by your order, does now, by a natural kind of\r\nright, come to your lordship for that protection which you several years\r\nsince promised it. It is not that I think any name, how great soever,\r\nset at the beginning of a book, will be able to cover the faults that\r\nare to be found in it. Things in print must stand and fall by their own\r\nworth, or the reader\xe2\x80\x99s fancy. But there being nothing more to be desired\r\nfor truth than a fair unprejudiced hearing, nobody is more likely to\r\nprocure m'
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. Свой ответ составь на русском языке.

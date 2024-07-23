@@ -1,0 +1,1 @@
+Данные из датасета "52,000 Animation Movie Details" были собраны с помощью скрейпинга API TMDB (The Movie Database).

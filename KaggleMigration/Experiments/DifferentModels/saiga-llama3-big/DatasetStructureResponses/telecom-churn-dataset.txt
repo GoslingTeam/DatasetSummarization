@@ -1,0 +1,1 @@
+Датасет Telecom Churn Dataset содержит информацию по клиентам мобильной связи и состоит из 1024 байтового файла telecom_ churn_data.csv. Строка столбцов включает такие поля как mobile_number, circle_id, loc_og_t2o_mou, std_og_t2o_mou и так далее (всего около 40 полей).

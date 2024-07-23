@@ -1,0 +1,12 @@
+Данный текст описывает датасет "Insurance Product Purchase Prediction", который содержит информацию о покупках страховых продуктов на основе истории покупок клиентов.
+
+ID датасета: akhilups/insurance-product-purchase-prediction
+Заголовок: Insurance Product Purchase Prediction
+Подзаголовок: Prediction based on shopping history
+
+Описание: Датасет предназначен для прогнозирования покупки страховых продуктов на основе истории покупок клиентов.
+
+Ключевые слова: ['business', 'education', 'classification', 'regression', 'insurance']
+
+Содержимое файла:
+Файл train.csv содержит данные о покупках, включая информацию о клиентах (customer_ID), времени и дате покупки (day, time), месте нахождения (state, location) и другие параметры.

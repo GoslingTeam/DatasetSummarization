@@ -1,0 +1,1 @@
+Структура датасета, описанная в тексте, представляет собой JSON-файл, представляющий recommends system для Amazon Women Apparel. Файл содержит информацию о recommended products, включая SKU, asin, product type, price, reviews, images and other details.

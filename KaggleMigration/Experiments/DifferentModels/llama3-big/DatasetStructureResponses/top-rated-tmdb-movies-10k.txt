@@ -1,0 +1,1 @@
+Структура датасета TMDB Movies Dataset представлена одним файлом top10K-TMDB-movies.csv, содержащим информацию о 10 тысячах высокорейтинговых фильмах из базы данных The Movie Database (TMDB). Каждая строка файла соответствует одному фильму и включает в себя следующие столбцы: id, title, genre, original_language, overview, popularity, release_date, vote_average, vote_count.

@@ -1,0 +1,1 @@
+Файл train.csv находится в директории Data\allegray\book-recommendation-system-dataset\ и содержит информацию о взаимодействиях пользователей с книгами, представленную в виде пар user_id и item_id.

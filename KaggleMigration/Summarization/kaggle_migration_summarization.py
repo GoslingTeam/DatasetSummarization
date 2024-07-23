@@ -2,7 +2,24 @@ import os
 import zipfile
 import json
 import glob
-import ollama
+# import ollama
+
+import aiohttp
+import asyncio
+
+class LLM:
+    
+    def __init__(self):
+        with open('llama3_72b_endpoint.txt') as f:
+            self.url: str = f.read()
+
+    async def get_response(self, json_data) -> str:
+        async with aiohttp.ClientSession() as session:
+            async with session.post(self.url, json=json_data) as response:
+                if response.status != 200:
+                    raise Exception(f"Error: {response.status}")
+                return await response.json()
+            
 
 class KaggleMigrationSummarizer:
     """Generation of information about collection, structure, and usecases of a dataset"""
@@ -20,199 +37,164 @@ class KaggleMigrationSummarizer:
             None
         """
         self.dataset_prompt = None
+        self.llm = LLM()
 
-    def _compose_dataset_prompt(self, dataset_dir_name):
-        """
-        Composes a prompt for a dataset given its directory name.
-        This function iterates over the files in the specified dataset directory and composes a prompt based on the metadata and content of the files.
+    def _compose_metadata_prompt(self, json_file):
+        metadata_prompt = ""
+        metadata_json = json.load(json_file)
         
-        Parameters:
-            dataset_dir_name (str): The name of the directory containing the dataset.
-
-        Returns:
-            str: The composed prompt for the dataset.
-        """
-
-        for filename in os.listdir(dataset_dir_name):
-
-            if filename.endswith('.json'):
-
-                metadata_prompt = ""
-
-                with open(os.path.join(dataset_dir_name, filename), encoding='UTF-8') as f:
-                    metadata_json = json.load(f)
-
-                if 'id' in metadata_json and metadata_json['id'] != '':
-                    metadata_prompt += f"ID ДАТАСЕТА:\n{metadata_json['id'][:1024]}\n\n"
-
-                if 'hasTitle' in metadata_json and metadata_json['hasTitle'] is True:
-                    if 'title' in metadata_json and metadata_json['title'] != '':
-                        metadata_prompt += f"ЗАГОЛОВОК ДАТАСЕТА:\n{metadata_json['title'][:1024]}\n\n"
-
-                if 'hasSubtitle' in metadata_json and metadata_json['hasSubtitle'] is True:
-                    if 'subtitle' in metadata_json and metadata_json['subtitle'] != '':
-                        metadata_prompt += f"ПОДЗАГОЛОВОК ДАТАСЕТА:\n{metadata_json['subtitle'][:1024]}\n\n"
-
-                if 'hasDescription' in metadata_json and metadata_json['hasDescription'] is True:
-                    if 'description' in metadata_json and metadata_json['description'] != '':
-                        metadata_prompt += f"ОПИСАНИЕ ДАТАСЕТА:\n{metadata_json['subtitle'][:1024]}\n\n"
-
-                if 'keywords' in metadata_json and len(metadata_json['keywords']) != 0:
-                    metadata_prompt += f"КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:\n{str(metadata_json['keywords'])[:1024]}\n\n"
-
-
-            if filename.endswith('.zip'):
-
-                data_prompt = "СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА"
-
-                extraction_dir_name = os.path.join(dataset_dir_name, filename[:-4])
-
-                if not os.path.exists(extraction_dir_name):
-                    os.makedirs(extraction_dir_name)
-                    with zipfile.ZipFile(os.path.join(dataset_dir_name, filename), 'r') as zip_ref:
-                        zip_ref.extractall(extraction_dir_name)
-
-                all_paths = glob.glob(extraction_dir_name + "/**/*", recursive=True)
-                file_paths = [path for path in all_paths if os.path.isfile(path)]
-
-                if len(file_paths) > 4:
-                    data_prompt += f" (показано только 4 файла из {len(file_paths)})"
-
-                data_prompt += ":\n"
-
-                # max number of files is 4
-                for data_filename in file_paths[:4]:
-
-                    data_prompt += f"Имя файла: {data_filename}\n"
-
-                    with open(data_filename, 'rb') as f:
-                        data_file_content = f.read(1024)
-
-                    data_prompt += f"Первые 1024 байт файла: {data_file_content}\n\n"
-
-        prompt = metadata_prompt + data_prompt + "\n"
-        return prompt
-
-    def _compose_collection_method_prompt(self, dataset_dir_name):
-        """
-        Composes a prompt for the collection method of a dataset.
-
-        Args:
-            dataset_dir_name (str): The name of the directory containing the dataset.
-
-        Returns:
-            str: The composed prompt for the collection method of the dataset.
-        """
-        if self.dataset_prompt is None:
-            self.dataset_prompt = self._compose_dataset_prompt(dataset_dir_name)
-
-        dataset_prompt = self.dataset_prompt
-
-        dataset_prompt += "Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий "
-        dataset_prompt += "как данные из датасета были собраны. Если в секциях выше нет информации о том, как данные были собраны, то просто сообщи об этом. "
-        dataset_prompt += "Свой ответ составь на русском языке."
+        if 'id' in metadata_json and metadata_json['id'] != '':
+            metadata_prompt += f"ID ДАТАСЕТА:\n{metadata_json['id'][:1024]}\n\n"
         
-        return dataset_prompt
-
-    def _compose_dataset_structure_prompt(self, dataset_dir_name):
-        """
-        Composes a prompt for the structure of a dataset.
-
-        Args:
-            dataset_dir_name (str): The name of the directory containing the dataset.
-
-        Returns:
-            str: The composed prompt for the structure of the dataset.
-        """
-        if self.dataset_prompt is None:
-            self.dataset_prompt = self._compose_dataset_prompt(dataset_dir_name)
-
-        dataset_prompt = self.dataset_prompt
-
-        dataset_prompt += "Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий "
-        dataset_prompt += "структуру датасета. Если в секциях выше недостаточно информации о структуре датасета, то просто сообщи об этом. "
-        dataset_prompt += "Свой ответ составь на русском языке."
-
-        return dataset_prompt
-
-    def _compose_usecases_prompt(self, dataset_dir_name):
-        """
-        Composes a prompt for the use cases of a dataset.
-
-        Parameters:
-            dataset_dir_name (str): The name of the directory containing the dataset.
-
-        Returns:
-            str: The composed prompt for the use cases of the dataset.
-        """
-        if self.dataset_prompt is None:
-            self.dataset_prompt = self._compose_dataset_prompt(dataset_dir_name)
-
-        dataset_prompt = self.dataset_prompt
-
-        dataset_prompt += "Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий "
-        dataset_prompt += "возможные варианты использования датасета. "
-        dataset_prompt += "Свой ответ составь на русском языке."
+        if 'hasTitle' in metadata_json and metadata_json['hasTitle'] is True:
+            if 'title' in metadata_json and metadata_json['title'] != '':
+                metadata_prompt += f"ЗАГОЛОВОК ДАТАСЕТА:\n{metadata_json['title'][:1024]}\n\n"
         
-        return dataset_prompt
+        if 'hasSubtitle' in metadata_json and metadata_json['hasSubtitle'] is True:
+            if 'subtitle' in metadata_json and metadata_json['subtitle'] != '':
+                metadata_prompt += f"ПОДЗАГОЛОВОК ДАТАСЕТА:\n{metadata_json['subtitle'][:1024]}\n\n"
+        
+        if 'hasDescription' in metadata_json and metadata_json['hasDescription'] is True:
+            if 'description' in metadata_json and metadata_json['description'] != '':
+                metadata_prompt += f"ОПИСАНИЕ ДАТАСЕТА:\n{metadata_json['subtitle'][:1024]}\n\n"
+        
+        if 'keywords' in metadata_json and len(metadata_json['keywords']) != 0:
+            metadata_prompt += f"КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:\n{str(metadata_json['keywords'])[:1024]}\n\n"
+        
+        return metadata_prompt
+
+    def _compose_data_prompt(self, zip_file):
+        data_prompt = "СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА"
+        infolist_files = [file_info for file_info in zip_file.infolist() if not file_info.is_dir()]
     
-    def generate_collection_description(self, dataset_dir_name):
-        """
-        Generates a collection description based on the dataset directory name.
+        if len(infolist_files) > 4:
+            data_prompt += f" (показано только 4 файла из {len(file_paths)})"
+    
+        data_prompt += ":\n"
+        
+        # max 4 files
+        for file_info in infolist_files[:4]:
+            
+            data_prompt += f"Имя файла: {file_info.filename}\n"
+    
+            with zip_file.open(file_info) as f:
+                data_file_content = f.read(1024)
+    
+            data_prompt += f"Первые 1024 байт файла: {data_file_content}\n\n"
+    
+        return data_prompt
+    
+    def _compose_dataset_prompt(self, json_file, zip_file):
+        metadata_prompt = self._compose_metadata_prompt(json_file)
+        data_prompt = self._compose_data_prompt(zip_file)
+        return metadata_prompt + data_prompt
 
-        Args:
-            dataset_dir_name (str): The directory name of the dataset.
+    def _compose_collection_method_prompt(self, json_file, zip_file):
+        if self.dataset_prompt is None:
+            self.dataset_prompt = self._compose_dataset_prompt(
+                json_file, zip_file
+            )
 
-        Returns:
-            str: The generated collection description.
-        """
-        prompt = self._compose_collection_method_prompt(dataset_dir_name)
-        result = ollama.generate(model='bambucha/saiga-llama3', prompt=prompt)
-        response = result['response']
-        response = response.strip()
+        dataset_prompt = self.dataset_prompt
+
+        dataset_prompt += "Cоставь один абзац текста описывающий как были собраны данные. "
+        dataset_prompt += "Если ты не знаешь как были собраны данные, то в ответе напиши, что нет информации о том, как были собраны данные. "
+        dataset_prompt += "Не упоминай заголовок и ID датасета. "
+        dataset_prompt += "Не упоминай файлы датасета. "
+        dataset_prompt += "Не говори о ключевых словах датасета. "
+        dataset_prompt += "Не упоминай себя. "
+        dataset_prompt += "Не говори для чего датасет может быть полезен. "
+        dataset_prompt += "Сформулируй ответ в одном абзаце на русском языке."
+        
+        return dataset_prompt
+
+    def _compose_dataset_structure_prompt(self, json_file, zip_file):
+        if self.dataset_prompt is None:
+            self.dataset_prompt = self._compose_dataset_prompt(
+                json_file, zip_file
+            )
+
+        dataset_prompt = self.dataset_prompt
+
+        dataset_prompt += "Cоставь один абзац текста описывающий структуру датасета. "
+        dataset_prompt += "Не упоминай ID датасета, заголовок и подзаголовок. "
+        dataset_prompt += "Не упоминай фразу \"первые 1024 байт датасета\". "
+        dataset_prompt += "Говори только собственное имя файла, игнорируя полный путь. "
+        dataset_prompt += "Не рассказывай как был собран датасет. "
+        dataset_prompt += "Не говори о ключевых словах датасета. "
+        dataset_prompt += "Не упоминай себя. "
+        dataset_prompt += "Не говори для чего датасет может быть полезен. "
+        dataset_prompt += "Сформулируй ответ в одном абзаце на русском языке."
+
+        return dataset_prompt
+
+    def _compose_usecases_prompt(self, json_file, zip_file):
+        if self.dataset_prompt is None:
+            self.dataset_prompt = self._compose_dataset_prompt(
+                json_file, zip_file
+            )
+
+        dataset_prompt = self.dataset_prompt
+
+        dataset_prompt += "Cоставь один абзац текста описывающий возможные варианты использования датасета. "
+        dataset_prompt += "Не упоминай ID датасета, заголовок и подзаголовок. "
+        dataset_prompt += "Не рассказывай как был собран датасет. "
+        dataset_prompt += "Не говори о ключевых словах датасета. "
+        dataset_prompt += "Не упоминай себя. "
+        dataset_prompt += "Сформулируй ответ в одном абзаце на русском языке. "
+        
+        return dataset_prompt
+
+    # def _generate(self, prompt):
+    #     result = ollama.generate(model='bambucha/saiga-llama3', prompt=prompt)
+    #     response = result['response']
+    #     response = response.strip()
+    #     return response
+
+    def _generate(self, prompt):
+        response = asyncio.run(
+            self.llm.get_response({
+                "prompt": prompt,
+                "stop": None,
+                "max_tokens": 512,
+                "choice": None,
+                "schema": None,
+                "regex": None,
+                "temperature": 0.1,
+            })
+        )
+        return response
+    
+    def generate_collection_description(self, json_file, zip_file):
+        prompt = self._compose_collection_method_prompt(json_file, zip_file)
+        response = self._generate(prompt)
         return response
 
-    def generate_structure_description(self, dataset_dir_name):
-        """
-        Generates a structure description for a dataset based on the given dataset directory name.
-
-        Parameters:
-            dataset_dir_name (str): The name of the dataset directory.
-
-        Returns:
-            str: The generated structure description.
-        """
-        prompt = self._compose_dataset_structure_prompt(dataset_dir_name)
-        result = ollama.generate(model='bambucha/saiga-llama3', prompt=prompt)
-        response = result['response']
-        response = response.strip()
+    def generate_structure_description(self, json_file, zip_file):
+        prompt = self._compose_dataset_structure_prompt(json_file, zip_file)
+        response = self._generate(prompt)
         return response
 
-    def generate_usecases_description(self, dataset_dir_name):
-        """
-        Generates a structure description for a dataset based on its directory name.
-
-        Args:
-            dataset_dir_name (str): The directory name of the dataset.
-
-        Returns:
-            str: The generated structure description for the dataset.
-        """
-        prompt = self._compose_usecases_prompt(dataset_dir_name)
-        result = ollama.generate(model='bambucha/saiga-llama3', prompt=prompt)
-        response = result['response']
-        response = response.strip()
+    def generate_usecases_description(self, json_file, zip_file):
+        prompt = self._compose_usecases_prompt(json_file, zip_file)
+        response = self._generate(prompt)
         return response
+
+    def generate_descriptions(self, json_file, zip_file):
+        collection_description = self.generate_collection_description(json_file, zip_file)
+        structure_description = self.generate_structure_description(json_file, zip_file)
+        usecases_description = self.generate_usecases_description(json_file, zip_file)
+        return {
+            'collection_description': collection_description,
+            'structure_description': structure_description,
+            'usecases_description': usecases_description
+        }
     
 if __name__ == "__main__":
     summarizer = KaggleMigrationSummarizer()
-    folder = '../aarzookuhar/hotel-recommendation-dataset'
-    print('COLLECTION')
-    print(summarizer.generate_collection_description(folder))
-    print()
-    print('STRUCTURE')
-    print(summarizer.generate_structure_description(folder))
-    print()
-    print('USECASES')
-    print(summarizer.generate_usecases_description(folder))
+    json_path = os.path.join('..', 'InputExample', 'dataset-metadata.json')
+    zip_path = os.path.join('..', 'InputExample', 'hotel-recommendation-dataset.zip')
 
+    with open(json_path) as json_file:
+        with zipfile.ZipFile(zip_path, 'r') as zip_file:
+            print(summarizer.generate_descriptions(json_file, zip_file))

@@ -1,0 +1,82 @@
+Структура данных содержит 12 столбцов, описывающих характеристики дома, расположенного в городе Asharalikamil. 
+
+- **Id** - идентификатор записи.
+- **MSSubClass** - класс дома.
+- **MSZoning** - зона жилья.
+- **LotFrontage** - размер застройки.
+- **LotArea** - площадь дома.
+- **Street** - название улицы.
+- **Alley** - название улицы.
+- **LotShape** - формата территории.
+- **LandContour** - тип участка.
+- **Utilities** - наличие необходимыхUtilities.
+- **LotConfig** - тип дома.
+- **LandSlope** - процентное наклонение.
+- **Neighborhood** - название ближайшего жилого района.
+- **Condition1** - основные условия дома.
+- **Condition2** - дополнительные условия.
+- **BldgType** - тип дома.
+- **HouseStyle** - стиль дома.
+- **OverallQual** - общее состояние дома.
+- **OverallCond** - состояние房间.
+- **YearBuilt** - дата постройки.
+- **YearRemodAdd** - дата последней ремодации.
+- **RoofStyle** - стиль крыши.
+- **RoofMatl** - тип покрытия.
+- **Exterior1st** - первый вид exterior.
+- **Exterior2nd** - второй вид exterior.
+- **MasVnrType** - тип материала для внешней стены.
+- **MasVnrArea** - размер внешней стены.
+- **ExterQual** - quality внешней стены.
+- **ExterCond** - состояние внешней стены.
+- **Foundation** - тип фундамента.
+- **BsmtQual** - качество фундамента.
+- **BsmtCond** - состояние фундамента.
+- **BsmtExposure** - exposed ли фундамент.
+- **BsmtFinType1** - тип финансирования фундамента.
+- **BsmtFinSF1** -총 стоимость финансирования фундамента.
+- **BsmtFinType2** - тип финансирования фундамента.
+- **BsmtFinSF2** -총 стоимость финансирования фундамента.
+- **BsmtUnfSF** - универсальный фундамент.
+- **TotalBsmtSF** - общее количество фундамента.
+- **Heating** - система отопления.
+- **HeatingQC** - качество системы отопления.
+- **CentralAir** - наличие центрального air conditioning.
+- **Electrical** - количество электрических выводов.
+- **1stFlrSF** - количество первых этажей.
+- **2ndFlrSF** - количество second этажей.
+- **LowQualFinSF** - количество second этажей с низким качеством.
+- **GrLivArea** - площадь жилья.
+- **BsmtFullBath** - количество full bathrooms.
+- **BsmtHalfBath** - количество half bathrooms.
+- **FullBath** - количество full bathrooms.
+- **HalfBath** - количество half bathrooms.
+- **BedroomAbvGr** - количество комнат на этаже.
+- **KitchenAbvGr** - количество комнат в кухні.
+- **KitchenQual** - качество кухни.
+- **TotRmsAbvGrd** - количество жилых rooms.
+- **Functional** - функциональная форма.
+- **Fireplaces** - наличие запределенных спалов.
+- **FireplaceQu** - тип fireplace.
+- **GarageType** - тип сану.
+- **GarageYrBlt** - year of garage build.
+- **GarageFinish** - finish of garage.
+- **GarageCars** - количество парковных машин.
+- **GarageArea** - площадь garage.
+- **GarageQual** - качество garage.
+- **GarageCond** - состояние garage.
+- **PavedDrive** - наличие песковой дорожки.
+- **WoodDeckSF** - наличие деревянной паники.
+- **OpenPorchSF** - наличие открытого дорованного пара.
+- **EnclosedPorch** - наличие заброшенного puedas.
+- **3SsnPorch** - наличие 3-схватичного puedas.
+- **ScreenPorch** - наличие шторки.
+- **PoolArea** - площадь бассейна.
+- **PoolQC** - качество бассейна.
+- **Fence** - наличие заборы.
+- **MiscFeature** - другие характеристики.
+- **MiscVal** - значение других характеристи.
+- **MoSold** - дата продажи.
+- **YrSold** - дата продажи.
+- **SaleType** - тип продажи.
+- **SaleCondition** - состояние продажи

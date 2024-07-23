@@ -1,0 +1,24 @@
+ID ДАТАСЕТА:
+adinishad/yts-movie-dataset
+
+ЗАГОЛОВОК ДАТАСЕТА:
+YTS movie dataset
+
+ПОДЗАГОЛОВОК ДАТАСЕТА:
+Movie dataset for analysis and recommendation system
+
+ОПИСАНИЕ ДАТАСЕТА:
+Movie dataset for analysis and recommendation system
+
+КЛЮЧЕВЫЕ СЛОВА ДАТАСЕТА:
+['movies and tv shows', 'beginner', 'intermediate', 'exploratory data analysis', 'data visualization']
+
+СОДЕРЖИМОЕ ФАЙЛОВ ДАТАСЕТА:
+Имя файла: Data\adinishad\yts-movie-dataset\yts-movie-dataset\yts.json
+Первые 1024 байт файла: b'[\n{"name": "All In: The Family", "year": "2020", "imdb_rating": "6.8", "movie_poster": null, "genres": "Comedy , Crime , Drama , Mystery , Thriller", "directors": null, "cast": [], "similar_movies": [{"Movie_0": "The Family Man (2000)"}, {"Movie_1": "Family is Family (2018)"}, {"Movie_2": "The Family Way (1966)"}, {"Movie_3": "First Family (1980)"}]},\n{"name": "The Razor\'s Edge", "year": "1984", "imdb_rating": "6.6", "movie_poster": null, "genres": "Drama , Romance , War", "directors": "John Byrum", "cast": [{"Cast_0": ["Bill Murray"]}, {"Cast_1": ["Theresa Russell"]}, {"Cast_2": ["Brian Doyle-Murray"]}, {"Cast_3": ["Catherine Hicks"]}], "similar_movies": [{"Movie_0": "The Razor\'s Edge (1946)"}, {"Movie_1": "Beyond the Edge (2016)"}, {"Movie_2": "Battlestar Galactica: Razor (2007)"}, {"Movie_3": "Over the Edge (1979)"}]},\n{"name": "The Aftermath", "year": "1982", "imdb_rating": "4.3", "movie_poster": null, "genres": "Sci-Fi , Thriller", "directors": "Steve Barkett", "cast": [{"Cast_0": ["Sid Haig"]}, {"Cast_1'
+
+Имя файла: Data\adinishad\yts-movie-dataset\yts-movie-dataset\yts_2022.json
+Первые 1024 байт файла: b'[\n{"name": "Green Lantern: Beware My Power", "year": "2022", "imdb_rating": "6.0", "movie_poster": null, "genres": "Adventure , Animation , Sci-Fi", "directors": "Jeff Wamester", "cast": [{"Cast_0": ["Jimmi Simpson"]}, {"Cast_1": ["Aldis Hodge"]}, {"Cast_2": ["Nolan North"]}, {"Cast_3": ["Jamie Gray Hyder"]}], "similar_movies": [{"Movie_0": "Green Lantern: Emerald Knights (2011)"}, {"Movie_1": "Barbie in Princess Power (2015)"}, {"Movie_2": "Pok\\u00e9mon the Movie: The Power of Us (2018)"}, {"Movie_3": "Green Lantern: First Flight (2009)"}]},\n{"name": "Bebe\'s Kids", "year": "1992", "imdb_rating": "5.8", "movie_poster": null, "genres": "Animation , Comedy , Fantasy , Musical", "directors": "Bruce W. Smith", "cast": [{"Cast_0": ["George Wallace"]}, {"Cast_1": ["Marques Houston"]}, {"Cast_2": ["Faizon Love"]}, {"Cast_3": ["Vanessa Bell Calloway"]}], "similar_movies": [{"Movie_0": "Spy Kids 4: All the Time in the World (2011)"}, {"Movie_1": "Trolled (2018)"}, {"Movie_2": "Asterix and Obelix: Mansion of the Gods ('
+
+
+Используй информацию из секций, обозначенных ЗАГЛАВНЫМИ буквами, чтобы составить один абзац текста описывающий возможные варианты использования датасета. Свой ответ составь на русском языке.

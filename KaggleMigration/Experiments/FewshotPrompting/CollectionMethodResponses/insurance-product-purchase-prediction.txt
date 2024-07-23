@@ -1,0 +1,1 @@
+Данные из датасета "Insurance Product Purchase Prediction" были собраны на основе истории покупок клиентов.

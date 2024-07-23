@@ -1,0 +1,1 @@
+Данные были собраны из базы данных The Movie Database (TMDB), где были отобраны 10 тысяч фильмов с наивысшим рейтингом, и для каждого фильма были извлечены такие параметры, как title, genre, original_language, overview, popularity, release_date, vote_average и vote_count.

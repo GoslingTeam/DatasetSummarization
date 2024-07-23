@@ -1,0 +1,3 @@
+Датасет NASA Near Earth Objects Information содержит информацию о всех объектах ближайших к Земле (Near Earth Objects) по данным NASA. Он состоит из одного файла NASA Near-Earth Objects.csv, который включает в себя данные об этих объектах. 
+
+Структура каждого объекта представлена следующими полями: id, neo_reference_id, name, name_limited, designation, absolute_magnitude_h, is_potentially_hazardous_asteroid, is_sentry_object, kilometers_estimated_diameter_min, kilometers_estimated_diameter_max, orbit_id, orbit_class_type, perihelion_distance, apherelion_distance, first_observation_date и last_observation_date.

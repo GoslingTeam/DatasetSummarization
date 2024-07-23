@@ -1,0 +1,5 @@
+Согласно предоставленной информацией, идентификатором датасета является alexanderfrosati/goodbooks-10k2,4, а файл называется ratings.csv и хранится в каталоге Data\alexanderfrosati\goodbooks-10k-updated.
+
+Согласно первым 1024 байтам файла, структура датасета содержит три столбца: user_id, book_id и rating. В каждом ряду указывается уникальный идентификатор пользователя, книга, которую он оценил, и оценка (число от 1 до 5).
+
+В целом, можно сказать, что датасет represents a collection of ratings given by users to books, with each row representing one user-book pair and the rating given to that book.

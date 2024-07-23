@@ -1,0 +1,1 @@
+Файл Data\amariaziz\tunisian-stock-market\tunisian-stock-market\data\AB.csv содержит исторические данные о торговле акциями AB на Тунисской фондовой бирже.

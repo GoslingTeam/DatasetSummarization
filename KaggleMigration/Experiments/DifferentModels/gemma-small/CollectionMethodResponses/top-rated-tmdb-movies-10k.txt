@@ -1,0 +1,1 @@
+Данные для анализа были собраны из TMDB Movies Dataset, который содержит 10k записей о top-rated TMDB movies. Эти записи были gathered из TMDB Movies Dataset.
