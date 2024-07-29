@@ -1,0 +1,39 @@
+{
+  "id": "aarzookuhar/hotel-recommendation-dataset",
+  "id_no": 1549488,
+  "datasetSlugNullable": "hotel-recommendation-dataset",
+  "ownerUserNullable": "aarzookuhar",
+  "usabilityRatingNullable": 0.29411764705882354,
+  "titleNullable": "Hotel Recommendation Dataset",
+  "subtitleNullable": "",
+  "descriptionNullable": "",
+  "datasetId": 1549488,
+  "datasetSlug": "hotel-recommendation-dataset",
+  "hasDatasetSlug": true,
+  "ownerUser": "aarzookuhar",
+  "hasOwnerUser": true,
+  "usabilityRating": 0.29411764705882354,
+  "hasUsabilityRating": true,
+  "totalViews": 1326,
+  "totalVotes": 1,
+  "totalDownloads": 63,
+  "title": "Hotel Recommendation Dataset",
+  "hasTitle": true,
+  "subtitle": "",
+  "hasSubtitle": true,
+  "description": "",
+  "hasDescription": true,
+  "isPrivate": false,
+  "keywords": [
+    "hotels and accommodations"
+  ],
+  "licenses": [
+    {
+      "nameNullable": "unknown",
+      "name": "unknown",
+      "hasName": true
+    }
+  ],
+  "collaborators": [],
+  "data": []
+}
