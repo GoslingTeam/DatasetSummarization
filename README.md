@@ -96,7 +96,11 @@ To generate a specific description (collection method, dataset structure, potent
 
 ### RegenerationSummarizer
 
-...
+The summarizer takes three descriptions (collection method, dataset structure, potential uses) and combines them into a single cohesive summary. Each of the three descriptions is collected through user input(or can be read from the local machine), and these inputs are then combined into a full prompt.
+
+The prompt includes all three descriptions, and an instruction is added to summarize them into one concise paragraph. This combined prompt is then processed to generate the final summarized paragraph.
+
+The goal of this summarizer is to create a brief, coherent summary that integrates the key points from the collection method, dataset structure, and potential uses into a single, easy-to-read paragraph.
 
 ### PreviewSummarizer
 
