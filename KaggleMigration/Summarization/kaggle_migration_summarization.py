@@ -346,6 +346,9 @@ class KaggleMigrationSummarizer:
         collection_description = self.generate_collection_description(json_file, zip_file)
         structure_description = self.generate_structure_description(json_file, zip_file)
         usecases_description = self.generate_usecases_description(json_file, zip_file)
+
+        self.dataset_prompt = None
+
         return {
             'collection_description': collection_description,
             'structure_description': structure_description,
